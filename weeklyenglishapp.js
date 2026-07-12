@@ -580,6 +580,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     startQuizBtn.textContent = '📝 再次開始測驗';
 
                     isS3PunishmentMode = false;
+                    
+                    // 👇 核心修改：在解鎖的瞬間，重新從大題庫中抽取 3 題全新題目 👇
+                    currentS3Questions = shuffleArray([...currentStoryData.questions]).slice(0, 3);
+                    // 👆 修改結束 👆
+
                     renderS3Quiz();
                 }
             }, 1000);
