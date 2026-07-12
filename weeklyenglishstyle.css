@@ -1,0 +1,599 @@
+/* 基礎 Reset 與手機優先設定 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "LiHei Pro", "微軟正黑體", sans-serif;
+    background-color: #f4f7f6; /* 溫和的背景色，降低視覺疲勞 */
+    color: #333333;
+    /* 確保 body 佔滿整個螢幕高度 */
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 遊戲主容器：模擬手機直式單欄尺寸，若在電腦上看也會維持手機版型 */
+#app-container {
+    width: 100%;
+    max-width: 480px; /* 限制最大寬度，維持手機比例 */
+    min-height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow-x: hidden;
+}
+/* --- 新增：畫面切換與基礎元件樣式 --- */
+
+/* 畫面切換控制 */
+.screen {
+    display: none; /* 預設隱藏 */
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+.screen.active {
+    display: flex; /* 帶有 active 的才會顯示 */
+}
+
+/* 登入畫面專屬 */
+#login-screen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#login-screen h1 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* 防呆輸入框：高度大於 48px */
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    height: 50px; 
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* 防呆大按鈕：高度 60px 且點擊有回饋感 */
+
+.big-btn {
+    width: 100%;
+    max-width: 300px;
+    height: 60px; 
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A9CCE3; /* 柔和的淺藍色 */
+    color: #2C3E50; /* 深灰藍色文字，取代刺眼的純黑或純白 */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* 降低陰影的強烈感 */
+    transition: transform 0.1s;
+    
+    /* 確保按鈕在任何容器內都絕對置中 */
+    display: block;
+    margin: 0 auto;
+}
+.big-btn:active {
+    transform: scale(0.95);
+}
+
+/* 頂部導覽列 */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icon-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    flex: 1;              /* 👈 魔法1：自動填滿 導覽列與 Footer 之間的剩餘空間 */
+    overflow-y: auto;     /* 👈 魔法2：內容超過高度時，只在這個區塊內產生捲軸 */
+    padding-bottom: 20px;
+    /* 隱藏捲軸，保持像原生 APP 一樣乾淨 (Chrome/Safari) */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+#dashboard-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* 1. 個人進度條 */
+.personal-progress {
+    background: #e8f4f8; /* 淺藍色背景 */
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+.progress-steps {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #bdc3c7; /* 預設鎖定顏色 */
+}
+.step.active { color: #e74c3c; /* 進行中高亮(紅色) */ }
+.step.completed { color: #27ae60; /* 已完成(綠色) */ }
+
+/* 雙軌英雄榜主容器 */
+.leaderboard-container {
+    background: white;
+    border: 2px solid #ecf0f1;
+    border-radius: 12px;
+    overflow: hidden; /* 確保圓角不被遮擋 */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 頁籤導覽列 */
+.leaderboard-tabs {
+    display: flex;
+    border-bottom: 2px solid #ecf0f1;
+    background-color: #f9f9f9;
+}
+.tab-btn {
+    flex: 1;
+    padding: 12px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: #7f8c8d;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.tab-btn.active {
+    color: #2c3e50;
+    background-color: white;
+    border-bottom: 3px solid #3498db;
+}
+
+/* 完賽計數器徽章 */
+.counter-badge {
+    background-color: #27ae60;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+/* 左右滑動軌道 (核心魔法) */
+.leaderboard-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* 滑動吸附效果 */
+    scrollbar-width: none; /* Firefox 隱藏捲軸 */
+    -ms-overflow-style: none; /* IE 隱藏捲軸 */
+}
+.leaderboard-slider::-webkit-scrollbar {
+    display: none; /* Chrome/Safari 隱藏捲軸 */
+}
+
+/* 單一面板 (車廂) */
+.slider-panel {
+    min-width: 100%; /* 確保每個面板佔滿整個寬度 */
+    scroll-snap-align: start; /* 吸附對齊點 */
+    padding: 10px 15px;
+}
+
+/* 內部直向滾動名單 (固定高度，超過 5 人即可上下滑) */
+.scrollable-list {
+    list-style: none;
+    max-height: 250px; 
+    overflow-y: auto;
+    padding-right: 5px;
+}
+/* 美化直向捲軸 */
+.scrollable-list::-webkit-scrollbar {
+    width: 6px;
+}
+.scrollable-list::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    border-radius: 3px;
+}
+
+.scrollable-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px; 
+    font-weight: bold;
+    color: #34495e;
+}
+.scrollable-list li:last-child {
+    border-bottom: none;
+}
+.lights span {
+    margin-left: 8px; /* 兩顆燈之間的間距 */
+    font-size: 22px;
+}
+
+/* 原本的 .task-btn 樣式，替換為以下設定 */
+/* 3. 任務大按鈕專屬樣式與置中區塊 */
+.action-area {
+    width: 100%;
+    text-align: center; /* 確保內部元素置中 */
+    margin-top: 10px;
+}
+/* 請將其替換為（使用更輕盈的米白色 #F7F5EE）： */
+.task-btn {
+    background-color: #F7F5EE; /* 溫和的米白色 */
+    color: #2C3E50; /* 深灰藍色文字 */
+    border: 1px solid #EAE6D9; /* 微弱的邊框，防止與純白背景融為一體 */
+}
+/* --- 新增：單字大亨關卡樣式 --- */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+.progress-indicator {
+    text-align: center;
+    color: #7f8c8d;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.question-box {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    border: 1px solid #ecf0f1;
+}
+#english-word {
+    font-size: 38px;
+    color: #2C3E50;
+    margin-bottom: 15px;
+    letter-spacing: 2px; /* 稍微拉開字母間距，幫助閱讀落後學生辨識 */
+}
+/* 在 style.css 中，替換 .sound-btn 與 .options-container 相關的樣式 */
+.sound-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #3498DB; /* 藍色邊框 */
+    padding: 8px 20px;
+    border-radius: 8px; /* 縮小圓角，更偏向實用風格 */
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #3498DB; /* 藍色邊框 */
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* 答錯的狀態：純功能性反灰，防止再次點擊 */
+.option-btn:disabled {
+    background-color: #F0F0F0;
+    color: #999999;
+    border-color: #CCCCCC;
+    cursor: not-allowed;
+}
+
+/* 答對的狀態：瞬間填滿藍色，無過渡動畫 */
+.option-btn.correct {
+    background-color: #3498DB;
+    color: #FFFFFF;
+}
+/* --- 新增：自訂置中視窗樣式 --- */
+.modal-overlay {
+    display: none; /* 預設隱藏 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* 半透明背景 */
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.modal-overlay.active {
+    display: flex;
+}
+.modal-content {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #3498DB; /* 統一的藍色邊框 */
+    width: 80%;
+    max-width: 300px;
+}
+.modal-content h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.modal-content p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+/* 修改結算視窗的按鈕尺寸，讓它更大、更好點擊 */
+.modal-btn {
+    width: 120px; /* 給予明確寬度 */
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #3498DB;
+    border-radius: 8px;
+    font-size: 16px; /* 稍微放大文字 */
+    margin: 10px 5px; /* 上下左右增加空間，不讓按鈕黏在一起 */
+    cursor: pointer;
+}
+/* --- 新增：錯題清單與並排按鈕樣式 --- */
+.error-list-container {
+    list-style: none;
+    margin-bottom: 20px;
+    max-height: 180px; /* 限制高度，錯題太多可滾動 */
+    overflow-y: auto;
+    text-align: left;
+}
+.error-item {
+    border: 1px solid #3498DB;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #000000;
+}
+/* 調整按鈕容器的間距 */
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 如果空間不夠，自動換行，防止擠壓 */
+    margin-top: 20px; /* 與上方文字拉開距離 */
+}
+/* --- 新增：閱讀短文填空按鈕樣式 --- */
+.blank-btn {
+    background-color: #FFF9E6; /* 溫和的淡黃色，提示可互動 */
+    color: #3498DB;
+    border: 2px dashed #3498DB; /* 虛線框增加「填空」的視覺暗示 */
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin: 0 4px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 0.1s;
+}
+
+.blank-btn:active {
+    transform: scale(0.95);
+}
+
+/* 答對後的狀態：鎖定、去框、亮綠色 */
+.blank-btn.filled {
+    background-color: transparent;
+    border: 2px solid transparent; 
+    color: #27AE60; /* 答對變為顯眼的綠字 */
+    border-bottom: 2px solid #27AE60; /* 保留底線維持閱讀節奏 */
+    cursor: default;
+    pointer-events: none; /* 答對後防呆，不可再點擊 */
+}
+/* --- 老師專屬外掛開關 (全局浮動) --- */
+.god-toggle-btn {
+    position: absolute; 
+    top: 18px;          /* 調整微調高度，讓它跟右邊的房子圖示完美水平對齊 */
+    right: 70px;        /* 👈 關鍵修改：從 left: 15px 改成 right: 70px，直接移到首頁左邊並拉開距離 */
+    z-index: 999;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 2px solid #E74C3C; 
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    max-width: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 滑鼠移過去展開 */
+.god-toggle-btn:hover {
+    max-width: 140px;
+    padding: 4px 12px;
+}
+
+/* 開啟狀態的按鈕樣式 (紅底白字) */
+.god-toggle-btn.active {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+}
+
+.god-text {
+    opacity: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0;
+    transition: all 0.2s ease;
+}
+
+.god-toggle-btn:hover .god-text {
+    opacity: 1;
+    margin-left: 8px;
+}
+
+/* --- 測驗畫面中的作弊文字框 --- */
+.cheat-box {
+    display: none; /* 預設隱藏 */
+    background-color: #FDEDEC;
+    color: #C0392B;
+    border: 2px dashed #E74C3C;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 0 20px 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+}
+/* --- 新增：狀態列容器 (語速按鈕與題數並排) --- */
+.status-bar {
+    display: flex;             /* 啟用彈性排版 */
+    justify-content: center;   /* 讓內容水平置中對齊 */
+    align-items: center;       /* 讓按鈕和文字在垂直方向完美對齊 */
+    gap: 15px;                 /* 兩個元素中間保留 15px 的呼吸空間 */
+    margin-bottom: 15px;       /* 和下方的作弊框或題目區保持一點距離 */
+}
+
+/* 確保進度文字本身沒有多餘的邊距影響排版 */
+.status-bar .progress-indicator {
+    margin: 0;
+    padding: 0;
+}
+/* --- 語速按鈕專屬樣式 (還原白底藍框) --- */
+/* --- 狀態列容器 --- */
+.status-bar {
+    position: relative;        /* 👈 新增這行：設定相對定位，作為按鈕靠左的「對齊基準點」 */
+    display: flex;
+    justify-content: center;   /* 👈 讓內部的「題數」完美置中 */
+    align-items: center;
+    min-height: 40px;          /* 👈 新增這行：給予容器基本高度，避免按鈕浮起來後高度塌陷 */
+    margin-bottom: 15px;
+}
+
+.status-bar .progress-indicator {
+    margin: 0;
+    padding: 0;
+}
+
+/* --- 語速按鈕專屬樣式 (還原白底藍框並靠左) --- */
+.speed-btn {
+    position: absolute;           /* 👈 新增這行：啟動絕對定位，讓它從原本的排版中浮起來 */
+    left: 0;                      /* 👈 新增這行：讓它死死釘在容器的「最左側」 */
+    
+    /* 👇 以下是你原本已經加好的白底藍框，維持不變即可 👇 */
+    background-color: #fff;       
+    border: 2px solid #3498DB;    
+    color: #3498DB;               
+    border-radius: 8px;           
+    padding: 6px 12px;            
+    font-size: 16px;              
+    font-weight: bold;            
+    cursor: pointer;              
+    transition: all 0.2s;         
+}
+
+.speed-btn:hover {
+    background-color: #EBF5FB;
+}
+/* --- 老師校對視窗專屬樣式 --- */
+.teacher-section-title {
+    background-color: #F8F9FA;
+    border-left: 5px solid #8E44AD;
+    padding: 10px;
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+.teacher-item-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.teacher-article-btn {
+    width: 100%;
+    text-align: left;
+    background-color: #ECF0F1;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.teacher-article-btn:hover {
+    background-color: #D5D8DC;
+}
+.teacher-article-content {
+    display: none; /* 預設隱藏，點擊展開 */
+    padding: 15px;
+    border: 1px dashed #BDC3C7;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+/* --- 1. 新增：登入頁面專屬的置中魔法 --- */
+.login-center {
+    width: 100%;
+    margin: auto; /* 讓表單在上方空間與 Footer 之間，自動保持垂直置中 */
+}
+/* --- 新增：大廳與登入頁尾免責聲明 --- */
+.site-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;      /* 👈 魔法3：不管中間內容有多短，永遠把 Footer 往下推到底 */
+    flex-shrink: 0;        /* 👈 防止手機螢幕太小時，Footer 被擠壓變形 */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #95A5A6; 
+    font-size: 13px; 
+    line-height: 1.6;
+    border-top: 1px dashed #BDC3C7; 
+    background-color: #ffffff; /* 確保背景是實心的，滑動時才不會跟文字重疊 */
+}
+.site-footer p {
+    margin: 3px 0; 
+}
+/* --- 新增：登入頁上方的版本日期標籤 --- */
+.version-badge {
+    display: inline-block;
+    background-color: #EBF5FB; /* 淡淡的淺藍底 */
+    color: #2980B9;            /* 深藍色文字 */
+    padding: 6px 16px;
+    border-radius: 20px;       /* 圓角膠囊形狀 */
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;       /* 和下方的標題拉開一點距離 */
+    border: 1px solid #AED6F1;
+    letter-spacing: 1px;
+}

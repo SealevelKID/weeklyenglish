@@ -1,0 +1,1112 @@
+{
+    "updateDate": "2026-07-11",
+    "classPasscode": "888",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "album",
+            "chinese": "相簿",
+            "distractors": [
+                "count on",
+                "recently"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "count on",
+            "chinese": "依靠",
+            "distractors": [
+                "album",
+                "recently"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "recently",
+            "chinese": "最近",
+            "distractors": [
+                "against",
+                "shelf"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "against",
+            "chinese": "反對",
+            "distractors": [
+                "recently",
+                "shelf"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "shelf",
+            "chinese": "書架",
+            "distractors": [
+                "pile",
+                "familiar"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "pile",
+            "chinese": "一堆",
+            "distractors": [
+                "shelf",
+                "familiar"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "familiar",
+            "chinese": "熟悉的",
+            "distractors": [
+                "prison",
+                "distance"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "prison",
+            "chinese": "監獄",
+            "distractors": [
+                "familiar",
+                "distance"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "distance",
+            "chinese": "距離",
+            "distractors": [
+                "sneak",
+                "reward"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "sneak",
+            "chinese": "溜走",
+            "distractors": [
+                "distance",
+                "reward"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "reward",
+            "chinese": "獎勵",
+            "distractors": [
+                "average",
+                "hook"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "average",
+            "chinese": "平均的",
+            "distractors": [
+                "reward",
+                "hook"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "hook",
+            "chinese": "鉤子",
+            "distractors": [
+                "cruel",
+                "contact"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "cruel",
+            "chinese": "殘忍的",
+            "distractors": [
+                "hook",
+                "contact"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "contact",
+            "chinese": "聯絡",
+            "distractors": [
+                "album",
+                "pile"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "album",
+            "chinese": "相簿",
+            "distractors": [
+                "count on",
+                "recently"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "count on",
+            "chinese": "依靠",
+            "distractors": [
+                "album",
+                "recently"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "recently",
+            "chinese": "最近",
+            "distractors": [
+                "against",
+                "shelf"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "against",
+            "chinese": "反對",
+            "distractors": [
+                "recently",
+                "shelf"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "shelf",
+            "chinese": "書架",
+            "distractors": [
+                "pile",
+                "familiar"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "pile",
+            "chinese": "一堆",
+            "distractors": [
+                "shelf",
+                "familiar"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "familiar",
+            "chinese": "熟悉的",
+            "distractors": [
+                "prison",
+                "distance"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "prison",
+            "chinese": "監獄",
+            "distractors": [
+                "familiar",
+                "distance"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "distance",
+            "chinese": "距離",
+            "distractors": [
+                "sneak",
+                "reward"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "sneak",
+            "chinese": "溜走",
+            "distractors": [
+                "distance",
+                "reward"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "reward",
+            "chinese": "獎勵",
+            "distractors": [
+                "average",
+                "hook"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "average",
+            "chinese": "平均的",
+            "distractors": [
+                "reward",
+                "hook"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "hook",
+            "chinese": "鉤子",
+            "distractors": [
+                "cruel",
+                "contact"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "cruel",
+            "chinese": "殘忍的",
+            "distractors": [
+                "hook",
+                "contact"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "contact",
+            "chinese": "聯絡",
+            "distractors": [
+                "album",
+                "pile"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "I spent two hours looking at the photo _______ with my mom.",
+            "correct": "album",
+            "distractors": [
+                "shelf",
+                "pile"
+            ],
+            "hint": "句型為「人 + spend + 時間 + V-ing」，這裡要填入可以翻閱的「相簿」。",
+            "translation": "我和媽媽花了兩個小時看這本相簿。",
+            "id": 201
+        },
+        {
+            "sentence": "The loud noise made the cat _______ out of the room quickly.",
+            "correct": "sneak",
+            "distractors": [
+                "count on",
+                "contact"
+            ],
+            "hint": "make 是使役動詞，後面要接原形動詞，這裡指貓咪「溜」出房間。",
+            "translation": "巨大的噪音讓貓咪迅速溜出了房間。",
+            "id": 202
+        },
+        {
+            "sentence": "Although the school is a long _______ away, Tim still walks there every day.",
+            "correct": "distance",
+            "distractors": [
+                "average",
+                "prison"
+            ],
+            "hint": "雖然句首用了 although，後面就絕不能加 but。這題需要一個表示「距離」的名詞。",
+            "translation": "雖然學校有一段很長的距離，提姆每天仍然走路去上學。",
+            "id": 203
+        },
+        {
+            "sentence": "You can always _______ me when you need help with your English homework.",
+            "correct": "count on",
+            "distractors": [
+                "against",
+                "recently"
+            ],
+            "hint": "這個片語意思是「信賴、依靠」，後面常常會接人。",
+            "translation": "當你寫英文功課需要幫助時，你隨時可以信賴我。",
+            "id": 204
+        },
+        {
+            "sentence": "Tina spent her weekend cleaning the thick books on the _______ .",
+            "correct": "shelf",
+            "distractors": [
+                "hook",
+                "cruel"
+            ],
+            "hint": "句型為「人 + spend + 時間 + V-ing」，後面要找一個適合擺放書籍的「書架」。",
+            "translation": "蒂娜花了他的週末清理書架上的厚重書籍。",
+            "id": 205
+        },
+        {
+            "sentence": "The teacher's warm voice made the new classroom feel _______ to the students.",
+            "correct": "familiar",
+            "distractors": [
+                "prison",
+                "distance"
+            ],
+            "hint": "使役動詞 make 後面可以接形容詞來描述感覺，這裡指讓教室感覺「熟悉的」。",
+            "translation": "老師溫暖的聲音讓學生們覺得新教室很熟悉。",
+            "id": 206
+        },
+        {
+            "sentence": "Although we played _______ a very strong team, we still won the game.",
+            "correct": "against",
+            "distractors": [
+                "recently",
+                "contact"
+            ],
+            "hint": "請注意 although 和 but 不能在同一個句子裡出現。此處需要表示「對抗」的介系詞。",
+            "translation": "雖然我們對抗一個非常強的隊伍，我們最後還是贏了比賽。",
+            "id": 207
+        },
+        {
+            "sentence": "I haven't seen my dear cousin _______ because she moved to another city.",
+            "correct": "recently",
+            "distractors": [
+                "average",
+                "pile"
+            ],
+            "hint": "這個副詞表示「最近」，常用在否定句或現在完成式當中。",
+            "translation": "我最近沒看到我親愛的表姊，因為她搬到另一個城市了。",
+            "id": 208
+        },
+        {
+            "sentence": "The sad story made me feel that the bad man was too _______ .",
+            "correct": "cruel",
+            "distractors": [
+                "familiar",
+                "reward"
+            ],
+            "hint": "使役動詞 make 後面接形容詞，用來形容故事中的壞人非常「殘忍的」。",
+            "translation": "這個悲傷的故事讓我感覺那個壞人太殘忍了。",
+            "id": 209
+        },
+        {
+            "sentence": "The kind boy spent all his pocket money on a _______ for his smart dog.",
+            "correct": "reward",
+            "distractors": [
+                "hook",
+                "album"
+            ],
+            "hint": "句型為「人 + spend + 金錢 + on + 名詞」，這裡指花錢買一個給狗的「獎勵」。",
+            "translation": "這個善良的男孩花了他所有的零用錢在給他聰明狗兒的獎賞上。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "A Treasure on the Shelf (書架上的寶藏)",
+            "articleContent": [
+                {
+                    "en": "Leo spent his Saturday afternoon cleaning his bedroom.",
+                    "zh": "里歐花了星期六下午的時間清理他的臥室。"
+                },
+                {
+                    "en": "He saw a huge pile of old books on the top shelf.",
+                    "zh": "他看到最上面的書架上有一大堆舊書。"
+                },
+                {
+                    "en": "Although the shelf was very high, he still climbed up to clean it.",
+                    "zh": "雖然書架很高，他還是爬上去清理。"
+                },
+                {
+                    "en": "Suddenly, he found a very familiar photo album behind the books.",
+                    "zh": "突然間，他在書後面發現了一本非常熟悉的相簿。"
+                },
+                {
+                    "en": "The beautiful photos made him feel very happy.",
+                    "zh": "那些美麗的照片讓他感到非常開心。"
+                },
+                {
+                    "en": "He decided to contact his childhood friend right away.",
+                    "zh": "他決定立刻聯絡他童年的朋友。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who cleaned the bedroom on Saturday afternoon? (關於人)",
+                    "options": [
+                        "Leo",
+                        "Leo's cousin",
+                        "Leo's teacher"
+                    ],
+                    "correct": "Leo"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Leo decide to do after looking at the photos? (關於事)",
+                    "options": [
+                        "Contact his childhood friend.",
+                        "Buy a new bookshelf.",
+                        "Throw away the old books."
+                    ],
+                    "correct": "Contact his childhood friend."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Leo find the old photo album? (關於時)",
+                    "options": [
+                        "On Saturday afternoon.",
+                        "On Monday morning.",
+                        "At midnight yesterday."
+                    ],
+                    "correct": "On Saturday afternoon."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Leo find the familiar photo album? (關於地)",
+                    "options": [
+                        "Behind a pile of books on the top shelf.",
+                        "Under his bed.",
+                        "In the kitchen."
+                    ],
+                    "correct": "Behind a pile of books on the top shelf."
+                },
+                {
+                    "qId": 5,
+                    "question": "What object did Leo find behind the books? (關於物)",
+                    "options": [
+                        "A familiar photo album.",
+                        "A sharp hook.",
+                        "A missing key."
+                    ],
+                    "correct": "A familiar photo album."
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "Finding the Lost Puppy (尋找迷路的小狗)",
+            "articleContent": [
+                {
+                    "en": "Tina lives in a house that is a long distance from the city.",
+                    "zh": "蒂娜住在一間距離城市很遠的房子裡。"
+                },
+                {
+                    "en": "Recently, her kind neighbor lost a cute puppy.",
+                    "zh": "最近，她善良的鄰居弄丟了一隻可愛的小狗。"
+                },
+                {
+                    "en": "The neighbor offered a special reward for finding the dog.",
+                    "zh": "鄰居提供了特別的獎勵給找到狗的人。"
+                },
+                {
+                    "en": "Tina wanted to look for the dog, so she had to sneak out of the house quietly at night.",
+                    "zh": "蒂娜想去找那隻狗，所以她必須在半夜悄悄溜出家門。"
+                },
+                {
+                    "en": "The cold wind made her feel chilly, but she didn't give up.",
+                    "zh": "寒冷的風讓她覺得寒意刺骨，但她沒有放棄。"
+                },
+                {
+                    "en": "In the end, she found the puppy and knew she could count on her dog-finding skills.",
+                    "zh": "最後，她找到了小狗，並且知道她可以信賴自己找狗的技巧。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who lost a cute puppy in the story? (關於人)",
+                    "options": [
+                        "Tina's kind neighbor.",
+                        "Tina's parents.",
+                        "A police officer."
+                    ],
+                    "correct": "Tina's kind neighbor."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Tina have to do to look for the puppy? (關於事)",
+                    "options": [
+                        "Sneak out of the house quietly.",
+                        "Call her friends for help.",
+                        "Clean her bedroom shelf."
+                    ],
+                    "correct": "Sneak out of the house quietly."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Tina sneak out of the house? (關於時)",
+                    "options": [
+                        "At night.",
+                        "In the morning.",
+                        "At noon."
+                    ],
+                    "correct": "At night."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where is Tina's house located? (關於地)",
+                    "options": [
+                        "A long distance from the city.",
+                        "Near a busy city center.",
+                        "Inside a large park."
+                    ],
+                    "correct": "A long distance from the city."
+                },
+                {
+                    "qId": 5,
+                    "question": "What did the neighbor offer to give as an incentive? (關於物)",
+                    "options": [
+                        "A special reward.",
+                        "A heavy photo album.",
+                        "A coat for the puppy."
+                    ],
+                    "correct": "A special reward."
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "The Cruel Captain (殘忍的船長)",
+            "articleContent": [
+                {
+                    "en": "Captain Hook was a cruel man on a big pirate ship.",
+                    "zh": "虎克船長是一艘大海盜船上一個殘忍的人。"
+                },
+                {
+                    "en": "Although he was mean, his crew still had to count on him during storms.",
+                    "zh": "雖然他很刻薄，他的船員在暴風雨期間仍然必須信賴他。"
+                },
+                {
+                    "en": "Yesterday, the ship fought against a terrible storm at sea.",
+                    "zh": "昨天，這艘船在海上與一場可怕的暴風雨對抗。"
+                },
+                {
+                    "en": "The dangerous waves made the crew feel very scared.",
+                    "zh": "危險的海浪讓船員們感到非常害怕。"
+                },
+                {
+                    "en": "The captain spent three hours holding the heavy wheel to save the ship.",
+                    "zh": "船長花了三個小時握著沉重的方向盤來拯救這艘船。"
+                },
+                {
+                    "en": "Finally, the ship sailed away safely at an average speed.",
+                    "zh": "最後，這艘船以平均的速度安全地航行離開。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who was the cruel leader of the pirate ship? (關於人)",
+                    "options": [
+                        "Captain Hook.",
+                        "A young sailor.",
+                        "A kind policeman."
+                    ],
+                    "correct": "Captain Hook."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the captain do to save the ship? (關於事)",
+                    "options": [
+                        "Spent three hours holding the heavy wheel.",
+                        "Hid in a dark room.",
+                        "Jumped into the sea."
+                    ],
+                    "correct": "Spent three hours holding the heavy wheel."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the ship fight against the terrible storm? (關於時)",
+                    "options": [
+                        "Yesterday.",
+                        "Last week.",
+                        "This morning."
+                    ],
+                    "correct": "Yesterday."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did this dangerous event happen? (關於地)",
+                    "options": [
+                        "At sea on a pirate ship.",
+                        "In a dark prison.",
+                        "On a high mountain."
+                    ],
+                    "correct": "At sea on a pirate ship."
+                },
+                {
+                    "qId": 5,
+                    "question": "What object did the captain hold for three hours? (關於物)",
+                    "options": [
+                        "The heavy wheel of the ship.",
+                        "A pile of gold.",
+                        "A big book from the shelf."
+                    ],
+                    "correct": "The heavy wheel of the ship."
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "I spent two hours looking at the photo _______ with my mom.",
+            "correct": "album",
+            "distractors": [
+                "shelf",
+                "pile"
+            ],
+            "hint": "句型為「人 + spend + 時間 + V-ing」，這裡要填入可以翻閱的「相簿」。",
+            "translation": "我和媽媽花了兩個小時看這本相簿。",
+            "id": 401
+        },
+        {
+            "sentence": "The loud noise made the cat _______ out of the room quickly.",
+            "correct": "sneak",
+            "distractors": [
+                "count on",
+                "contact"
+            ],
+            "hint": "make 是使役動詞，後面要接原形動詞，這裡指貓咪「溜」出房間。",
+            "translation": "巨大的噪音讓貓咪迅速溜出了房間。",
+            "id": 402
+        },
+        {
+            "sentence": "Although the school is a long _______ away, Tim still walks there every day.",
+            "correct": "distance",
+            "distractors": [
+                "average",
+                "prison"
+            ],
+            "hint": "雖然句首用了 although，後面就絕不能加 but。這題需要一個表示「距離」的名詞。",
+            "translation": "雖然學校有一段很長的距離，提姆每天仍然走路去上學。",
+            "id": 403
+        },
+        {
+            "sentence": "You can always _______ me when you need help with your English homework.",
+            "correct": "count on",
+            "distractors": [
+                "against",
+                "recently"
+            ],
+            "hint": "這個片語意思是「信賴、依靠」，後面常常會接人。",
+            "translation": "當你寫英文功課需要幫助時，你隨時可以信賴我。",
+            "id": 404
+        },
+        {
+            "sentence": "Tina spent her weekend cleaning the thick books on the _______ .",
+            "correct": "shelf",
+            "distractors": [
+                "hook",
+                "cruel"
+            ],
+            "hint": "句型為「人 + spend + 時間 + V-ing」，後面要找一個適合擺放書籍的「書架」。",
+            "translation": "蒂娜花了他的週末清理書架上的厚重書籍。",
+            "id": 405
+        },
+        {
+            "sentence": "The teacher's warm voice made the new classroom feel _______ to the students.",
+            "correct": "familiar",
+            "distractors": [
+                "prison",
+                "distance"
+            ],
+            "hint": "使役動詞 make 後面可以接形容詞來描述感覺，這裡指讓教室感覺「熟悉的」。",
+            "translation": "老師溫暖的聲音讓學生們覺得新教室很熟悉。",
+            "id": 406
+        },
+        {
+            "sentence": "Although we played _______ a very strong team, we still won the game.",
+            "correct": "against",
+            "distractors": [
+                "recently",
+                "contact"
+            ],
+            "hint": "請注意 although 和 but 不能在同一個句子裡出現。此處需要表示「對抗」的介系詞。",
+            "translation": "雖然我們對抗一個非常強的隊伍，我們最後還是贏了比賽。",
+            "id": 407
+        },
+        {
+            "sentence": "I haven't seen my dear cousin _______ because she moved to another city.",
+            "correct": "recently",
+            "distractors": [
+                "average",
+                "pile"
+            ],
+            "hint": "這個副詞表示「最近」，常用在否定句或現在完成式當中。",
+            "translation": "我最近沒看到我親愛的表姊，因為她搬到另一個城市了。",
+            "id": 408
+        },
+        {
+            "sentence": "The sad story made me feel that the bad man was too _______ .",
+            "correct": "cruel",
+            "distractors": [
+                "familiar",
+                "reward"
+            ],
+            "hint": "使役動詞 make 後面接形容詞，用來形容故事中的壞人非常「殘忍的」。",
+            "translation": "這個悲傷的故事讓我感覺那個壞人太殘忍了。",
+            "id": 409
+        },
+        {
+            "sentence": "The kind boy spent all his pocket money on a _______ for his smart dog.",
+            "correct": "reward",
+            "distractors": [
+                "hook",
+                "album"
+            ],
+            "hint": "句型為「人 + spend + 金錢 + on + 名詞」，這裡指花錢買一個給狗的「獎勵」。",
+            "translation": "這個善良的男孩花了他所有的零用錢在給他聰明狗兒的獎賞上。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "The Secret Map of Treasure Island (寶島的秘密地圖)",
+            "article": "Jim found an old map on the highest {{1}} in the room. Although he was scared, he decided to look for the treasure. He had to {{2}} onto the pirate ship at night. On the ship, a pirate with a sharp {{3}} made Jim clean the deck. Jim spent two days looking for the gold. Finally, he found a large pile of gold coins.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "shelf",
+                    "distractors": [
+                        "prison",
+                        "distance"
+                    ],
+                    "hint": "用來放置書本或物品的架子",
+                    "translation": "吉姆在房間裡最高的架子上發現了一張舊地圖。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "sneak",
+                    "distractors": [
+                        "contact",
+                        "reward"
+                    ],
+                    "hint": "為了不被發現而偷偷摸摸地潛入",
+                    "translation": "他必須在夜裡偷偷潛入海盜船。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "hook",
+                    "distractors": [
+                        "album",
+                        "average"
+                    ],
+                    "hint": "鐵鉤，常出現在獨眼海盜的故事中",
+                    "translation": "在船上，一個帶著鋒利鐵鉤的海盜叫吉姆去清理甲板。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "The Prisoner's Hope (囚犯的希望)",
+            "article": "Edmond was locked in a dark {{1}} for many years. The {{2}} guards never let him talk to anyone. Recently, he heard a strange sound through the stone wall. It was a {{3}} voice of an old man digging a tunnel. They talked about freedom and a secret treasure in the distance.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "prison",
+                    "distractors": [
+                        "shelf",
+                        "hook"
+                    ],
+                    "hint": "關押犯人的地方、監獄",
+                    "translation": "愛德盟被關在黑暗的監獄裡很多年。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "cruel",
+                    "distractors": [
+                        "average",
+                        "familiar"
+                    ],
+                    "hint": "殘忍的、不友善的",
+                    "translation": "殘忍的警衛從不讓他和任何人說話。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "familiar",
+                    "distractors": [
+                        "sneak",
+                        "against"
+                    ],
+                    "hint": "熟悉的、以前聽過的",
+                    "translation": "那是一個正在挖隧道的白髮老人的熟悉聲音。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "The Clever Detective (聰明的偵探)",
+            "article": "Sherlock Holmes was not an {{1}} detective because he noticed everything. Dr. Watson knew he could always {{2}} Holmes to solve any crime. They found an old photo {{3}} that belonged to the dangerous suspect. The suspect tried to hide against the wall when they arrived. Holmes immediately tried to contact the local police for help.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "average",
+                    "distractors": [
+                        "pile",
+                        "cruel"
+                    ],
+                    "hint": "普通的、一般的",
+                    "translation": "夏洛克·福爾摩斯不是一個普通的偵探，因為他注意到每件事。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "count on",
+                    "distractors": [
+                        "recently",
+                        "against"
+                    ],
+                    "hint": "指望、依靠某人",
+                    "translation": "華生醫生知道他總是可以指望福爾摩斯來解決任何犯罪。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "album",
+                    "distractors": [
+                        "distance",
+                        "hook"
+                    ],
+                    "hint": "用來放照片或收集物品的冊子、相簿",
+                    "translation": "他們發現了一個屬於危險嫌疑犯的舊相簿。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "The Secret Map of Treasure Island (寶島的秘密地圖)",
+            "articleContent": [
+                {
+                    "en": "Jim found an old map on the highest shelf in the room.",
+                    "zh": "吉姆在房間裡最高的架子上發現了一張舊地圖。"
+                },
+                {
+                    "en": "Although he was scared, he decided to look for the treasure.",
+                    "zh": "雖然他很害怕，但他還是決定去尋找寶藏。"
+                },
+                {
+                    "en": "He had to sneak onto the pirate ship at night.",
+                    "zh": "他必須在夜裡偷偷潛入海盜船。"
+                },
+                {
+                    "en": "On the ship, a pirate with a sharp hook made Jim clean the deck.",
+                    "zh": "在船上，一個帶著鋒利鐵鉤的海盜叫吉姆去清理甲板。"
+                },
+                {
+                    "en": "Jim spent two days looking for the gold.",
+                    "zh": "吉姆花了兩天的時間尋找黃金。"
+                },
+                {
+                    "en": "Finally, he found a large pile of gold coins.",
+                    "zh": "最後，他發現了一大堆金幣。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who found the old secret map?",
+                    "options": [
+                        "Jim found it in the room.",
+                        "A scary pirate found it.",
+                        "An old captain found it."
+                    ],
+                    "correct": "Jim found it in the room."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Jim spend two days looking for?",
+                    "options": [
+                        "He spent two days looking for the gold.",
+                        "He spent two days looking for a new job.",
+                        "He spent two days looking for his lost cat."
+                    ],
+                    "correct": "He spent two days looking for the gold."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Jim have to sneak onto the pirate ship?",
+                    "options": [
+                        "He had to do it at night.",
+                        "He had to do it in the morning.",
+                        "He had to do it during lunch time."
+                    ],
+                    "correct": "He had to do it at night."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Jim find the secret map?",
+                    "options": [
+                        "On the highest shelf in the room.",
+                        "Inside a dark prison cell.",
+                        "Under a large pile of sand on the beach."
+                    ],
+                    "correct": "On the highest shelf in the room."
+                },
+                {
+                    "qId": 5,
+                    "question": "What did the pirate with a hook make Jim do?",
+                    "options": [
+                        "He made Jim clean the deck.",
+                        "He made Jim cook a big dinner.",
+                        "He made Jim sing a song for the pirates."
+                    ],
+                    "correct": "He made Jim clean the deck."
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "The Prisoner's Hope (囚犯的希望)",
+            "articleContent": [
+                {
+                    "en": "Edmond was locked in a dark prison for many years.",
+                    "zh": "愛德盟被關在黑暗的監獄裡很多年。"
+                },
+                {
+                    "en": "The cruel guards never let him talk to anyone.",
+                    "zh": "殘忍的警衛從不讓他和任何人說話。"
+                },
+                {
+                    "en": "Recently, he heard a strange sound through the stone wall.",
+                    "zh": "最近，他透過石牆聽到了奇怪的聲音。"
+                },
+                {
+                    "en": "It was a familiar voice of an old man digging a tunnel.",
+                    "zh": "那是一個正在挖隧道的白髮老人的熟悉聲音。"
+                },
+                {
+                    "en": "They talked about freedom and a secret treasure in the distance.",
+                    "zh": "他們談論著自由和遠處的秘密寶藏。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who was locked in the dark prison for many years?",
+                    "options": [
+                        "Edmond was locked there.",
+                        "A cruel guard was locked there.",
+                        "A clever detective was locked there."
+                    ],
+                    "correct": "Edmond was locked there."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Edmond hear through the stone wall recently?",
+                    "options": [
+                        "He heard a strange sound.",
+                        "He heard a beautiful song.",
+                        "He heard the sound of loud rain."
+                    ],
+                    "correct": "He heard a strange sound."
+                },
+                {
+                    "qId": 3,
+                    "question": "How long was Edmond locked in the prison?",
+                    "options": [
+                        "He was locked there for many years.",
+                        "He was locked there for two days.",
+                        "He was locked there for only one week."
+                    ],
+                    "correct": "He was locked there for many years."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did they say the secret treasure was located?",
+                    "options": [
+                        "The treasure was in the distance.",
+                        "The treasure was on the top shelf.",
+                        "The treasure was inside the guard's office."
+                    ],
+                    "correct": "The treasure was in the distance."
+                },
+                {
+                    "qId": 5,
+                    "question": "What was the old man doing when Edmond heard him?",
+                    "options": [
+                        "He was digging a tunnel.",
+                        "He was eating his lunch.",
+                        "He was looking at an old photo album."
+                    ],
+                    "correct": "He was digging a tunnel."
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "The Clever Detective (聰明的偵探)",
+            "articleContent": [
+                {
+                    "en": "Sherlock Holmes was not an average detective because he noticed everything.",
+                    "zh": "夏洛克·福爾摩斯不是一個普通的偵探，因為他注意到每件事。"
+                },
+                {
+                    "en": "Dr. Watson knew he could always count on Holmes to solve any crime.",
+                    "zh": "華生醫生知道他總是可以指望福爾摩斯來解決任何犯罪。"
+                },
+                {
+                    "en": "They found an old photo album that belonged to the dangerous suspect.",
+                    "zh": "他們發現了一個屬於危險嫌疑犯的舊相簿。"
+                },
+                {
+                    "en": "The suspect tried to hide against the wall when they arrived.",
+                    "zh": "當他們到達時，嫌疑犯試圖靠著牆躲藏。"
+                },
+                {
+                    "en": "Holmes immediately tried to contact the local police for help.",
+                    "zh": "福爾摩斯立刻試圖聯絡當地警方尋求幫助。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who knew he could always count on Holmes?",
+                    "options": [
+                        "Dr. Watson knew it.",
+                        "The dangerous suspect knew it.",
+                        "The local police chief knew it."
+                    ],
+                    "correct": "Dr. Watson knew it."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the detective find that belonged to the suspect?",
+                    "options": [
+                        "They found an old photo album.",
+                        "They found a sharp iron hook.",
+                        "They found a large pile of gold coins."
+                    ],
+                    "correct": "They found an old photo album."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the suspect try to hide against the wall?",
+                    "options": [
+                        "When Holmes and Watson arrived.",
+                        "When he heard a strange sound through the wall.",
+                        "Before he stole the treasure from the ship."
+                    ],
+                    "correct": "When Holmes and Watson arrived."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the suspect try to hide when discovered?",
+                    "options": [
+                        "He tried to hide against the wall.",
+                        "He tried to hide in a dark prison cell.",
+                        "He tried to hide on the highest shelf."
+                    ],
+                    "correct": "He tried to hide against the wall."
+                },
+                {
+                    "qId": 5,
+                    "question": "Why was Sherlock Holmes not an average detective?",
+                    "options": [
+                        "Because he noticed every small detail.",
+                        "Because he spent a lot of money every day.",
+                        "Because he was a very cruel and mean man."
+                    ],
+                    "correct": "Because he noticed every small detail."
+                }
+            ]
+        }
+    ]
+}
