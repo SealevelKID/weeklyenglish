@@ -239,13 +239,16 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="sec-list2" style="display: none; margin-bottom: 15px;">
         `;
         listeningStage2Data.forEach((q, idx) => {
-            let fullText = q.sentence.replace('_______', q.correct);
+            // 👇 修改這兩行：1. 防禦雙引號破壞單題按鈕 2. 製作帶有紅色底線的正確答案高亮句子
+            let fullText = q.sentence.replace('_______', q.correct).replace(/"/g, '&quot;');
+            let highlightedSentence = q.sentence.replace('_______', `<span style="color: #E74C3C; font-weight: bold; text-decoration: underline; font-size: 18px;">${q.correct}</span>`);
             html += `
                 <div class="teacher-item-box">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 8px;">
-                        <strong style="font-size: 17px; color: #333;">第 ${idx + 1} 題：${q.sentence}</strong>
-                        <button class="sound-btn" style="padding: 4px 10px; font-size: 14px; white-space: nowrap;" 
-                            onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${fullText.replace(/'/g, "\\'")}'); u.lang = 'en-US'; u.rate = 0.8; window.speechSynthesis.speak(u);">
+                        <!-- 👇 修改這行：將原本的 \${q.sentence} 替換為 \${highlightedSentence} -->
+                        <strong style="font-size: 17px; color: #333;">第 ${idx + 1} 題：${highlightedSentence}</strong>
+                        <button class="sound-btn" style="padding: 4px 10px; font-size: 14px; white-space: nowrap;"
+                            onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${fullText.replace(/'/g, "\\'")}'); u.lang = 'en-US'; u.rate = 1.0; window.speechSynthesis.speak(u);">
                             🔊 單題發音
                         </button>
                     </div>
@@ -266,7 +269,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="sec-list3" style="display: none; margin-bottom: 15px;">
         `;
         listeningStage3Data.forEach((article, aIdx) => {
-            let fullArticleText = article.articleContent.map(line => line.en.replace(/'/g, "\\'")).join('. ');
+            // 👇 修改這行：在後面加上 .replace(/"/g, '&quot;')，把雙引號轉譯為 HTML 安全的實體字元
+            let fullArticleText = article.articleContent.map(line => line.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')).join('. ');
             html += `
                 <button class="teacher-article-btn" onclick="toggleTeacherElement('t-list3-${aIdx}')">
                     <span>📜 ${article.title || '未命名短文'}</span>
@@ -277,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px;">
                             <strong style="color: #16A085;">📖 聽力對話原文稿</strong>
                             <button class="sound-btn" style="padding: 4px 12px; font-size: 14px;" 
-                                onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${fullArticleText}'); u.lang = 'en-US'; u.rate = 0.8; window.speechSynthesis.speak(u);">
+                                onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${fullArticleText}'); u.lang = 'en-US'; u.rate = 1.0; window.speechSynthesis.speak(u);">
                                 🔊 播放整篇短文
                             </button>
                         </div>
@@ -288,13 +292,14 @@ document.addEventListener("DOMContentLoaded", () => {
             html += `</div><h4 style="color: #2C3E50; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 15px;">❓ 下屬測驗問題</h4>`;
 
             article.questions.forEach((q, qIdx) => {
-                let cleanQText = q.question.replace(/[\u4e00-\u9fa5\u3000-\u303F\uFF00-\uFFEF()[\]{}]/g, '').trim().replace(/'/g, "\\'");
+                // 👇 修改這行：在最後加上 .replace(/"/g, '&quot;') 防止單題播放也遇到雙引號衝突
+                let cleanQText = q.question.replace(/[\u4e00-\u9fa5\u3000-\u303F\uFF00-\uFFEF()[\]{}]/g, '').trim().replace(/'/g, "\\'").replace(/"/g, '&quot;');
                 html += `
                     <div style="margin: 8px 0; padding: 10px; border-left: 3px solid #3498DB; background: #F7F9FA; border-radius: 0 4px 4px 0;">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <strong>問 ${qIdx + 1}：${q.question}</strong>
                             <button class="sound-btn" style="padding: 2px 8px; font-size: 13px;" 
-                                onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${cleanQText}'); u.lang = 'en-US'; u.rate = 0.8; window.speechSynthesis.speak(u);">
+                                onclick="window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance('${cleanQText}'); u.lang = 'en-US'; u.rate = 1.0; window.speechSynthesis.speak(u);">
                                 🔊 播問題
                             </button>
                         </div>
@@ -405,12 +410,37 @@ document.addEventListener("DOMContentLoaded", () => {
         teacherReviewContent.innerHTML = html;
     }
 
-    // 💡 全域輔助函式：控制老師專區中摺疊面板的展開與收合狀態
+    // 💡 全域輔助函式：控制老師專區中摺疊面板的展開與收合狀態 (升級版：支援手風琴自動互斥收合)
     window.toggleTeacherElement = function (id) {
         const el = document.getElementById(id);
         const arrow = document.getElementById('arrow-' + id);
         if (el) {
             const isHidden = window.getComputedStyle(el).display === 'none';
+
+            // 👇 新增：自動收合其他同層級單元的邏輯
+            if (isHidden) {
+                // 判斷當前點擊的是哪一個層級的群組
+                let prefix = '';
+                if (id.startsWith('sec-')) prefix = 'sec-';               // 大單元群組
+                else if (id.startsWith('t-list3-')) prefix = 't-list3-';  // 聽力三短文群組
+                else if (id.startsWith('t-read3-')) prefix = 't-read3-';  // 閱讀三故事群組
+
+                if (prefix !== '') {
+                    // 找出畫面上所有同群組的元素
+                    const allElements = document.querySelectorAll(`[id^="${prefix}"]`);
+                    allElements.forEach(otherEl => {
+                        // 排除自己，並且只處理內容容器 (排除 id 開頭是 arrow- 的標籤)
+                        if (otherEl.id !== id && !otherEl.id.startsWith('arrow-')) {
+                            otherEl.style.display = 'none'; // 強制隱藏
+                            const otherArrow = document.getElementById('arrow-' + otherEl.id);
+                            if (otherArrow) otherArrow.textContent = '▼'; // 箭頭歸位
+                        }
+                    });
+                }
+            }
+            // 👆 新增結束
+
+            // 切換當前點擊單元的狀態
             el.style.display = isHidden ? 'block' : 'none';
             if (arrow) {
                 arrow.textContent = isHidden ? '▲' : '▼';
