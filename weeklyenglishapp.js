@@ -897,6 +897,9 @@ document.addEventListener("DOMContentLoaded", () => {
             loginBtn.disabled = false;
         }
 
+        // 👇 新增這行：記錄登入當下的時間戳記 👇
+        localStorage.setItem('weekly_login_time', Date.now());
+
         showDashboard(name);
     });
 
@@ -1113,39 +1116,69 @@ document.addEventListener("DOMContentLoaded", () => {
         loadVocabQuestion();
     });
 
-    // --- 更新：大廳進度與解鎖按鈕 (專屬按鈕替換) ---
+    // --- 更新：大廳進度與解鎖按鈕 (支援一小時過期與進度條超連結) ---
     function updateDashboardUI() {
+        // 1. 檢查登入時間是否超過 1 小時 (3600000 毫秒)
+        const loginTime = localStorage.getItem('weekly_login_time');
+        if (loginTime && (Date.now() - parseInt(loginTime)) > 3600000) {
+            if (isVocabCompleted) {
+                alert('⏳ 登入已超過一小時！系統已暫時鎖定關卡，請重新複習「本週單字」來喚醒記憶喔！');
+            }
+            isVocabCompleted = false; // 強制將單字退回未完成
+            localStorage.setItem('weekly_login_time', Date.now()); // 重新起算一小時
+        }
+
+        const steps = document.querySelectorAll('.step');
+        let btnRead2 = document.getElementById('enter-reading-btn-2');
+
         if (isVocabCompleted) {
-            const steps = document.querySelectorAll('.step');
+            // --- 單字已完成的狀態 ---
+            nextTaskBtn.style.display = 'none'; // 隱藏原本的大單字按鈕
+
             if (steps.length > 0) {
                 steps[0].classList.remove('active');
                 steps[0].classList.add('completed');
+                
+                // 👇 將進度條上的「單字」轉化為可點擊的超連結 👇
+                steps[0].style.textDecoration = 'underline';
+                steps[0].style.cursor = 'pointer';
+                steps[0].style.color = '#3498DB';
+                steps[0].title = '點擊重新練習本週單字';
+                steps[0].onclick = () => {
+                    dashboardScreen.classList.remove('active');
+                    vocabScreen.classList.add('active');
+                    currentTask = 'vocab';
+                    taskStartTime = Date.now();
+                    currentQuestionIndex = 0;
+                    errorLog = {};
+                    hasRetried = false;
+                    currentQuizData = shuffleArray([...vocabData]);
+                    loadVocabQuestion();
+                };
             }
 
-            nextTaskBtn.style.display = 'none';
-
             if (isReadingGroup) {
-                // 💡 Wayne & Kevin 專屬介面：隱藏聽力，顯示兩個閱讀
+                // 強化組介面
                 enterListeningBtn.style.display = 'none';
                 enterReadingBtn.style.display = 'block';
                 enterReadingBtn.textContent = '📖 進入：閱讀大作戰 (一)';
 
-                // 動態生成第二階段按鈕 (若尚未建立)
-                let btnRead2 = document.getElementById('enter-reading-btn-2');
                 if (!btnRead2) {
                     btnRead2 = document.createElement('button');
                     btnRead2.id = 'enter-reading-btn-2';
                     btnRead2.className = 'big-btn task-btn';
                     btnRead2.style.marginTop = '15px';
                     btnRead2.addEventListener('click', () => {
+                        updateDashboardUI(); // 點擊前檢查是否過期
+                        if (!isVocabCompleted) return;
+                        
                         dashboardScreen.classList.remove('active');
-                        currentReadingLoop = 2; // 💡 標記為第二循環
-                        startReadingStage(1);   // 💡 一樣從單句選擇開始無縫大循環
+                        currentReadingLoop = 2; 
+                        startReadingStage(1);   
                     });
                     document.querySelector('.action-area').appendChild(btnRead2);
                 }
 
-                // 根據目前完成度切換燈號與按鈕狀態
                 if (currentReadingLoop === 2) {
                     if (steps.length > 2) {
                         steps[1].classList.remove('locked', 'active');
@@ -1156,12 +1189,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     enterReadingBtn.textContent = '✅ 閱讀大作戰 (一) 已完成';
                     enterReadingBtn.disabled = true;
                     enterReadingBtn.style.backgroundColor = '#E5E7E9';
-
+                    enterReadingBtn.style.color = '#999';
+                    
                     btnRead2.style.display = 'block';
                     btnRead2.textContent = '📖 進入：閱讀大作戰 (二)';
                     btnRead2.disabled = false;
-                    btnRead2.style.backgroundColor = '#F7F5EE';
-                    btnRead2.style.color = '#2C3E50';
+                    btnRead2.style.backgroundColor = '#FFFFFF';
+                    btnRead2.style.color = '#000000';
                 } else {
                     if (steps.length > 1) {
                         steps[1].classList.remove('locked');
@@ -1174,7 +1208,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     btnRead2.style.color = '#999';
                 }
             } else {
-                // 💡 常規組介面
+                // 常規組介面
                 if (steps.length > 1) {
                     steps[1].classList.remove('locked');
                     steps[1].classList.add('active');
@@ -1182,11 +1216,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 enterListeningBtn.style.display = 'block';
                 enterReadingBtn.style.display = 'block';
                 enterReadingBtn.textContent = '📖 進入：閱讀大作戰';
-
-                // 隱藏可能存在的閱讀二按鈕
-                let btnRead2 = document.getElementById('enter-reading-btn-2');
                 if (btnRead2) btnRead2.style.display = 'none';
             }
+
+        } else {
+            // --- 單字未完成 (或超過一小時被退回) ---
+            if (steps.length > 0) {
+                steps[0].classList.remove('completed');
+                steps[0].classList.add('active');
+                
+                // 拔除超連結屬性，恢復一般純文字
+                steps[0].style.textDecoration = 'none';
+                steps[0].style.cursor = 'default';
+                steps[0].style.color = '#e74c3c'; 
+                steps[0].title = '';
+                steps[0].onclick = null;
+            }
+
+            // 顯示單字大按鈕，隱藏並鎖定聽力與閱讀按鈕
+            nextTaskBtn.style.display = 'block';
+            enterListeningBtn.style.display = 'none';
+            enterReadingBtn.style.display = 'none';
+            if (btnRead2) btnRead2.style.display = 'none';
         }
     }
 
@@ -1277,15 +1328,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // 取得畫面上所有的語速按鈕 (包含單字和聽力關卡)
     const speedBtns = document.querySelectorAll('.speed-btn');
 
-    // 點擊循環切換語速：0.8 -> 0.6 -> 0.9 -> 0.8 (微調倍速讓發音更自然)
+    // 點擊循環切換語速：0.8 -> 0.6 -> 1.0 -> 0.8
     speedBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             if (currentAudioRate === 0.8) {
                 currentAudioRate = 0.6;
                 speedBtns.forEach(b => b.innerHTML = '🐌 語速: 0.6x');
             } else if (currentAudioRate === 0.6) {
-                currentAudioRate = 0.9;
-                speedBtns.forEach(b => b.innerHTML = '🐇 語速: 0.9x');
+                currentAudioRate = 1.0; // 👈 這裡改為 1.0
+                speedBtns.forEach(b => b.innerHTML = '🐇 語速: 1.0x'); // 👈 這裡改為 1.0x
             } else {
                 currentAudioRate = 0.8;
                 speedBtns.forEach(b => b.innerHTML = '🐢 語速: 0.8x');
@@ -1572,9 +1623,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- 更新：大廳點擊進入聽力館 (改為顯示選關單) ---
     enterListeningBtn.addEventListener('click', () => {
+        updateDashboardUI(); // 👈 點擊時強制檢查是否過期
+        if (!isVocabCompleted) return; // 👈 如果過期被退回，直接中斷進入
+        
         dashboardScreen.classList.remove('active');
         listMenuScreen.classList.add('active');
-        renderListeningMenu(); // 繪製選關按鈕
+        renderListeningMenu(); 
     });
 
     exitListMenuBtn.addEventListener('click', () => {
@@ -1853,10 +1907,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- 修正：閱讀大作戰入口分流 ---
     enterReadingBtn.addEventListener('click', () => {
+        updateDashboardUI(); // 👈 點擊時強制檢查是否過期
+        if (!isVocabCompleted) return; // 👈 如果過期被退回，直接中斷進入
+        
         dashboardScreen.classList.remove('active');
         if (isReadingGroup) {
             currentReadingLoop = 1;
-            startReadingStage(1); // 💡 跳過選單，直接進入閱讀(一)單句選擇
+            startReadingStage(1); 
         } else {
             readingMenuScreen.classList.add('active');
             renderReadingMenu();
