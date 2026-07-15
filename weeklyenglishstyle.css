@@ -235,11 +235,11 @@ input[type="text"] {
     text-align: center; /* 確保內部元素置中 */
     margin-top: 10px;
 }
-/* 請將其替換為（使用更輕盈的米白色 #F7F5EE）： */
+/* 3. 任務大按鈕專屬樣式與置中區塊 */
 .task-btn {
-    background-color: #F7F5EE; /* 溫和的米白色 */
-    color: #2C3E50; /* 深灰藍色文字 */
-    border: 1px solid #EAE6D9; /* 微弱的邊框，防止與純白背景融為一體 */
+    background-color: #FFFFFF; /* 白底 */
+    color: #000000;            /* 黑字 */
+    border: 2px solid #3498DB; /* 藍框 (與聽力/閱讀保持一致) */
 }
 /* --- 新增：單字大亨關卡樣式 --- */
 .game-container {
