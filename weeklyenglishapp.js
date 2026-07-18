@@ -125,19 +125,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let isGodMode = false;
 
-    // 👇 修改：新增老師專屬帳號與身分判定 (此處保留佔位符，實際名稱會由後端或 localStorage 動態驗證)
-    const currentLoggedInName = localStorage.getItem('weekly_english_name');
-    const isTeacher = currentLoggedInName === "Jojo888"; 
-
-    const hostname = window.location.hostname;
-    const isLocalhost = hostname === '127.0.0.1' || hostname === 'localhost';
-
-    // 只要是 Localhost 環境，或者是使用老師專用名稱登入，就解鎖老師專區按鈕[cite: 2]
-    if (isLocalhost || isTeacher) {
-        if (teacherGodBtn) {
-            teacherGodBtn.style.display = 'flex';
+    // 👇 替換：移除 Localhost 特權，改為專屬密語的隱形後門函式
+    function checkTeacherStatus(name) {
+        // 這裡設定你的專屬老師密語，請將 "TeacherWayne" 改成你想要的暗號
+        if (name === "@Jojo888") {
+            if (teacherGodBtn) teacherGodBtn.style.display = 'flex';
+        } else {
+            if (teacherGodBtn) teacherGodBtn.style.display = 'none';
+            isGodMode = false; // 防呆：如果是學生身分，確保外掛絕對被關閉
         }
     }
+
+    // 網頁剛載入時檢查一次 (處理重新整理或歡迎回來的情況)
+    const currentLoggedInName = localStorage.getItem('weekly_english_name');
+    checkTeacherStatus(currentLoggedInName);
 
     // --- 替換：老師專區介面控制邏輯 ---
     const teacherReviewModal = document.getElementById('teacher-review-modal');
@@ -944,6 +945,9 @@ document.addEventListener("DOMContentLoaded", () => {
         loginScreen.classList.remove('active');
         dashboardScreen.classList.add('active');
         console.log(`歡迎 ${studentName} 進入遊戲大廳！`);
+
+        // 👇 新增這行：登入進入大廳時，立刻檢查並瞬間顯示老師按鈕
+        checkTeacherStatus(studentName);
 
         // 💡 顯示目前使用的學生帳號名稱，並附帶隱藏的「切換學生」按鈕 (供老師測試用)
         const dashboardTitle = document.querySelector('#dashboard-screen .nav-bar h2');
