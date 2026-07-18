@@ -128,30 +128,30 @@ document.addEventListener("DOMContentLoaded", () => {
     // 👇 替換：移除明文密碼，改為向後端 API 請求身分驗證
     function checkTeacherStatus(name) {
         if (!name) return;
-        
+
         // 預設先隱藏並關閉外掛
         if (teacherGodBtn) teacherGodBtn.style.display = 'none';
-        isGodMode = false; 
+        isGodMode = false;
 
         // 向後端 API 發送身分確認請求
         fetch(GAS_URL, {
             method: 'POST',
             body: JSON.stringify({ action: 'verifyTeacher', name: name })
         })
-        .then(response => response.json())
-        .then(data => {
-            if (data.status === 'success' && data.isTeacher === true) {
-                // 1. 名稱相符，解鎖按鈕！
-                if (teacherGodBtn) teacherGodBtn.style.display = 'flex'; 
-                
-                // 2. 將後端抓到的 Google 帳號印在畫面上 (顯示在老師專區標題下方)
-                const teacherTitle = document.querySelector('#teacher-review-modal h2');
-                if (teacherTitle) {
-                    teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(辨認到的 Google 帳號: ${data.detectedEmail})</span>`;
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success' && data.isTeacher === true) {
+                    // 1. 名稱相符，解鎖按鈕！
+                    if (teacherGodBtn) teacherGodBtn.style.display = 'flex';
+
+                    // 2. 將後端抓到的 Google 帳號印在畫面上 (顯示在老師專區標題下方)
+                    const teacherTitle = document.querySelector('#teacher-review-modal h2');
+                    if (teacherTitle) {
+                        teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(辨認到的 Google 帳號: ${data.detectedEmail})</span>`;
+                    }
                 }
-            }
-        })
-        .catch(err => console.error("老師身分驗證失敗", err));
+            })
+            .catch(err => console.error("老師身分驗證失敗", err));
     }
 
     // 網頁剛載入時檢查一次 (處理重新整理或歡迎回來的情況)
@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", () => {
         tabClearBindBtn.addEventListener('click', () => {
             const currentName = localStorage.getItem('weekly_english_name');
             const msg = currentName ? `確定要解除「${currentName}」的裝置綁定嗎？` : `目前無人綁定，確定要強制清空本機所有殘留進度嗎？`;
-            
+
             if (confirm(`${msg}\n(這將徹底刪除這台設備上所有學生的過關記憶)`)) {
                 // 1. 清除基礎設定
                 localStorage.removeItem('weekly_english_name');
@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 keysToRemove.forEach(key => localStorage.removeItem(key));
 
                 alert('✅ 已解除綁定，本機所有通關紀錄已徹底清空！');
-                location.reload(); 
+                location.reload();
             }
         });
     }
@@ -490,7 +490,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let readingStage3Data = [];
 
     // 👇 修改 1：在此新增一個變數來儲存當週密碼 👇
-    let currentClassPasscode = "888";
+    let currentClassPasscode = "000";
 
     // --- 新增：讀取 JSON 檔案的非同步函數 ---
     async function loadGameData() {
@@ -500,7 +500,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const data = await response.json();
 
             // 👇 修改 2：擷取 JSON 中的密碼 (若無則給預設值) 👇
-            currentClassPasscode = data.classPasscode || "888";
+            currentClassPasscode = data.classPasscode || "000";
             // 👇 --- 全新：使用「日期」自動偵測並重置本機進度 --- 👇
             const newUpdateDate = data.updateDate || "2026-07-11"; // 如果 JSON 沒寫，給個預設防呆日期
 
@@ -525,24 +525,24 @@ document.addEventListener("DOMContentLoaded", () => {
             // 如果本機已經存過舊日期，且跟新題庫的日期「不一樣」，代表老師更新題庫了！
             if (savedUpdateDate && savedUpdateDate !== newUpdateDate) {
                 console.log(`🔄 偵測到新題庫 (日期: ${newUpdateDate})！自動重置本機進度...`);
-                
+
                 const currentName = localStorage.getItem('weekly_english_name');
                 if (currentName) {
                     // 核心動作：銷毀該學生的過關記憶，讓聽力與閱讀重新上鎖
                     localStorage.removeItem(`progress_${currentName}`);
-                    
+
                     // 👇 加上這兩行：換週時，一併銷毀裝置綁定與本班身分，強迫重新輸入密碼！
                     localStorage.removeItem('weekly_english_name');
                     localStorage.removeItem('weekly_english_is_class');
                 }
-                
+
                 // 存入新日期，避免無限重新整理
                 localStorage.setItem('weekly_english_last_update', newUpdateDate);
-                
+
                 // 強制網頁重新整理，確保畫面上的所有鎖頭與燈號回到最原始狀態
                 location.reload();
                 return; // 終止下方讀取，交給重新整理後的網頁處理
-                
+
             } else if (!savedUpdateDate) {
                 // 如果是這台設備「第一次」玩，單純把新日期存起來就好
                 localStorage.setItem('weekly_english_last_update', newUpdateDate);
@@ -635,7 +635,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     startQuizBtn.textContent = '📝 再次開始測驗';
 
                     isS3PunishmentMode = false;
-                    
+
                     // 👇 核心修改：在解鎖的瞬間，重新從大題庫中抽取 3 題全新題目 👇
                     currentS3Questions = shuffleArray([...currentStoryData.questions]).slice(0, 3);
                     // 👆 修改結束 👆
@@ -847,7 +847,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 2. 點擊登入按鈕事件
     loginBtn.addEventListener('click', async () => { // 👈 加上 async 支援非同步查詢
         const nameInputEl = document.getElementById('student-name');
-        
+
         let rawName = "";
         let isClass = false; // 預設身分為訪客路人
 
@@ -864,8 +864,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            // 檢查輸入的名字是否以當週密碼結尾
-            if (rawName.endsWith(currentClassPasscode) && currentClassPasscode !== "") {
+            // 檢查輸入的名字是否以當週密碼結尾 (新增：如果開頭是 @ 代表是老師暗號，直接跳過切除邏輯)
+            if (!rawName.startsWith('@') && rawName.endsWith(currentClassPasscode) && currentClassPasscode !== "") {
                 isClass = true; // 標記為本班生
                 rawName = rawName.slice(0, -currentClassPasscode.length).trim();
             }
@@ -918,14 +918,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 const noCacheUrl = GAS_URL + '?t=' + new Date().getTime();
                 const response = await fetch(noCacheUrl);
                 const res = await response.json();
-                
+
                 if (res.status === 'success' && res.data.classData[name]) {
                     const lights = res.data.classData[name]; // 雲端的三顆燈：[L1, L2, L3, finalTime]
                     const isReadGrp = (name === 'Wayne' || name === 'Kevin');
-                    
+
                     // 第 1 顆燈：單字過關
-                    if (lights[0] === 2) isVocabCompleted = true; 
-                    
+                    if (lights[0] === 2) isVocabCompleted = true;
+
                     // 第 2 顆燈：聽力(常規) 或 閱讀一(強化組) 過關
                     if (lights[1] === 2) {
                         if (isReadGrp) {
@@ -935,7 +935,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             userProgress.listeningMaxStage = 4; // 聽力全破 (階段全部解鎖)
                         }
                     }
-                    
+
                     // 第 3 顆燈：閱讀(常規) 或 閱讀二(強化組) 過關
                     if (lights[2] === 2) {
                         userProgress.readingMaxStage = 4; // 閱讀全破
@@ -1007,8 +1007,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 💡 強制在進入大廳時，執行一次排行榜渲染，確保高亮名稱即時出現
-        renderLeaderboard(); 
-        
+        renderLeaderboard();
+
         if (isVocabCompleted) updateDashboardUI();
     }
 
@@ -1020,8 +1020,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderLeaderboard() {
         const studentListEl = document.getElementById('student-list');
-        const visitorListEl = document.getElementById('visitor-list'); 
-        const classCounterEl = document.getElementById('class-counter'); 
+        const visitorListEl = document.getElementById('visitor-list');
+        const classCounterEl = document.getElementById('class-counter');
         if (!studentListEl || !visitorListEl) return;
 
         const lightMap = { 0: '⚪', 1: '🟡', 2: '🟢' };
@@ -1041,23 +1041,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     CLASS_STUDENTS.forEach((name, index) => {
                         let studentInfo = classData[name] || [0, 0, 0, 0];
-                        
+
                         // 接收三顆燈的狀態
                         let light1 = studentInfo[0];
                         let light2 = studentInfo[1];
                         let light3 = studentInfo[2];
-                        
+
                         let greenCount = (light1 === 2 ? 1 : 0) + (light2 === 2 ? 1 : 0) + (light3 === 2 ? 1 : 0);
 
                         // 集滿 3 顆綠燈才算全破
-                        if (greenCount === 3) completedCount++; 
+                        if (greenCount === 3) completedCount++;
 
                         sortedClass.push({
                             name: name,
-                            lights: [light1, light2, light3], 
+                            lights: [light1, light2, light3],
                             greenCount: greenCount,
-                            lastTime: studentInfo[3] || 0, 
-                            originalOrder: index       
+                            lastTime: studentInfo[3] || 0,
+                            originalOrder: index
                         });
                     });
 
@@ -1067,9 +1067,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         if (a.greenCount === 3 && a.lastTime !== b.lastTime) {
                             if (a.lastTime === 0) return 1;
                             if (b.lastTime === 0) return -1;
-                            return a.lastTime - b.lastTime; 
+                            return a.lastTime - b.lastTime;
                         }
-                        return a.originalOrder - b.originalOrder; 
+                        return a.originalOrder - b.originalOrder;
                     });
 
                     studentListEl.innerHTML = '';
@@ -1099,14 +1099,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     let visitorData = res.data.visitorData || [];
                     window.pendingVisitorsData = res.data.pendingVisitors || [];
                     window.challengingVisitorsData = res.data.challengingVisitors || []; // 👈 這是最重要的接球手
-                    
+
                     visitorListEl.innerHTML = '';
                     if (visitorData.length === 0) {
                         visitorListEl.innerHTML = '<li style="justify-content:center; color:#999; font-size:14px;">目前還沒有訪客喔！</li>';
                     } else {
                         visitorData.sort((a, b) => {
-                            if (b.accuracy !== a.accuracy) return b.accuracy - a.accuracy; 
-                            return a.timeSpent - b.timeSpent;                              
+                            if (b.accuracy !== a.accuracy) return b.accuracy - a.accuracy;
+                            return a.timeSpent - b.timeSpent;
                         });
 
                         visitorData = visitorData.slice(0, 10);
@@ -1196,7 +1196,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (steps.length > 0) {
                 steps[0].classList.remove('active');
                 steps[0].classList.add('completed');
-                
+
                 // 👇 將進度條上的「單字」轉化為可點擊的超連結 👇
                 steps[0].style.textDecoration = 'underline';
                 steps[0].style.cursor = 'pointer';
@@ -1229,10 +1229,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     btnRead2.addEventListener('click', () => {
                         updateDashboardUI(); // 點擊前檢查是否過期
                         if (!isVocabCompleted) return;
-                        
+
                         dashboardScreen.classList.remove('active');
-                        currentReadingLoop = 2; 
-                        startReadingStage(1);   
+                        currentReadingLoop = 2;
+                        startReadingStage(1);
                     });
                     document.querySelector('.action-area').appendChild(btnRead2);
                 }
@@ -1248,7 +1248,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     enterReadingBtn.disabled = true;
                     enterReadingBtn.style.backgroundColor = '#E5E7E9';
                     enterReadingBtn.style.color = '#999';
-                    
+
                     btnRead2.style.display = 'block';
                     btnRead2.textContent = '📖 進入：閱讀大作戰 (二)';
                     btnRead2.disabled = false;
@@ -1282,11 +1282,11 @@ document.addEventListener("DOMContentLoaded", () => {
             if (steps.length > 0) {
                 steps[0].classList.remove('completed');
                 steps[0].classList.add('active');
-                
+
                 // 拔除超連結屬性，恢復一般純文字
                 steps[0].style.textDecoration = 'none';
                 steps[0].style.cursor = 'default';
-                steps[0].style.color = '#e74c3c'; 
+                steps[0].style.color = '#e74c3c';
                 steps[0].title = '';
                 steps[0].onclick = null;
             }
@@ -1683,10 +1683,10 @@ document.addEventListener("DOMContentLoaded", () => {
     enterListeningBtn.addEventListener('click', () => {
         updateDashboardUI(); // 👈 點擊時強制檢查是否過期
         if (!isVocabCompleted) return; // 👈 如果過期被退回，直接中斷進入
-        
+
         dashboardScreen.classList.remove('active');
         listMenuScreen.classList.add('active');
-        renderListeningMenu(); 
+        renderListeningMenu();
     });
 
     exitListMenuBtn.addEventListener('click', () => {
@@ -1967,11 +1967,11 @@ document.addEventListener("DOMContentLoaded", () => {
     enterReadingBtn.addEventListener('click', () => {
         updateDashboardUI(); // 👈 點擊時強制檢查是否過期
         if (!isVocabCompleted) return; // 👈 如果過期被退回，直接中斷進入
-        
+
         dashboardScreen.classList.remove('active');
         if (isReadingGroup) {
             currentReadingLoop = 1;
-            startReadingStage(1); 
+            startReadingStage(1);
         } else {
             readingMenuScreen.classList.add('active');
             renderReadingMenu();
@@ -2324,28 +2324,28 @@ document.addEventListener("DOMContentLoaded", () => {
     if (resetBoardBtn) {
         resetBoardBtn.addEventListener('click', () => {
             if (confirm('⚠️ 嚴重警告！\n確定要清空本週所有「本班進度」與「訪客紀錄」嗎？\n(此動作無法復原，通常用於換週更新)')) {
-                
+
                 const userInput = prompt('🔐 為避免誤刪，請輸入「當週的通行碼」以確認清空動作：');
                 if (userInput !== currentClassPasscode) {
                     alert('❌ 通行碼錯誤，已取消清空動作！');
-                    return; 
+                    return;
                 }
 
                 resetBoardBtn.textContent = "⏳ 正在清空...";
                 sendAdminCommand({ action: 'resetBoard' }).then(res => {
-                    
+
                     // 👇 新增這段：攔截後端的拒絕存取，並恢復按鈕文字
                     if (res.status === 'error') {
                         alert(res.message);
                         resetBoardBtn.textContent = "清空榜單與試算表";
                         return; // 中斷執行，不往下刪除本機紀錄
                     }
-                    
+
                     // 👇 新增本機全面清空核彈 👇
                     localStorage.removeItem('weekly_english_name');
                     localStorage.removeItem('weekly_english_is_class');
                     localStorage.removeItem('weekly_english_last_update');
-                    
+
                     const keysToRemove = [];
                     for (let i = 0; i < localStorage.length; i++) {
                         const key = localStorage.key(i);
@@ -2379,7 +2379,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     renameBtn.textContent = "修改名字";
                     return;
                 }
-                
+
                 alert(`✅ 成功將所有名為「${oldName}」的紀錄替換為「${newName}」！`);
                 location.reload();
             });
@@ -2408,7 +2408,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                         // --- 區塊 1：完全通關 (待審核) ---
                         let html = '<h3 style="color:#27AE60; border-bottom: 2px solid #27AE60; padding-bottom: 10px; margin-bottom: 15px;">🌍 待審核訪客 (已完整通關)</h3>';
-                        
+
                         if (pendingVisitorsData.length === 0) {
                             html += '<div style="text-align:center; padding: 15px; background: #F8F9FA; border-radius: 8px; color:#7F8C8D;">目前沒有已全破待審核的訪客。</div>';
                         } else {
@@ -2436,7 +2436,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                         // --- 區塊 2：挑戰中 (未通關) ---
                         html += '<h3 style="color:#F39C12; border-bottom: 2px solid #F39C12; padding-bottom: 10px; margin-bottom: 15px;">🏃 挑戰中訪客 (尚未全破)</h3>';
-                        
+
                         if (challengingVisitorsData.length === 0) {
                             html += '<div style="text-align:center; padding: 15px; background: #F8F9FA; border-radius: 8px; color:#7F8C8D;">目前沒有正在挑戰的訪客。</div>';
                         } else {
