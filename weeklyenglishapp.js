@@ -125,15 +125,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let isGodMode = false;
 
-    // 👇 替換：移除 Localhost 特權，改為專屬密語的隱形後門函式
+    // 👇 替換：移除明文密碼，改為向後端 API 請求身分驗證
     function checkTeacherStatus(name) {
-        // 這裡設定你的專屬老師密語，請將 "TeacherWayne" 改成你想要的暗號
-        if (name === "@Jojo888") {
-            if (teacherGodBtn) teacherGodBtn.style.display = 'flex';
-        } else {
-            if (teacherGodBtn) teacherGodBtn.style.display = 'none';
-            isGodMode = false; // 防呆：如果是學生身分，確保外掛絕對被關閉
-        }
+        if (!name) return;
+        
+        // 預設先隱藏並關閉外掛
+        if (teacherGodBtn) teacherGodBtn.style.display = 'none';
+        isGodMode = false; 
+
+        // 向後端 API 發送身分確認請求
+        fetch(GAS_URL, {
+            method: 'POST',
+            body: JSON.stringify({ action: 'verifyTeacher', name: name })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success' && data.isTeacher === true) {
+                // 1. 名稱相符，解鎖按鈕！
+                if (teacherGodBtn) teacherGodBtn.style.display = 'flex'; 
+                
+                // 2. 將後端抓到的 Google 帳號印在畫面上 (顯示在老師專區標題下方)
+                const teacherTitle = document.querySelector('#teacher-review-modal h2');
+                if (teacherTitle) {
+                    teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(辨認到的 Google 帳號: ${data.detectedEmail})</span>`;
+                }
+            }
+        })
+        .catch(err => console.error("老師身分驗證失敗", err));
     }
 
     // 網頁剛載入時檢查一次 (處理重新整理或歡迎回來的情況)
@@ -2316,6 +2334,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 resetBoardBtn.textContent = "⏳ 正在清空...";
                 sendAdminCommand({ action: 'resetBoard' }).then(res => {
                     
+                    // 👇 新增這段：攔截後端的拒絕存取，並恢復按鈕文字
+                    if (res.status === 'error') {
+                        alert(res.message);
+                        resetBoardBtn.textContent = "清空榜單與試算表";
+                        return; // 中斷執行，不往下刪除本機紀錄
+                    }
+                    
                     // 👇 新增本機全面清空核彈 👇
                     localStorage.removeItem('weekly_english_name');
                     localStorage.removeItem('weekly_english_is_class');
@@ -2348,6 +2373,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             renameBtn.textContent = "⏳ 修改中...";
             sendAdminCommand({ action: 'renameUser', oldName: oldName, newName: newName }).then(res => {
+                // 👇 新增這段：攔截後端的拒絕存取
+                if (res.status === 'error') {
+                    alert(res.message);
+                    renameBtn.textContent = "修改名字";
+                    return;
+                }
+                
                 alert(`✅ 成功將所有名為「${oldName}」的紀錄替換為「${newName}」！`);
                 location.reload();
             });
@@ -2437,7 +2469,8 @@ document.addEventListener("DOMContentLoaded", () => {
         // 綁定全域核准與刪除函數
         window.handleVisitorApprove = function (name) {
             if (confirm(`確定要讓訪客「${name}」正式登上大廳排行榜嗎？`)) {
-                sendAdminCommand({ action: 'approveVisitor', targetName: name }).then(() => {
+                sendAdminCommand({ action: 'approveVisitor', targetName: name }).then((res) => {
+                    if (res.status === 'error') { alert(res.message); return; } // 👈 新增攔截
                     alert(`✅ 已核准「${name}」！`);
                     location.reload();
                 });
@@ -2446,7 +2479,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         window.handleVisitorDelete = function (name) {
             if (confirm(`確定要將違規訪客「${name}」的紀錄永久刪除嗎？`)) {
-                sendAdminCommand({ action: 'deleteVisitor', targetName: name }).then(() => {
+                sendAdminCommand({ action: 'deleteVisitor', targetName: name }).then((res) => {
+                    if (res.status === 'error') { alert(res.message); return; } // 👈 新增攔截
                     alert(`🗑️ 已刪除「${name}」的紀錄！`);
                     location.reload();
                 });
