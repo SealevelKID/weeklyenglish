@@ -1,0 +1,1156 @@
+{
+    "updateDate": "2026-07-18",
+    "classPasscode": "718",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "cover",
+            "chinese": "覆蓋",
+            "distractors": [
+                "recover",
+                "discover"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "recover",
+            "chinese": "恢復",
+            "distractors": [
+                "cover",
+                "discover"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "discover",
+            "chinese": "發現",
+            "distractors": [
+                "cover",
+                "recover"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "wisely",
+            "chinese": "明智的",
+            "distractors": [
+                "cancel",
+                "finally"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "cancel",
+            "chinese": "取消",
+            "distractors": [
+                "wisely",
+                "delay"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "collect",
+            "chinese": "收集",
+            "distractors": [
+                "traffic",
+                "actually"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "traffic",
+            "chinese": "交通",
+            "distractors": [
+                "collect",
+                "delay"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "as well",
+            "chinese": "也",
+            "distractors": [
+                "after all",
+                "finally"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "after all",
+            "chinese": "畢竟",
+            "distractors": [
+                "as well",
+                "still"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "finally",
+            "chinese": "終於",
+            "distractors": [
+                "almost",
+                "actually"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "actually",
+            "chinese": "事實上",
+            "distractors": [
+                "still",
+                "almost"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "still",
+            "chinese": "仍然",
+            "distractors": [
+                "actually",
+                "almost"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "almost",
+            "chinese": "幾乎",
+            "distractors": [
+                "finally",
+                "still"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "snore",
+            "chinese": "打呼",
+            "distractors": [
+                "cover",
+                "recover"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "delay",
+            "chinese": "延遲",
+            "distractors": [
+                "cancel",
+                "traffic"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "cover",
+            "chinese": "覆蓋",
+            "distractors": [
+                "recover",
+                "discover"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "recover",
+            "chinese": "恢復",
+            "distractors": [
+                "cover",
+                "discover"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "discover",
+            "chinese": "發現",
+            "distractors": [
+                "cover",
+                "recover"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "wisely",
+            "chinese": "明智的",
+            "distractors": [
+                "cancel",
+                "finally"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "cancel",
+            "chinese": "取消",
+            "distractors": [
+                "wisely",
+                "delay"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "collect",
+            "chinese": "收集",
+            "distractors": [
+                "traffic",
+                "actually"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "traffic",
+            "chinese": "交通",
+            "distractors": [
+                "collect",
+                "delay"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "as well",
+            "chinese": "也",
+            "distractors": [
+                "after all",
+                "finally"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "after all",
+            "chinese": "畢竟",
+            "distractors": [
+                "as well",
+                "still"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "finally",
+            "chinese": "終於",
+            "distractors": [
+                "almost",
+                "actually"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "actually",
+            "chinese": "事實上",
+            "distractors": [
+                "still",
+                "almost"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "still",
+            "chinese": "仍然",
+            "distractors": [
+                "actually",
+                "almost"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "almost",
+            "chinese": "幾乎",
+            "distractors": [
+                "finally",
+                "still"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "snore",
+            "chinese": "打呼",
+            "distractors": [
+                "cover",
+                "recover"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "delay",
+            "chinese": "延遲",
+            "distractors": [
+                "cancel",
+                "traffic"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "Heavy snow will _______ the entire playground tomorrow morning.",
+            "correct": "cover",
+            "distractors": [
+                "recover",
+                "discover"
+            ],
+            "hint": "這裡需要填入表示「覆蓋」的動詞，注意明早的天氣狀況喔。",
+            "translation": "明天早上大雪將會覆蓋整個遊樂場。",
+            "id": 201
+        },
+        {
+            "sentence": "The patient needs plenty of rest to _______ from the terrible flu.",
+            "correct": "recover",
+            "distractors": [
+                "cover",
+                "discover"
+            ],
+            "hint": "搭配介系詞 from，表示從疾病中「恢復」健康。",
+            "translation": "這位病人需要充足的休息才能從嚴重的流感中恢復。",
+            "id": 202
+        },
+        {
+            "sentence": "Scientists hope to _______ new stars using this powerful telescope.",
+            "correct": "discover",
+            "distractors": [
+                "cover",
+                "recover"
+            ],
+            "hint": "意思是用望遠鏡去「發現」太空中未知的新星星。",
+            "translation": "科學家們希望利用這台強大的望遠鏡來發現新的星星。",
+            "id": 203
+        },
+        {
+            "sentence": "If you spend your pocket money _______, you can save up for a new bicycle.",
+            "correct": "wisely",
+            "distractors": [
+                "finally",
+                "actually"
+            ],
+            "hint": "用來形容花錢花得很聰明、很有智慧。",
+            "translation": "如果你明智地花費你的零用錢，你就能存錢買一台新腳踏車。",
+            "id": 204
+        },
+        {
+            "sentence": "The school had to _______ the sports meet because of the heavy rainstorm.",
+            "correct": "cancel",
+            "distractors": [
+                "delay",
+                "cover"
+            ],
+            "hint": "因為暴雨，學校不得不「取消」原本要舉辦的運動會。",
+            "translation": "因為暴雨的關係，學校不得不取消運動會。",
+            "id": 205
+        },
+        {
+            "sentence": "The little boy loves to _______ beautiful seashells along the beach.",
+            "correct": "collect",
+            "distractors": [
+                "traffic",
+                "snore"
+            ],
+            "hint": "去海灘上把漂亮的貝殼「收集」起來當作收藏。",
+            "translation": "這個小男孩喜歡在沙灘沿岸收集漂亮的貝殼。",
+            "id": 206
+        },
+        {
+            "sentence": "The morning _______ was so bad that many students arrived late for school.",
+            "correct": "traffic",
+            "distractors": [
+                "delay",
+                "after all"
+            ],
+            "hint": "指的是路上車子很多、塞車的「交通」狀況。",
+            "translation": "早上的交通非常糟糕，導致許多學生上學遲到了。",
+            "id": 207
+        },
+        {
+            "sentence": "My sister likes playing the piano, and she enjoys singing lovely songs _______.",
+            "correct": "as well",
+            "distractors": [
+                "after all",
+                "still"
+            ],
+            "hint": "放句尾表示「也」，用來補充說明她不但會彈琴也會唱歌。",
+            "translation": "我姐姐喜歡彈鋼琴，她也喜歡唱好聽的歌。",
+            "id": 208
+        },
+        {
+            "sentence": "You should forgive him; _______, he is just a child.",
+            "correct": "after all",
+            "distractors": [
+                "as well",
+                "actually"
+            ],
+            "hint": "通常放在句首，用來解釋原因，意思是「畢竟」，提醒對方多包容。",
+            "translation": "你應該原諒他；畢竟，他只是個小孩。",
+            "id": 209
+        },
+        {
+            "sentence": "After climbing for three long hours, we _______ reached the top of the mountain.",
+            "correct": "finally",
+            "distractors": [
+                "almost",
+                "still"
+            ],
+            "hint": "努力了很久，最後「終於」成功辦到了某件事。",
+            "translation": "在爬了漫長的三個小時之後，我們終於到達了山頂。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "A Plan to Clean Up the Park (清理公園的計劃)",
+            "articleContent": [
+                {
+                    "en": "Tim and Lily want to go to the park, but it is almost dark.",
+                    "zh": "提姆和莉莉想去公園，但天快黑了。"
+                },
+                {
+                    "en": "They actually find too much trash near the big trees.",
+                    "zh": "他們實際上在大樹附近發現了太多的垃圾。"
+                },
+                {
+                    "en": "The children will collect all the bottles and plastic bags tomorrow morning.",
+                    "zh": "孩子們明天早上會收集所有的瓶子和塑膠袋。"
+                },
+                {
+                    "en": "Tim says they should spend their pocket money wisely to buy garbage bags as well.",
+                    "zh": "提姆說他們也應該明智地花零用錢來買垃圾袋。"
+                },
+                {
+                    "en": "Finally, they can make the playground clean and beautiful again.",
+                    "zh": "終於，他們可以讓遊樂場再次變得乾淨又美麗。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who wants to clean up the park tomorrow morning?",
+                    "options": [
+                        "Tim and Lily",
+                        "Tom and Mary",
+                        "Tim and Leo"
+                    ],
+                    "correct": "Tim and Lily"
+                },
+                {
+                    "qId": 2,
+                    "question": "What do the children find near the big trees?",
+                    "options": [
+                        "Too much trash",
+                        "Many beautiful birds",
+                        "Some old books"
+                    ],
+                    "correct": "Too much trash"
+                },
+                {
+                    "qId": 3,
+                    "question": "When do Tim and Lily plan to collect the trash?",
+                    "options": [
+                        "Tomorrow morning",
+                        "Yesterday afternoon",
+                        "This evening"
+                    ],
+                    "correct": "Tomorrow morning"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where is the trash that the children want to collect?",
+                    "options": [
+                        "Near the big trees in the park",
+                        "Inside the school library",
+                        "Near the bus station"
+                    ],
+                    "correct": "Near the big trees in the park"
+                },
+                {
+                    "qId": 5,
+                    "question": "What will they buy with their pocket money?",
+                    "options": [
+                        "Garbage bags",
+                        "New bicycles",
+                        "Sweet candy and drinks"
+                    ],
+                    "correct": "Garbage bags"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why do they want to collect the trash in the park?",
+                    "options": [
+                        "To make the playground clean again",
+                        "To get money from their teacher",
+                        "To play a game together"
+                    ],
+                    "correct": "To make the playground clean again"
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "A Rainy School Day (下雨的上學日)",
+            "articleContent": [
+                {
+                    "en": "Today, the morning traffic is very slow because of the heavy rain.",
+                    "zh": "今天，因為下雨的關係，早上的交通非常緩慢。"
+                },
+                {
+                    "en": "The school bus has a long delay on the road.",
+                    "zh": "校車在路上遭遇了很長的延遲。"
+                },
+                {
+                    "en": "Kevin is still waiting at the bus stop, and he is very wet.",
+                    "zh": "凱文仍然在公車站等待，而且他全身都濕透了。"
+                },
+                {
+                    "en": "The principal decided to cancel the morning meeting after all.",
+                    "zh": "校長畢竟還是決定取消了早會。"
+                },
+                {
+                    "en": "Thick mud will cover the school sports field today.",
+                    "zh": "泥濘今天將會覆蓋學校的運動場。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who is waiting at the bus stop in the rain?",
+                    "options": [
+                        "Kevin",
+                        "Jimmy",
+                        "Wayne"
+                    ],
+                    "correct": "Kevin"
+                },
+                {
+                    "qId": 2,
+                    "question": "What happened to the school bus on the road?",
+                    "options": [
+                        "It had a long delay.",
+                        "It broke down completely.",
+                        "It arrived very early."
+                    ],
+                    "correct": "It had a long delay."
+                },
+                {
+                    "qId": 3,
+                    "question": "When is the traffic very slow and terrible?",
+                    "options": [
+                        "In the morning",
+                        "At noon",
+                        "Late at night"
+                    ],
+                    "correct": "In the morning"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where will the thick mud cover today?",
+                    "options": [
+                        "The school sports field",
+                        "The classroom floors",
+                        "The local train station"
+                    ],
+                    "correct": "The school sports field"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did the principal decide to do because of the rain?",
+                    "options": [
+                        "Cancel the morning meeting",
+                        "Buy new school buses",
+                        "Give students more homework"
+                    ],
+                    "correct": "Cancel the morning meeting"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did the principal cancel the morning meeting?",
+                    "options": [
+                        "Because the heavy rain caused bad traffic and delays",
+                        "Because the students wanted to play outside",
+                        "Because it was a special holiday"
+                    ],
+                    "correct": "Because the heavy rain caused bad traffic and delays"
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "Grandpa's Afternoon Nap (爺爺的下午點心與小睡)",
+            "articleContent": [
+                {
+                    "en": "Grandpa is sleeping on the sofa, and he begins to snore loudly.",
+                    "zh": "爺爺正在沙發上睡覺，而且他開始大聲打呼。"
+                },
+                {
+                    "en": "The white blanket will cover his feet to keep him warm.",
+                    "zh": "白色的毛毯會覆蓋他的腳以保持溫暖。"
+                },
+                {
+                    "en": "He needs to recover his energy after working in the garden.",
+                    "zh": "在花園工作之後，他需要恢復體力。"
+                },
+                {
+                    "en": "He hopes to discover new flowers in the yard later.",
+                    "zh": "他希望稍後能在院子裡發現新的花朵。"
+                },
+                {
+                    "en": "Actually, grandpa always sleeps for thirty minutes after lunch.",
+                    "zh": "事實上，爺爺午飯後總是睡三十分鐘。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who is sleeping and snoring on the sofa?",
+                    "options": [
+                        "Grandpa",
+                        "The little boy",
+                        "A cute puppy"
+                    ],
+                    "correct": "Grandpa"
+                },
+                {
+                    "qId": 2,
+                    "question": "What does Grandpa do that makes a loud noise?",
+                    "options": [
+                        "He begins to snore loudly.",
+                        "He plays the piano.",
+                        "He watches television."
+                    ],
+                    "correct": "He begins to snore loudly."
+                },
+                {
+                    "qId": 3,
+                    "question": "When does Grandpa always sleep for thirty minutes?",
+                    "options": [
+                        "After lunch",
+                        "Before breakfast",
+                        "Late at night"
+                    ],
+                    "correct": "After lunch"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Grandpa work before taking a nap?",
+                    "options": [
+                        "In the garden",
+                        "At the local market",
+                        "In the school classroom"
+                    ],
+                    "correct": "In the garden"
+                },
+                {
+                    "qId": 5,
+                    "question": "What will cover Grandpa's feet to keep him warm?",
+                    "options": [
+                        "A white blanket",
+                        "A heavy coat",
+                        "A large umbrella"
+                    ],
+                    "correct": "A white blanket"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why does Grandpa need to sleep on the sofa?",
+                    "options": [
+                        "To recover his energy after working",
+                        "Because he feels very sick",
+                        "Because he has nothing to do"
+                    ],
+                    "correct": "To recover his energy after working"
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "Heavy snow will _______ the entire playground tomorrow morning.",
+            "correct": "cover",
+            "distractors": [
+                "recover",
+                "discover"
+            ],
+            "hint": "這裡需要填入表示「覆蓋」的動詞，注意明早的天氣狀況喔。",
+            "translation": "明天早上大雪將會覆蓋整個遊樂場。",
+            "id": 401
+        },
+        {
+            "sentence": "The patient needs plenty of rest to _______ from the terrible flu.",
+            "correct": "recover",
+            "distractors": [
+                "cover",
+                "discover"
+            ],
+            "hint": "搭配介系詞 from，表示從疾病中「恢復」健康。",
+            "translation": "這位病人需要充足的休息才能從嚴重的流感中恢復。",
+            "id": 402
+        },
+        {
+            "sentence": "Scientists hope to _______ new stars using this powerful telescope.",
+            "correct": "discover",
+            "distractors": [
+                "cover",
+                "recover"
+            ],
+            "hint": "意思是用望遠鏡去「發現」太空中未知的新星星。",
+            "translation": "科學家們希望利用這台強大的望遠鏡來發現新的星星。",
+            "id": 403
+        },
+        {
+            "sentence": "If you spend your pocket money _______, you can save up for a new bicycle.",
+            "correct": "wisely",
+            "distractors": [
+                "finally",
+                "actually"
+            ],
+            "hint": "用來形容花錢花得很聰明、很有智慧。",
+            "translation": "如果你明智地花費你的零用錢，你就能存錢買一台新腳踏車。",
+            "id": 404
+        },
+        {
+            "sentence": "The school had to _______ the sports meet because of the heavy rainstorm.",
+            "correct": "cancel",
+            "distractors": [
+                "delay",
+                "cover"
+            ],
+            "hint": "因為暴雨，學校不得不「取消」原本要舉辦的運動會。",
+            "translation": "因為暴雨的關係，學校不得不取消運動會。",
+            "id": 405
+        },
+        {
+            "sentence": "The little boy loves to _______ beautiful seashells along the beach.",
+            "correct": "collect",
+            "distractors": [
+                "traffic",
+                "snore"
+            ],
+            "hint": "去海灘上把漂亮的貝殼「收集」起來當作收藏。",
+            "translation": "這個小男孩喜歡在沙灘沿岸收集漂亮的貝殼。",
+            "id": 406
+        },
+        {
+            "sentence": "The morning _______ was so bad that many students arrived late for school.",
+            "correct": "traffic",
+            "distractors": [
+                "delay",
+                "after all"
+            ],
+            "hint": "指的是路上車子很多、塞車的「交通」狀況。",
+            "translation": "早上的交通非常糟糕，導致許多學生上學遲到了。",
+            "id": 407
+        },
+        {
+            "sentence": "My sister likes playing the piano, and she enjoys singing lovely songs _______.",
+            "correct": "as well",
+            "distractors": [
+                "after all",
+                "still"
+            ],
+            "hint": "放句尾表示「也」，用來補充說明她不但會彈琴也會唱歌。",
+            "translation": "我姐姐喜歡彈鋼琴，她也喜歡唱好聽的歌。",
+            "id": 408
+        },
+        {
+            "sentence": "You should forgive him; _______, he is just a child.",
+            "correct": "after all",
+            "distractors": [
+                "as well",
+                "actually"
+            ],
+            "hint": "通常放在句首，用來解釋原因，意思是「畢竟」，提醒對方多包容。",
+            "translation": "你應該原諒他；畢竟，他只是個小孩。",
+            "id": 409
+        },
+        {
+            "sentence": "After climbing for three long hours, we _______ reached the top of the mountain.",
+            "correct": "finally",
+            "distractors": [
+                "almost",
+                "still"
+            ],
+            "hint": "努力了很久，最後「終於」成功辦到了某件事。",
+            "translation": "在爬了漫長的三個小時之後，我們終於到達了山頂。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "Robin Hood Sharing Wisely (羅賓漢的明智分享)",
+            "article": "Long ago, Robin Hood lived in the green forest. He would {{1}} gold from rich people. He always shared the money {{2}} with poor villagers. To avoid the Sheriff, Robin had to {{3}} his horse tracks carefully. He spent his days helping people and hiding in the woods.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "collect",
+                    "distractors": [
+                        "traffic",
+                        "cancel"
+                    ],
+                    "hint": "這裡需要填入動詞，表示羅賓漢從富人那裡「收集」或拿走黃金。",
+                    "translation": "他會從富人那裡收集黃金。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "wisely",
+                    "distractors": [
+                        "still",
+                        "finally"
+                    ],
+                    "hint": "這裡需要一個副詞來修飾動詞 shared，表示「明智地」分配這些錢財。",
+                    "translation": "他總是明智地與貧窮的村民分享這些錢。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "cover",
+                    "distractors": [
+                        "recover",
+                        "discover"
+                    ],
+                    "hint": "為了不被抓到，他必須把行蹤「覆蓋」或掩蓋起來。",
+                    "translation": "為了避開郡長，羅賓漢必須小心地覆蓋他的馬蹄印。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "The Sleeping Princess and Her Recovery (睡美人與她的康復)",
+            "article": "The princess pricked her finger and fell into a deep sleep. For one hundred years, the castle was {{1}} dark and quiet. A thick forest came to {{2}} the whole palace. Finally, a brave prince arrived to {{3}} the beautiful princess. When she opened her eyes, everyone was happy.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "still",
+                    "distractors": [
+                        "actually",
+                        "almost"
+                    ],
+                    "hint": "表示過了一百年，城堡「仍然」保持著黑暗與安靜。",
+                    "translation": "一百年來，城堡依然黑暗而安靜。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "cover",
+                    "distractors": [
+                        "discover",
+                        "delay"
+                    ],
+                    "hint": "森林長大並把整個宮殿「覆蓋」或遮蔽了起來。",
+                    "translation": "一片茂密的森林前來覆蓋了整個宮殿。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "recover",
+                    "distractors": [
+                        "cancel",
+                        "collect"
+                    ],
+                    "hint": "這裡指王子讓公主從長眠中「恢復」清醒、救回公主。",
+                    "translation": "終於，一位勇敢的王子前來恢復（喚醒）了美麗的公主。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "Alice's Wonderful Discovery (愛麗絲的奇妙發現)",
+            "article": "Alice was sitting by the river when she saw a strange rabbit. The rabbit said there was a long {{1}}, and it ran away. Alice followed it and fell down a deep hole. She did not stop; she was {{2}} at the bottom of the magical world. There, she would {{3}} many talking animals and strange things.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "delay",
+                    "distractors": [
+                        "traffic",
+                        "cancel"
+                    ],
+                    "hint": "兔子看著手錶抱怨時間「延遲」或耽誤了，表示自己要遲到了。",
+                    "translation": "兔子說有很長的延遲，然後就跑開了。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "finally",
+                    "distractors": [
+                        "wisely",
+                        "almost"
+                    ],
+                    "hint": "掉落了很久之後，愛麗絲「終於」到達了奇幻世界的底部。",
+                    "translation": "她沒有停下來；她終於來到了魔法世界的底部。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "discover",
+                    "distractors": [
+                        "recover",
+                        "cover"
+                    ],
+                    "hint": "在這個新世界裡，她去「發現」或探索未知的奇妙事物。",
+                    "translation": "在那裡，她將發現許多會說話的動物和奇怪的事情。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "Robin Hood Sharing Wisely (羅賓漢的明智分享)",
+            "articleContent": [
+                {
+                    "en": "Long ago, Robin Hood lived in the green forest.",
+                    "zh": "很久以前，羅賓漢住在綠色森林裡。"
+                },
+                {
+                    "en": "He would collect gold from rich people.",
+                    "zh": "他會從富人那裡收集黃金。"
+                },
+                {
+                    "en": "He always shared the money wisely with poor villagers.",
+                    "zh": "他總是明智地與貧窮的村民分享這些錢。"
+                },
+                {
+                    "en": "To avoid the Sheriff, Robin had to cover his horse tracks carefully.",
+                    "zh": "為了避開郡長，羅賓漢必須小心地覆蓋他的馬蹄印。"
+                },
+                {
+                    "en": "He spent his days helping people and hiding in the woods.",
+                    "zh": "他在幫助人們和躲在樹林中度過了他的日子。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who lived in the green forest and helped poor villagers?",
+                    "options": [
+                        "Robin Hood",
+                        "The evil Sheriff of Nottingham",
+                        "A rich merchant from the town"
+                    ],
+                    "correct": "Robin Hood"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Robin Hood do with the heavy gold?",
+                    "options": [
+                        "He shared it wisely with poor villagers.",
+                        "He hid it under a big rock forever.",
+                        "He used it to buy an expensive castle."
+                    ],
+                    "correct": "He shared it wisely with poor villagers."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did this story about Robin Hood happen?",
+                    "options": [
+                        "Long ago",
+                        "Next summer vacation",
+                        "Yesterday afternoon"
+                    ],
+                    "correct": "Long ago"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Robin Hood hide from the Sheriff?",
+                    "options": [
+                        "In the green forest",
+                        "Inside the busy city market",
+                        "In a crowded school library"
+                    ],
+                    "correct": "In the green forest"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Robin Hood have to cover carefully?",
+                    "options": [
+                        "His horse tracks",
+                        "His beautiful new shoes",
+                        "The golden coins in his pocket"
+                    ],
+                    "correct": "His horse tracks"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Robin Hood cover his horse tracks?",
+                    "options": [
+                        "To avoid the Sheriff",
+                        "To play a funny game with his friends",
+                        "To find new flowers in the yard"
+                    ],
+                    "correct": "To avoid the Sheriff"
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "The Sleeping Princess and Her Recovery (睡美人與她的康復)",
+            "articleContent": [
+                {
+                    "en": "The princess pricked her finger and fell into a deep sleep.",
+                    "zh": "公主刺破了手指，陷入了沉睡。"
+                },
+                {
+                    "en": "For one hundred years, the castle was still dark and quiet.",
+                    "zh": "一百年來，城堡依然黑暗而安靜。"
+                },
+                {
+                    "en": "A thick forest came to cover the whole palace.",
+                    "zh": "一片茂密的森林前來覆蓋了整個宮殿。"
+                },
+                {
+                    "en": "Finally, a brave prince arrived to recover the beautiful princess.",
+                    "zh": "終於，一位勇敢的王子前來恢復（喚醒）了美麗的公主。"
+                },
+                {
+                    "en": "When she opened her eyes, everyone was happy.",
+                    "zh": "當她睜開眼睛時，每個人都很高興。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who fell into a deep sleep for one hundred years?",
+                    "options": [
+                        "The princess",
+                        "The prince",
+                        "The king's old cook"
+                    ],
+                    "correct": "The princess"
+                },
+                {
+                    "qId": 2,
+                    "question": "What happened to the castle during those one hundred years?",
+                    "options": [
+                        "It was still dark and quiet.",
+                        "It became a noisy city market.",
+                        "It was destroyed by a big fire."
+                    ],
+                    "correct": "It was still dark and quiet."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the brave prince finally arrive at the palace?",
+                    "options": [
+                        "After one hundred years",
+                        "Before the princess went to bed",
+                        "Early the next morning"
+                    ],
+                    "correct": "After one hundred years"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the thick forest grow to cover everything?",
+                    "options": [
+                        "Over the whole palace",
+                        "Near the local town",
+                        "Inside the garden"
+                    ],
+                    "correct": "Over the whole palace"
+                },
+                {
+                    "qId": 5,
+                    "question": "What grew over the castle to hide it from the world?",
+                    "options": [
+                        "A thick forest",
+                        "A river of milk and honey",
+                        "Large black umbrellas"
+                    ],
+                    "correct": "A thick forest"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why was everyone in the castle happy at the end?",
+                    "options": [
+                        "Because the princess opened her eyes and recovered",
+                        "Because they found a lot of gold in the garden",
+                        "Because they were going to move to another country"
+                    ],
+                    "correct": "Because the princess opened her eyes and recovered"
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "Alice's Wonderful Discovery (愛麗絲的奇妙發現)",
+            "articleContent": [
+                {
+                    "en": "Alice was sitting by the river when she saw a strange rabbit.",
+                    "zh": "愛麗絲坐在河邊時，看到了一隻奇怪的兔子。"
+                },
+                {
+                    "en": "The rabbit said there was a long delay, and it ran away.",
+                    "zh": "兔子說有很長的延遲（來不及了），然後就跑開了。"
+                },
+                {
+                    "en": "Alice followed it and fell down a deep hole.",
+                    "zh": "愛麗絲跟著牠，掉進了一個深洞裡。"
+                },
+                {
+                    "en": "She did not stop; she was finally at the bottom of the magical world.",
+                    "zh": "她沒有停下來；她終於來到了魔法世界的底部。"
+                },
+                {
+                    "en": "There, she would discover many talking animals and strange things.",
+                    "zh": "在那裡，她將發現許多會說話的動物和奇怪的事情。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who saw a strange rabbit while sitting by the river?",
+                    "options": [
+                        "Alice",
+                        "Alex",
+                        "Anna"
+                    ],
+                    "correct": "Alice"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the rabbit say before it ran away?",
+                    "options": [
+                        "There was a long delay.",
+                        "It wanted to eat some fresh carrots.",
+                        "It lost its golden keys in the river."
+                    ],
+                    "correct": "There was a long delay."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Alice fall down into the deep hole?",
+                    "options": [
+                        "After she followed the strange rabbit",
+                        "Before she arrived at the river",
+                        "Late at night when she was sleeping"
+                    ],
+                    "correct": "After she followed the strange rabbit"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where was Alice sitting at the beginning of the story?",
+                    "options": [
+                        "By the river",
+                        "Near her house",
+                        "In the garden"
+                    ],
+                    "correct": "By the river"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Alice find after falling to the bottom of the hole?",
+                    "options": [
+                        "A magical world with talking animals",
+                        "A large box full of old books",
+                        "A magical world with sleeping animals"
+                    ],
+                    "correct": "A magical world with talking animals"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Alice run after the strange rabbit?",
+                    "options": [
+                        "Because she was curious about it",
+                        "Because the rabbit took her pocket money",
+                        "Because she wanted to catch it"
+                    ],
+                    "correct": "Because she was curious about it"
+                }
+            ]
+        }
+    ]
+}
