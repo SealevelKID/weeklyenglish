@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 👇 修改：新增老師專屬帳號與身分判定 (此處保留佔位符，實際名稱會由後端或 localStorage 動態驗證)
     const currentLoggedInName = localStorage.getItem('weekly_english_name');
-    const isTeacher = currentLoggedInName === "TeacherWayne"; // 👈 請把 TeacherWayne 改成你想在手機上登入的「老師名稱」
+    const isTeacher = currentLoggedInName === "Jojo888"; 
 
     const hostname = window.location.hostname;
     const isLocalhost = hostname === '127.0.0.1' || hostname === 'localhost';
