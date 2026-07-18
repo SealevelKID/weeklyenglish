@@ -125,11 +125,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let isGodMode = false;
 
-    // 偵測是否為本機環境 (Live Server)
+    // 👇 修改：新增老師專屬帳號與身分判定 (此處保留佔位符，實際名稱會由後端或 localStorage 動態驗證)
+    const currentLoggedInName = localStorage.getItem('weekly_english_name');
+    const isTeacher = currentLoggedInName === "TeacherWayne"; // 👈 請把 TeacherWayne 改成你想在手機上登入的「老師名稱」
+
     const hostname = window.location.hostname;
-    if (hostname === '127.0.0.1' || hostname === 'localhost') {
+    const isLocalhost = hostname === '127.0.0.1' || hostname === 'localhost';
+
+    // 只要是 Localhost 環境，或者是使用老師專用名稱登入，就解鎖老師專區按鈕[cite: 2]
+    if (isLocalhost || isTeacher) {
         if (teacherGodBtn) {
-            teacherGodBtn.style.display = 'flex'; // 顯示左上角外掛按鈕
+            teacherGodBtn.style.display = 'flex';
         }
     }
 
