@@ -125,33 +125,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let isGodMode = false;
 
-    // 👇 替換：移除明文密碼，改為向後端 API 請求身分驗證
+    // 👇 替換：向後端 API 請求暗號身分驗證
     function checkTeacherStatus(name) {
         if (!name) return;
-
-        // 預設先隱藏並關閉外掛
+        
         if (teacherGodBtn) teacherGodBtn.style.display = 'none';
-        isGodMode = false;
+        isGodMode = false; 
 
-        // 向後端 API 發送身分確認請求
+        console.log(`[身分驗證] 正在向雲端確認暗號：${name}`);
+
         fetch(GAS_URL, {
             method: 'POST',
             body: JSON.stringify({ action: 'verifyTeacher', name: name })
         })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success' && data.isTeacher === true) {
-                    // 1. 名稱相符，解鎖按鈕！
-                    if (teacherGodBtn) teacherGodBtn.style.display = 'flex';
-
-                    // 2. 將後端抓到的 Google 帳號印在畫面上 (顯示在老師專區標題下方)
-                    const teacherTitle = document.querySelector('#teacher-review-modal h2');
-                    if (teacherTitle) {
-                        teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(辨認到的 Google 帳號: ${data.detectedEmail})</span>`;
-                    }
+        .then(response => response.json())
+        .then(data => {
+            console.log(`[身分驗證] 雲端回傳結果：`, data);
+            if (data.status === 'success' && data.isTeacher === true) {
+                // 名稱相符，解鎖按鈕！
+                if (teacherGodBtn) teacherGodBtn.style.display = 'flex'; 
+                
+                const teacherTitle = document.querySelector('#teacher-review-modal h2');
+                if (teacherTitle) {
+                    teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(老師身分安全驗證成功 🔒)</span>`;
                 }
-            })
-            .catch(err => console.error("老師身分驗證失敗", err));
+            }
+        })
+        .catch(err => console.error("老師身分驗證失敗", err));
     }
 
     // 網頁剛載入時檢查一次 (處理重新整理或歡迎回來的情況)
@@ -2313,6 +2313,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 專屬老師的後台指令發送器
     function sendAdminCommand(payload) {
+        // 👇 新增：自動附上老師的登入暗號作為安全通行證 (Token)
+        payload.teacherToken = localStorage.getItem('weekly_english_name'); 
+        
         return fetch(GAS_URL, {
             method: 'POST',
             body: JSON.stringify(payload)
