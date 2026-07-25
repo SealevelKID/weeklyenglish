@@ -1,0 +1,1214 @@
+{
+    "updateDate": "2026-07-25",
+    "classPasscode": "725",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "take action",
+            "chinese": "採取行動",
+            "distractors": [
+                "consider",
+                "argue"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "consider",
+            "chinese": "考慮；認為",
+            "distractors": [
+                "graduate",
+                "create"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "whether",
+            "chinese": "是否",
+            "distractors": [
+                "therefore",
+                "though"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "therefore",
+            "chinese": "因此",
+            "distractors": [
+                "whether",
+                "though"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "though",
+            "chinese": "雖然",
+            "distractors": [
+                "whether",
+                "therefore"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "graduate",
+            "chinese": "畢業",
+            "distractors": [
+                "take action",
+                "argue"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "army",
+            "chinese": "陸軍；軍隊",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "gallery",
+            "chinese": "畫廊；美術館",
+            "distractors": [
+                "harbor",
+                "dining"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "argue",
+            "chinese": "爭論；主張",
+            "distractors": [
+                "consider",
+                "take action"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "opinion",
+            "chinese": "意見；觀點",
+            "distractors": [
+                "sight",
+                "scenery"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "dining",
+            "chinese": "進餐；餐飲",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "sight",
+            "chinese": "視力；景象",
+            "distractors": [
+                "scenery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "harbor",
+            "chinese": "港口；港灣",
+            "distractors": [
+                "gallery",
+                "sight"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "scenery",
+            "chinese": "風景；景色",
+            "distractors": [
+                "sight",
+                "gallery"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "create",
+            "chinese": "創造；創作",
+            "distractors": [
+                "consider",
+                "graduate"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "take action",
+            "chinese": "採取行動",
+            "distractors": [
+                "consider",
+                "argue"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "consider",
+            "chinese": "考慮；認為",
+            "distractors": [
+                "graduate",
+                "create"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "whether",
+            "chinese": "是否",
+            "distractors": [
+                "therefore",
+                "though"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "therefore",
+            "chinese": "因此",
+            "distractors": [
+                "whether",
+                "though"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "though",
+            "chinese": "雖然",
+            "distractors": [
+                "whether",
+                "therefore"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "graduate",
+            "chinese": "畢業",
+            "distractors": [
+                "take action",
+                "argue"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "army",
+            "chinese": "陸軍；軍隊",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "gallery",
+            "chinese": "畫廊；美術館",
+            "distractors": [
+                "harbor",
+                "dining"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "argue",
+            "chinese": "爭論；主張",
+            "distractors": [
+                "consider",
+                "take action"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "opinion",
+            "chinese": "意見；觀點",
+            "distractors": [
+                "sight",
+                "scenery"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "dining",
+            "chinese": "進餐；餐飲",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "sight",
+            "chinese": "視力；景象",
+            "distractors": [
+                "scenery",
+                "harbor"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "harbor",
+            "chinese": "港口；港灣",
+            "distractors": [
+                "gallery",
+                "sight"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "scenery",
+            "chinese": "風景；景色",
+            "distractors": [
+                "sight",
+                "gallery"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "create",
+            "chinese": "創造；創作",
+            "distractors": [
+                "consider",
+                "graduate"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "We must _______ immediately to keep our hometown safe.",
+            "correct": "take action",
+            "distractors": [
+                "consider",
+                "argue"
+            ],
+            "hint": "填入動詞片語「採取行動」。",
+            "translation": "我們必須立刻採取行動來保護我們的家鄉安全。",
+            "id": 201
+        },
+        {
+            "sentence": "She spent a lot of time searching for the beautiful art _______ in the city.",
+            "correct": "gallery",
+            "distractors": [
+                "harbor",
+                "army"
+            ],
+            "hint": "結合「人 spend + 時間 + Ving」句型，填入名詞「畫廊；美術館」。",
+            "translation": "她花了許多時間在城市裡尋找美麗的美術館。",
+            "id": 202
+        },
+        {
+            "sentence": "It took the old painter five years to _______ this huge wall painting.",
+            "correct": "create",
+            "distractors": [
+                "consider",
+                "graduate"
+            ],
+            "hint": "結合「事 + take + 人 + 時間 + to V」句型，填入動詞「創造；創作」。",
+            "translation": "這位老畫家花了五年的時間創作這幅巨型壁畫。",
+            "id": 203
+        },
+        {
+            "sentence": "It cost my brother a lot of money to eat at the famous _______ area.",
+            "correct": "dining",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ],
+            "hint": "結合「物 + cost + 人 + 錢」句型，填入名詞「進餐；餐飲」。",
+            "translation": "我哥哥在那間著名的餐飲區用餐花了許多錢。",
+            "id": 204
+        },
+        {
+            "sentence": "The students had fun looking at the beautiful _______ near the ocean.",
+            "correct": "scenery",
+            "distractors": [
+                "sight",
+                "harbor"
+            ],
+            "hint": "結合「have fun + Ving」句型，填入名詞「風景；景色」。",
+            "translation": "學生們很開心能欣賞到海洋附近的優美景色。",
+            "id": 205
+        },
+        {
+            "sentence": "My brother will _______ from high school next month and join the army.",
+            "correct": "graduate",
+            "distractors": [
+                "consider",
+                "argue"
+            ],
+            "hint": "填入動詞「畢業」。",
+            "translation": "我哥哥下個月將從高中畢業並加入陸軍。",
+            "id": 206
+        },
+        {
+            "sentence": "You should _______ whether you have enough time to visit the museum.",
+            "correct": "consider",
+            "distractors": [
+                "argue",
+                "create"
+            ],
+            "hint": "填入動詞「考慮」。",
+            "translation": "你應該考慮你是否有足夠的時間參觀博物館。",
+            "id": 207
+        },
+        {
+            "sentence": "Everyone has a different _______ about how to protect the environment.",
+            "correct": "opinion",
+            "distractors": [
+                "sight",
+                "scenery"
+            ],
+            "hint": "填入名詞「意見；觀點」。",
+            "translation": "關於如何保護環境，每個人都有不同的觀點。",
+            "id": 208
+        },
+        {
+            "sentence": "The ships stopped at the safe _______ because the weather was bad.",
+            "correct": "harbor",
+            "distractors": [
+                "gallery",
+                "army"
+            ],
+            "hint": "填入名詞「港口；港灣」。",
+            "translation": "船隻停泊在安全的港口，因為天氣很糟糕。",
+            "id": 209
+        },
+        {
+            "sentence": "He was very tired; _______, he decided to take action and finish his job.",
+            "correct": "therefore",
+            "distractors": [
+                "whether",
+                "though"
+            ],
+            "hint": "填入轉折副詞「因此」。",
+            "translation": "他非常累；因此，他決定採取行動並完成他的工作。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "A Visit to the Harbor Art Gallery (港口美術館之旅)",
+            "articleContent": [
+                {
+                    "en": "Yesterday, Leo and his sister spent two hours visiting a gallery near the harbor.",
+                    "zh": "Leo和他妹妹昨天花了兩個小時參觀港口附近的一家美術館。"
+                },
+                {
+                    "en": "The harbor had a beautiful view, and the sea scenery was amazing.",
+                    "zh": "港口的景色很美，海景令人驚嘆。"
+                },
+                {
+                    "en": "Leo had fun taking photos of the old ships at the port.",
+                    "zh": "Leo在港口拍老船拍得很開心。"
+                },
+                {
+                    "en": "His sister didn't like the modern art, but Leo asked her to consider its deeper meaning.",
+                    "zh": "他妹妹不喜歡現代藝術，但Leo請她考慮其更深層的意義。"
+                },
+                {
+                    "en": "In his opinion, creating art is a great way to express feelings.",
+                    "zh": "在他看來，創作藝術是表達情感的好方法。"
+                },
+                {
+                    "en": "Though they had different ideas, they both enjoyed the sunny afternoon.",
+                    "zh": "雖然他們想法不同，但他們都度過了一個愉快的晴朗下午。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who spent two hours visiting the art gallery yesterday?",
+                    "options": [
+                        "Leo.",
+                        "Leo's sister",
+                        "Leo's art teacher"
+                    ],
+                    "correct": "Leo."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Leo spend two hours doing near the harbor?",
+                    "options": [
+                        "Visiting an art gallery.",
+                        "Buying a new boat",
+                        "Fishing with his friends"
+                    ],
+                    "correct": "Visiting an art gallery."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Leo and his sister visit the gallery?",
+                    "options": [
+                        "Yesterday afternoon.",
+                        "Last night",
+                        "Tomorrow morning"
+                    ],
+                    "correct": "Yesterday afternoon."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where was the art gallery located?",
+                    "options": [
+                        "Near the harbor.",
+                        "Inside a big mountain park",
+                        "Next to a high school"
+                    ],
+                    "correct": "Near the harbor."
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Leo have fun taking photos of at the port?",
+                    "options": [
+                        "The old ships.",
+                        "The fast cars",
+                        "The small birds"
+                    ],
+                    "correct": "The old ships."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Leo ask his sister to consider the art again?",
+                    "options": [
+                        "Because he thought creating art is a great way to express feelings.",
+                        "Because the ticket was very expensive",
+                        "Because they had to leave early"
+                    ],
+                    "correct": "Because he thought creating art is a great way to express feelings."
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "Sam's Big Decision (Sam的大決定)",
+            "articleContent": [
+                {
+                    "en": "Sam will graduate from high school this summer.",
+                    "zh": "Sam今年夏天將從高中畢業。"
+                },
+                {
+                    "en": "He couldn't decide whether to join the army or go to college.",
+                    "zh": "他無法決定要加入陸軍還是上大學。"
+                },
+                {
+                    "en": "Sam and his parents began to argue about his future plans.",
+                    "zh": "Sam和父母開始為他的未來計畫爭論。"
+                },
+                {
+                    "en": "It took his father three days to explain the benefits of joining the military.",
+                    "zh": "他父親花了三天時間解釋加入軍隊的好處。"
+                },
+                {
+                    "en": "It would cost Sam a lot of money to apply for different universities.",
+                    "zh": "Sam申請不同的大學將會花很多錢。"
+                },
+                {
+                    "en": "Therefore, Sam decided to take action and talk to a school counselor.",
+                    "zh": "因此，Sam決定採取行動並與學校輔導老師談話。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who will graduate from high school this summer?",
+                    "options": [
+                        "Sam.",
+                        "Steve",
+                        "Jane"
+                    ],
+                    "correct": "Sam."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Sam and his parents argue about?",
+                    "options": [
+                        "Sam's future plans after graduation.",
+                        "How to spend money on weekends",
+                        "Where to eat dinner tonight"
+                    ],
+                    "correct": "Sam's future plans after graduation."
+                },
+                {
+                    "qId": 3,
+                    "question": "When will Sam graduate from high school?",
+                    "options": [
+                        "This summer.",
+                        "Next winter",
+                        "Two years ago"
+                    ],
+                    "correct": "This summer."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Sam decide to go to get useful advice?",
+                    "options": [
+                        "To his school counselor's office.",
+                        "To an army base",
+                        "To an art gallery"
+                    ],
+                    "correct": "To his school counselor's office."
+                },
+                {
+                    "qId": 5,
+                    "question": "How long did it take Sam's father to explain the army's benefits?",
+                    "options": [
+                        "Three days.",
+                        "Three weeks",
+                        "One hour"
+                    ],
+                    "correct": "Three days."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Sam decide to take action and talk to a counselor?",
+                    "options": [
+                        "Because he was confused about whether to join the army or go to college.",
+                        "Because he failed his final exams",
+                        "Because his parents wanted him to move out"
+                    ],
+                    "correct": "Because he was confused about whether to join the army or go to college."
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "A Wonderful Day on the Mountain (山上的精彩一天)",
+            "articleContent": [
+                {
+                    "en": "Last Sunday, Amy's family visited a famous dining area on the mountain.",
+                    "zh": "上星期天，Amy一家人造訪了山上著名的餐飲區。"
+                },
+                {
+                    "en": "They spent two hundred dollars buying fresh food and delicious drinks.",
+                    "zh": "他們花了兩百美元購買新鮮食物和美味飲料。"
+                },
+                {
+                    "en": "The natural scenery was breathtaking, and the mountain sight was wonderful.",
+                    "zh": "自然風景令人屏息，山景非常讚。"
+                },
+                {
+                    "en": "The family had fun chatting and enjoying the sunset together.",
+                    "zh": "家人們很開心在一起聊天、欣賞落日。"
+                },
+                {
+                    "en": "Amy gave her opinion that this was the best restaurant in town.",
+                    "zh": "Amy發表意見表示這是鎮上最好的餐廳。"
+                },
+                {
+                    "en": "They will consider coming back here again next year.",
+                    "zh": "他們會考慮明年再次造訪這裡。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who visited the mountain dining area last Sunday?",
+                    "options": [
+                        "Amy's family.",
+                        "Amy's high school classmate",
+                        "Amy's teacher"
+                    ],
+                    "correct": "Amy's family."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Amy's family spend two hundred dollars buying?",
+                    "options": [
+                        "Fresh food and delicious drinks.",
+                        "New clothes and shoes",
+                        "Souvenirs and books"
+                    ],
+                    "correct": "Fresh food and delicious drinks."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Amy's family go to the mountain restaurant?",
+                    "options": [
+                        "Last Sunday.",
+                        "Every Friday night",
+                        "Last year"
+                    ],
+                    "correct": "Last Sunday."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where was the famous dining area located?",
+                    "options": [
+                        "On the mountain.",
+                        "Near the ocean harbor",
+                        "Next to a quiet lake"
+                    ],
+                    "correct": "On the mountain."
+                },
+                {
+                    "qId": 5,
+                    "question": "What special sight did the family enjoy together?",
+                    "options": [
+                        "The sunset and mountain scenery.",
+                        "A movie on a big screen",
+                        "Ships coming into the harbor"
+                    ],
+                    "correct": "The sunset and mountain scenery."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why will the family consider coming back next year?",
+                    "options": [
+                        "Because they had fun and enjoyed the food and scenery.",
+                        "Because the food was totally free",
+                        "Because Amy works there"
+                    ],
+                    "correct": "Because they had fun and enjoyed the food and scenery."
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "We must _______ immediately to keep our hometown safe.",
+            "correct": "take action",
+            "distractors": [
+                "consider",
+                "argue"
+            ],
+            "hint": "填入動詞片語「採取行動」。",
+            "translation": "我們必須立刻採取行動來保護我們的家鄉安全。",
+            "id": 401
+        },
+        {
+            "sentence": "She spent a lot of time searching for the beautiful art _______ in the city.",
+            "correct": "gallery",
+            "distractors": [
+                "harbor",
+                "army"
+            ],
+            "hint": "結合「人 spend + 時間 + Ving」句型，填入名詞「畫廊；美術館」。",
+            "translation": "她花了許多時間在城市裡尋找美麗的美術館。",
+            "id": 402
+        },
+        {
+            "sentence": "It took the old painter five years to _______ this huge wall painting.",
+            "correct": "create",
+            "distractors": [
+                "consider",
+                "graduate"
+            ],
+            "hint": "結合「事 + take + 人 + 時間 + to V」句型，填入動詞「創造；創作」。",
+            "translation": "這位老畫家花了五年的時間創作這幅巨型壁畫。",
+            "id": 403
+        },
+        {
+            "sentence": "It cost my brother a lot of money to eat at the famous _______ area.",
+            "correct": "dining",
+            "distractors": [
+                "gallery",
+                "harbor"
+            ],
+            "hint": "結合「物 + cost + 人 + 錢」句型，填入名詞「進餐；餐飲」。",
+            "translation": "我哥哥在那間著名的餐飲區用餐花了許多錢。",
+            "id": 404
+        },
+        {
+            "sentence": "The students had fun looking at the beautiful _______ near the ocean.",
+            "correct": "scenery",
+            "distractors": [
+                "sight",
+                "harbor"
+            ],
+            "hint": "結合「have fun + Ving」句型，填入名詞「風景；景色」。",
+            "translation": "學生們很開心能欣賞到海洋附近的優美景色。",
+            "id": 405
+        },
+        {
+            "sentence": "My brother will _______ from high school next month and join the army.",
+            "correct": "graduate",
+            "distractors": [
+                "consider",
+                "argue"
+            ],
+            "hint": "填入動詞「畢業」。",
+            "translation": "我哥哥下個月將從高中畢業並加入陸軍。",
+            "id": 406
+        },
+        {
+            "sentence": "You should _______ whether you have enough time to visit the museum.",
+            "correct": "consider",
+            "distractors": [
+                "argue",
+                "create"
+            ],
+            "hint": "填入動詞「考慮」。",
+            "translation": "你應該考慮你是否有足夠的時間參觀博物館。",
+            "id": 407
+        },
+        {
+            "sentence": "Everyone has a different _______ about how to protect the environment.",
+            "correct": "opinion",
+            "distractors": [
+                "sight",
+                "scenery"
+            ],
+            "hint": "填入名詞「意見；觀點」。",
+            "translation": "關於如何保護環境，每個人都有不同的觀點。",
+            "id": 408
+        },
+        {
+            "sentence": "The ships stopped at the safe _______ because the weather was bad.",
+            "correct": "harbor",
+            "distractors": [
+                "gallery",
+                "army"
+            ],
+            "hint": "填入名詞「港口；港灣」。",
+            "translation": "船隻停泊在安全的港口，因為天氣很糟糕。",
+            "id": 409
+        },
+        {
+            "sentence": "He was very tired; _______, he decided to take action and finish his job.",
+            "correct": "therefore",
+            "distractors": [
+                "whether",
+                "though"
+            ],
+            "hint": "填入轉折副詞「因此」。",
+            "translation": "他非常累；因此，他決定採取行動並完成他的工作。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "Gulliver in Lilliput (格列佛遊記：小人國歷險)",
+            "article": "Gulliver was a doctor who loved to travel by ship. After a huge storm at sea, his ship washed up near a strange {{1}}. When he woke up, he saw hundreds of tiny people around him. It took Gulliver two hours to realize {{2}} he was dreaming or not. The tiny king sent his {{3}} to guard the giant visitor safely. The king gave his {{4}} that Gulliver was peaceful, so they spent a whole afternoon enjoying the wonderful scenery together.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "harbor",
+                    "distractors": [
+                        "gallery",
+                        "dining"
+                    ],
+                    "hint": "填入名詞「港口；港灣」。",
+                    "translation": "在海上發生強烈風暴後，他的船漂流到一個陌生的港口附近。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "whether",
+                    "distractors": [
+                        "therefore",
+                        "though"
+                    ],
+                    "hint": "填入連接詞「是否」。",
+                    "translation": "Gulliver 花了兩個小時才意識到自己到底是在作夢還是清醒的。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "army",
+                    "distractors": [
+                        "sight",
+                        "scenery"
+                    ],
+                    "hint": "填入名詞「陸軍；軍隊」。",
+                    "translation": "小國王派遣他的軍隊來安全地保護這一位龐大的訪客。"
+                },
+                {
+                    "id": 5004,
+                    "marker": "{{4}}",
+                    "correct": "opinion",
+                    "distractors": [
+                        "consider",
+                        "argue"
+                    ],
+                    "hint": "填入名詞「意見；觀點」。",
+                    "translation": "國王發表了他的看法，認為 Gulliver 是和平的。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "The Emperor's New Clothes (國王的新衣)",
+            "article": "Long ago, an Emperor spent a lot of gold coins to buy beautiful clothes every month. Two dishonest weavers came to court and promised to {{1}} magic clothes for him. They said that only smart person could see the magic clothes. {{2}} the Emperor saw nothing on the loom, he was afraid to say it out loud. The ministers began to {{3}} with each other about who was the smartest person. It took the tiny boy just one second to tell the truth to the crowd. Everyone had fun laughing at the funny situation during the grand parade.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "create",
+                    "distractors": [
+                        "graduate",
+                        "consider"
+                    ],
+                    "hint": "填入動詞「創造；創作」。",
+                    "translation": "兩個不誠實的織工來到宮廷，許諾為他創作神奇的衣服。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "Though",
+                    "distractors": [
+                        "Therefore",
+                        "Whether"
+                    ],
+                    "hint": "填入連接詞「雖然」。",
+                    "translation": "雖然皇帝在織布機上什麼也沒看到，但他不敢大聲說出來。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "argue",
+                    "distractors": [
+                        "consider",
+                        "take action"
+                    ],
+                    "hint": "填入動詞「爭論；主張」。",
+                    "translation": "大臣們開始互相爭論誰才是最聰明的人。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "A Young Student's Ocean Mission (青年學子的海洋保衛戰)",
+            "article": "A young student named Emma will {{1}} from university next month. She hosted a green exhibition in a famous local art {{2}}. The exhibition showed the sad sight of plastic harming marine animals. Emma urged all visitors to {{3}} and stop using single-use plastic cups. She hopes everyone will {{4}} whether their daily habits are hurting the Earth.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "graduate",
+                    "distractors": [
+                        "consider",
+                        "argue"
+                    ],
+                    "hint": "填入動詞「畢業」。",
+                    "translation": "一位名為 Emma 的年輕學生下個月將從大學畢業。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "gallery",
+                    "distractors": [
+                        "harbor",
+                        "army"
+                    ],
+                    "hint": "填入名詞「畫廊；美術館」。",
+                    "translation": "她在一家著名的在地美術館舉辦了一場綠色展覽。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "take action",
+                    "distractors": [
+                        "consider",
+                        "argue"
+                    ],
+                    "hint": "填入動詞片語「採取行動」。",
+                    "translation": "Emma 呼籲所有訪客採取行動，停止使用一次性塑膠杯。"
+                },
+                {
+                    "id": 5004,
+                    "marker": "{{4}}",
+                    "correct": "consider",
+                    "distractors": [
+                        "graduate",
+                        "create"
+                    ],
+                    "hint": "填入動詞「考慮」。",
+                    "translation": "她希望每個人都能考慮他們的日常習慣是否正在傷害地球。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "Gulliver in Lilliput (格列佛遊記：小人國歷險)",
+            "articleContent": [
+                {
+                    "en": "Gulliver was a doctor who loved to travel by ship.",
+                    "zh": "Gulliver 是一位喜歡搭船旅行的醫生。"
+                },
+                {
+                    "en": "After a huge storm at sea, his ship washed up near a strange harbor.",
+                    "zh": "在海上發生強烈風暴後，他的船漂流到一個陌生的港口附近。"
+                },
+                {
+                    "en": "When he woke up, he saw hundreds of tiny people around him.",
+                    "zh": "當他醒來時，看到周圍有數百個微小的人。"
+                },
+                {
+                    "en": "It took Gulliver two hours to realize whether he was dreaming or awake.",
+                    "zh": "Gulliver 花了兩個小時才意識到自己到底是在作夢還是清醒的。"
+                },
+                {
+                    "en": "The tiny king sent his army to guard the giant visitor safely.",
+                    "zh": "小國王派遣他的軍隊來安全地保護這一位龐大的訪客。"
+                },
+                {
+                    "en": "The king gave his opinion that Gulliver was peaceful.",
+                    "zh": "國王發表了他的看法，認為 Gulliver 是和平的。"
+                },
+                {
+                    "en": "They spent a whole afternoon enjoying the wonderful scenery together.",
+                    "zh": "他們一起度過了整個下午，欣賞著絕妙的風景。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who was Gulliver in this famous story?",
+                    "options": [
+                        "A doctor who loved to travel by ship.",
+                        "A king who ruled a tiny island",
+                        "A soldier who fought in the army"
+                    ],
+                    "correct": "A doctor who loved to travel by ship."
+                },
+                {
+                    "qId": 2,
+                    "question": "What happened to Gulliver's ship before he reached the land?",
+                    "options": [
+                        "It washed up near a strange harbor after a storm.",
+                        "It was destroyed by huge sea monsters",
+                        "It was stolen by greedy pirates"
+                    ],
+                    "correct": "It washed up near a strange harbor after a storm."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Gulliver realize he was not dreaming?",
+                    "options": [
+                        "Two hours after he woke up.",
+                        "Three days after he met the king",
+                        "Immediately before the storm started"
+                    ],
+                    "correct": "Two hours after he woke up."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Gulliver find himself when he woke up?",
+                    "options": [
+                        "In a strange land with hundreds of tiny people.",
+                        "Inside a big art gallery",
+                        "On a high mountain"
+                    ],
+                    "correct": "In a strange land with hundreds of tiny people."
+                },
+                {
+                    "qId": 5,
+                    "question": "How did the tiny king protect Gulliver?",
+                    "options": [
+                        "He sent his army to guard him safely.",
+                        "He locked him inside a wooden cage",
+                        "He hid him in a dark cave"
+                    ],
+                    "correct": "He sent his army to guard him safely."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did the king decide to be friendly to Gulliver?",
+                    "options": [
+                        "Because he gave his opinion that Gulliver was peaceful.",
+                        "Because Gulliver paid him a lot of gold coins",
+                        "Because Gulliver promised to build new ships for him"
+                    ],
+                    "correct": "Because he gave his opinion that Gulliver was peaceful."
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "The Emperor's New Clothes (國王的新衣)",
+            "articleContent": [
+                {
+                    "en": "Long ago, an Emperor spent a lot of gold coins to buy beautiful clothes every month.",
+                    "zh": "很久以前，一位皇帝每個月都花費大量金幣購買美麗的衣服。"
+                },
+                {
+                    "en": "Two dishonest weavers came to court and promised to create magic clothes for him.",
+                    "zh": "兩個不誠實的織工來到宮廷，許諾為他創作神奇的衣服。"
+                },
+                {
+                    "en": "They said that only smart person can see the magic clothes.",
+                    "zh": "他們說只有聰明的人才能看見這套神奇的衣服。"
+                },
+                {
+                    "en": "Though the Emperor saw nothing on the loom, he was afraid to say it out loud.",
+                    "zh": "雖然皇帝在織布機上什麼也沒看到，但他不敢大聲說出來。"
+                },
+                {
+                    "en": "The ministers began to argue with each other about who was the smartest person.",
+                    "zh": "大臣們開始互相爭論誰才是最聰明的人。"
+                },
+                {
+                    "en": "It took the tiny boy just one second to tell the truth to the crowd.",
+                    "zh": "那個小孩只花了一秒鐘就向人群說出了真相。"
+                },
+                {
+                    "en": "Everyone had fun laughing at the funny situation during the grand parade.",
+                    "zh": "在盛大的遊行中，大家對於這個滑稽的情形感到非常開心。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who spent a lot of money buying beautiful clothes every month?",
+                    "options": [
+                        "The Emperor.",
+                        "The young boy",
+                        "The court weaver"
+                    ],
+                    "correct": "The Emperor."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the two weavers promise to create for the Emperor?",
+                    "options": [
+                        "Magic clothes that only clever people could see.",
+                        "Golden armor for the army",
+                        "A large ship for the harbor"
+                    ],
+                    "correct": "Magic clothes that only clever people could see."
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the boy tell the truth to the crowd?",
+                    "options": [
+                        "During the grand parade in the city.",
+                        "Before the weavers came to court",
+                        "Late at night in the palace"
+                    ],
+                    "correct": "During the grand parade in the city."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the weavers work on the magic clothes?",
+                    "options": [
+                        "At the royal court.",
+                        "Inside a secret art gallery",
+                        "On a boat near the ocean"
+                    ],
+                    "correct": "At the royal court."
+                },
+                {
+                    "qId": 5,
+                    "question": "How did the court ministers react when looking at the loom?",
+                    "options": [
+                        "They argued about who was the smartest person.",
+                        "They cried loudly and called the police",
+                        "They refused to enter the room"
+                    ],
+                    "correct": "They argued about who was the smartest person."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did the Emperor keep quiet even though he saw nothing?",
+                    "options": [
+                        "Because he was afraid people would think he was stupid.",
+                        "Because he was too tired to talk",
+                        "Because he lost his voice during the trip"
+                    ],
+                    "correct": "Because he was afraid people would think he was stupid."
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "A Young Student's Ocean Mission (青年學子的海洋保衛戰)",
+            "articleContent": [
+                {
+                    "en": "A young student named Emma will graduate from university next month.",
+                    "zh": "一位名為 Emma 的年輕學生下個月將從大學畢業。"
+                },
+                {
+                    "en": "She hosted a green exhibition in a famous local art gallery.",
+                    "zh": "她在一家著名的在地美術館舉辦了一場綠色展覽。"
+                },
+                {
+                    "en": "The exhibition showed the sad sight of plastic harming marine animals.",
+                    "zh": "該展覽展示了塑膠傷害海洋動物的悲傷景象。"
+                },
+                {
+                    "en": "Emma urged all visitors to take action and stop using single-use plastic cups.",
+                    "zh": "Emma 呼籲所有訪客採取行動，停止使用一次性塑塑膠杯。"
+                },
+                {
+                    "en": "She hopes everyone will consider whether their daily habits are hurting the Earth.",
+                    "zh": "她希望每個人都能考慮他們的日常習慣是否正在傷害地球。"
+                },
+                {
+                    "en": "It cost the city council zero dollars to support her eco-friendly ideas.",
+                    "zh": "市政府支持她的環保理念完全沒有花費任何費用。"
+                },
+                {
+                    "en": "Many restaurants in the dining area agreed to reduce plastic waste.",
+                    "zh": "餐飲區的許多餐廳同意減少塑膠垃圾。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who organized the green environmental exhibition?",
+                    "options": [
+                        "A young student named Emma.",
+                        "A famous dining chef",
+                        "The city council"
+                    ],
+                    "correct": "A young student named Emma."
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Emma show at the green exhibition?",
+                    "options": [
+                        "Photos of plastic harming marine animals.",
+                        "Paintings of ancient kings and queens",
+                        "Photos of beautiful beaches"
+                    ],
+                    "correct": "Photos of plastic harming marine animals."
+                },
+                {
+                    "qId": 3,
+                    "question": "When will Emma graduate from university?",
+                    "options": [
+                        "Next month.",
+                        "Two years ago",
+                        "Next year"
+                    ],
+                    "correct": "Next month."
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Emma host her green exhibition?",
+                    "options": [
+                        "In a famous local art gallery.",
+                        "At a busy harbor dock",
+                        "In a high mountain forest"
+                    ],
+                    "correct": "In a famous local art gallery."
+                },
+                {
+                    "qId": 5,
+                    "question": "How much money did the city council spend to support her idea?",
+                    "options": [
+                        "Zero dollars.",
+                        "Hundreds of thousands of dollars",
+                        "Fifty dollars per person"
+                    ],
+                    "correct": "Zero dollars."
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Emma ask visitors to take action immediately?",
+                    "options": [
+                        "To protect marine life and reduce single-use plastic.",
+                        "To earn money for her university",
+                        "To help the army recruit new members"
+                    ],
+                    "correct": "To protect marine life and reduce single-use plastic."
+                }
+            ]
+        }
+    ]
+}
