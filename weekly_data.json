@@ -1,0 +1,1176 @@
+{
+    "updateDate": "2026-08-01",
+    "classPasscode": "801",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "crash",
+            "chinese": "墜毀",
+            "distractors": [
+                "passenger",
+                "focus on"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "passenger",
+            "chinese": "乘客",
+            "distractors": [
+                "absent",
+                "achieve"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "focus on",
+            "chinese": "專注",
+            "distractors": [
+                "receive",
+                "cash"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "absent",
+            "chinese": "缺席",
+            "distractors": [
+                "worth",
+                "beat"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "achieve",
+            "chinese": "達到",
+            "distractors": [
+                "give up",
+                "supply"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "receive",
+            "chinese": "收到",
+            "distractors": [
+                "support",
+                "soil"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "cash",
+            "chinese": "現金",
+            "distractors": [
+                "stay fit",
+                "offer"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "worth",
+            "chinese": "值得",
+            "distractors": [
+                "crash",
+                "passenger"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "beat",
+            "chinese": "打敗",
+            "distractors": [
+                "focus on",
+                "absent"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "give up",
+            "chinese": "放棄",
+            "distractors": [
+                "achieve",
+                "receive"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "supply",
+            "chinese": "供給",
+            "distractors": [
+                "support",
+                "worth"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "support",
+            "chinese": "支持",
+            "distractors": [
+                "beat",
+                "supply"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "soil",
+            "chinese": "土壤",
+            "distractors": [
+                "beat",
+                "offer"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "stay fit",
+            "chinese": "保持身材",
+            "distractors": [
+                "focus on",
+                "give up"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "offer",
+            "chinese": "提供",
+            "distractors": [
+                "focus on",
+                "absent"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "crash",
+            "chinese": "墜毀",
+            "distractors": [
+                "passenger",
+                "focus on"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "passenger",
+            "chinese": "乘客",
+            "distractors": [
+                "absent",
+                "achieve"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "focus on",
+            "chinese": "專注",
+            "distractors": [
+                "receive",
+                "cash"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "absent",
+            "chinese": "缺席",
+            "distractors": [
+                "worth",
+                "beat"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "achieve",
+            "chinese": "達到",
+            "distractors": [
+                "give up",
+                "supply"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "receive",
+            "chinese": "收到",
+            "distractors": [
+                "support",
+                "soil"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "cash",
+            "chinese": "現金",
+            "distractors": [
+                "stay fit",
+                "offer"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "worth",
+            "chinese": "值得",
+            "distractors": [
+                "crash",
+                "passenger"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "beat",
+            "chinese": "打敗",
+            "distractors": [
+                "focus on",
+                "absent"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "give up",
+            "chinese": "放棄",
+            "distractors": [
+                "achieve",
+                "receive"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "supply",
+            "chinese": "供給",
+            "distractors": [
+                "support",
+                "worth"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "support",
+            "chinese": "支持",
+            "distractors": [
+                "beat",
+                "supply"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "soil",
+            "chinese": "土壤",
+            "distractors": [
+                "beat",
+                "offer"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "stay fit",
+            "chinese": "保持身材",
+            "distractors": [
+                "focus on",
+                "give up"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "offer",
+            "chinese": "提供",
+            "distractors": [
+                "focus on",
+                "absent"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "The plane did not _______ because the pilot was very careful.",
+            "correct": "crash",
+            "distractors": [
+                "receive",
+                "soil"
+            ],
+            "hint": "意思為「墜毀」，否定句助動詞 did 後面接原形動詞",
+            "translation": "這架飛機沒有墜毀，因為機師非常小心。",
+            "id": 201
+        },
+        {
+            "sentence": "Every _______ on the bus must wear a seatbelt for safety.",
+            "correct": "passenger",
+            "distractors": [
+                "cash",
+                "supply"
+            ],
+            "hint": "意思為「乘客」，此處用單數可數名詞",
+            "translation": "公車上的每位乘客為了安全都必須繫上安全帶。",
+            "id": 202
+        },
+        {
+            "sentence": "You should _______ your homework, not your smartphone.",
+            "correct": "focus on",
+            "distractors": [
+                "give up",
+                "beat"
+            ],
+            "hint": "片語意思為「專注於」，情態助動詞 should 後面接原形動詞",
+            "translation": "你應該專注於你的作業，而不是你的智慧型手機。",
+            "id": 203
+        },
+        {
+            "sentence": "Leo was _______ from school yesterday because he was sick.",
+            "correct": "absent",
+            "distractors": [
+                "worth",
+                "support"
+            ],
+            "hint": "形容詞意思為「缺席的」，與 be 動詞連用",
+            "translation": "里歐昨天因為生病所以學校缺席了。",
+            "id": 204
+        },
+        {
+            "sentence": "If you study hard, you can _______ your goal.",
+            "correct": "achieve",
+            "distractors": [
+                "crash",
+                "stay fit"
+            ],
+            "hint": "動詞意思為「達到/實現」，助動詞 can 後面接原形動詞",
+            "translation": "如果你努力學習，你就能達到你的目標。",
+            "id": 205
+        },
+        {
+            "sentence": "Did you _______ a letter from your friend in Japan?",
+            "correct": "receive",
+            "distractors": [
+                "passenger",
+                "offer"
+            ],
+            "hint": "動詞意思為「收到」，過去式疑問句使用 Did + 主詞 + 原形動詞",
+            "translation": "你有收到日本朋友寄來的信嗎？",
+            "id": 206
+        },
+        {
+            "sentence": "The rich man paid for the bicycle with _______.",
+            "correct": "cash",
+            "distractors": [
+                "focus on",
+                "absent"
+            ],
+            "hint": "名詞意思為「現金」，為不可數名詞",
+            "translation": "那位富翁用現金支付了腳踏車的費用。",
+            "id": 207
+        },
+        {
+            "sentence": "This interesting book is _______ reading again and again.",
+            "correct": "worth",
+            "distractors": [
+                "achieve",
+                "beat"
+            ],
+            "hint": "介系詞/形容詞意思為「值得」，常用句型為 be worth + V-ing",
+            "translation": "這本有趣的書值得一讀再讀。",
+            "id": 208
+        },
+        {
+            "sentence": "Our team will _______ the other team in the basketball game.",
+            "correct": "beat",
+            "distractors": [
+                "supply",
+                "soil"
+            ],
+            "hint": "動詞意思為「打敗」，未來式 will 後面接原形動詞",
+            "translation": "我們隊伍將會在籃球比賽中打敗另一隊。",
+            "id": 209
+        },
+        {
+            "sentence": "Never _______ when you face a difficult problem.",
+            "correct": "give up",
+            "distractors": [
+                "passenger",
+                "cash"
+            ],
+            "hint": "片語意思為「放棄」，祈使句否定使用 Never + 原形動詞",
+            "translation": "當你面對困難的問題時，絕對不要放棄。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "The Big Soccer Game (大滿貫足球賽)",
+            "articleContent": [
+                {
+                    "en": "Sam wants to beat the other team in the soccer game.",
+                    "zh": "山姆想在足球比賽中打敗另一隊。"
+                },
+                {
+                    "en": "His friends offer their support and come to watch him play.",
+                    "zh": "他的朋友提供支持並前來看他比賽。"
+                },
+                {
+                    "en": "During the game, Sam needs to focus on the ball.",
+                    "zh": "在比賽期間，山姆需要專注於球上。"
+                },
+                {
+                    "en": "Even when the game is hard, he decides not to give up.",
+                    "zh": "即使比賽很艱難，他決定不放棄。"
+                },
+                {
+                    "en": "Finally, Sam scores a goal and helps his team win.",
+                    "zh": "最後，山姆踢進一球並幫助他的球隊獲勝。"
+                },
+                {
+                    "en": "He feels happy because he can achieve his dream today.",
+                    "zh": "他感到很高興，因為他今天能夠實現他的夢想。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who wants to win in the game?",
+                    "options": [
+                        "Sam",
+                        "Sandy",
+                        "Steve"
+                    ],
+                    "correct": "Sam"
+                },
+                {
+                    "qId": 2,
+                    "question": "What does Sam need to focus on during the game?",
+                    "options": [
+                        "The soccer ball",
+                        "His smartphone",
+                        "His new shoes"
+                    ],
+                    "correct": "The soccer ball"
+                },
+                {
+                    "qId": 3,
+                    "question": "How do Sam's friends help him?",
+                    "options": [
+                        "They offer their support",
+                        "They give him cash",
+                        "They cheer for him"
+                    ],
+                    "correct": "They offer their support"
+                },
+                {
+                    "qId": 4,
+                    "question": "What does Sam decide not to do when the game is hard?",
+                    "options": [
+                        "Give up",
+                        "Score a goal",
+                        "Lie on the ground"
+                    ],
+                    "correct": "Give up"
+                },
+                {
+                    "qId": 5,
+                    "question": "Why does Sam feel happy at the end?",
+                    "options": [
+                        "Because he achieves his dream",
+                        "Because he receives a letter",
+                        "Because he loses the game"
+                    ],
+                    "correct": "Because he achieves his dream"
+                },
+                {
+                    "qId": 6,
+                    "question": "Where does this story happen?",
+                    "options": [
+                        "At a soccer field",
+                        "On an airplane",
+                        "In a garden"
+                    ],
+                    "correct": "At a soccer field"
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "A Safe Flight to Tokyo (前往東京的安全飛行)",
+            "articleContent": [
+                {
+                    "en": "Mrs. Brown is a passenger on a flight to Tokyo today.",
+                    "zh": "布朗太太今天是飛往東京班機上的一位乘客。"
+                },
+                {
+                    "en": "She was absent from work last week to prepare for this trip.",
+                    "zh": "她上週請假沒上班，以準備這次旅行。"
+                },
+                {
+                    "en": "Some people are afraid the plane might crash, but the pilot is very careful.",
+                    "zh": "有些人害怕飛機會墜毀，但機師非常小心。"
+                },
+                {
+                    "en": "Before landing, she receives a nice hot meal from the flight attendant.",
+                    "zh": "在降落前，她收到空服員送來的美味熱餐。"
+                },
+                {
+                    "en": "After landing, she uses cash to buy a beautiful souvenir.",
+                    "zh": "降落後，她使用現金買了一個美麗的紀念品。"
+                },
+                {
+                    "en": "She thinks this special trip is definitely worth all the money.",
+                    "zh": "她認為這次特別的旅行絕對值得所有的錢。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who is a passenger on the plane today?",
+                    "options": [
+                        "Mrs. Brown",
+                        "Mr. Brown",
+                        "Mrs. Blake"
+                    ],
+                    "correct": "Mrs. Brown"
+                },
+                {
+                    "qId": 2,
+                    "question": "Why was Mrs. Brown absent from work last week?",
+                    "options": [
+                        "To prepare for her trip",
+                        "Because she was sick",
+                        "To prepare for her report"
+                    ],
+                    "correct": "To prepare for her trip"
+                },
+                {
+                    "qId": 3,
+                    "question": "What does Mrs. Brown receive before landing?",
+                    "options": [
+                        "A nice hot meal",
+                        "A new book",
+                        "A bottle of water"
+                    ],
+                    "correct": "A nice hot meal"
+                },
+                {
+                    "qId": 4,
+                    "question": "What does she use to buy a souvenir after landing?",
+                    "options": [
+                        "Cash",
+                        "Credit card",
+                        "icash card"
+                    ],
+                    "correct": "Cash"
+                },
+                {
+                    "qId": 5,
+                    "question": "Where is Mrs. Brown flying to?",
+                    "options": [
+                        "Tokyo",
+                        "London",
+                        "New York"
+                    ],
+                    "correct": "Tokyo"
+                },
+                {
+                    "qId": 6,
+                    "question": "How does she feel about her trip?",
+                    "options": [
+                        "It is worth all the money",
+                        "It is scary and terrible",
+                        "It is very boring"
+                    ],
+                    "correct": "It is worth all the money"
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "The Community Garden (社區花園)",
+            "articleContent": [
+                {
+                    "en": "Grandfather loves working in the community garden every weekend.",
+                    "zh": "祖父喜歡每個週末在社區花園裡工作。"
+                },
+                {
+                    "en": "He needs rich soil and plenty of water for his plants.",
+                    "zh": "他的植物需要肥沃的土壤和充足的水分。"
+                },
+                {
+                    "en": "The neighbors offer to help him water the flowers.",
+                    "zh": "鄰居們主動幫他給花朵澆水。"
+                },
+                {
+                    "en": "They also supply new seeds to make the garden beautiful.",
+                    "zh": "他們還提供新種子讓花園變得美麗。"
+                },
+                {
+                    "en": "Grandfather works hard and receives many fresh tomatoes in summer.",
+                    "zh": "祖父努力工作，在夏天收穫了許多新鮮的番茄。"
+                },
+                {
+                    "en": "He gives them away to show his support to his friends.",
+                    "zh": "他把番茄送給大家，以向朋友們表達支持。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who loves working in the garden every weekend?",
+                    "options": [
+                        "Grandfather",
+                        "Neighbors",
+                        "Grandmother"
+                    ],
+                    "correct": "Grandfather"
+                },
+                {
+                    "qId": 2,
+                    "question": "What does Grandfather need for his plants?",
+                    "options": [
+                        "soil and water",
+                        "Cash",
+                        "seed and water"
+                    ],
+                    "correct": "soil and water"
+                },
+                {
+                    "qId": 3,
+                    "question": "What do the neighbors supply for the garden?",
+                    "options": [
+                        "New seeds",
+                        "Delicious hot meals",
+                        "Water bottle"
+                    ],
+                    "correct": "New seeds"
+                },
+                {
+                    "qId": 4,
+                    "question": "When does Grandfather receive many fresh tomatoes?",
+                    "options": [
+                        "In summer",
+                        "In winter",
+                        "In spring"
+                    ],
+                    "correct": "In summer"
+                },
+                {
+                    "qId": 5,
+                    "question": "Where does Grandfather work every weekend?",
+                    "options": [
+                        "In the community garden",
+                        "In the backyard",
+                        "In the park"
+                    ],
+                    "correct": "In the community garden"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why does Grandfather give away the tomatoes?",
+                    "options": [
+                        "To show support to his friends",
+                        "To sell them for cash",
+                        "To get more seeds"
+                    ],
+                    "correct": "To show support to his friends"
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "The plane did not _______ because the pilot was very careful.",
+            "correct": "crash",
+            "distractors": [
+                "receive",
+                "soil"
+            ],
+            "hint": "意思為「墜毀」，否定句助動詞 did 後面接原形動詞",
+            "translation": "這架飛機沒有墜毀，因為機師非常小心。",
+            "id": 401
+        },
+        {
+            "sentence": "Every _______ on the bus must wear a seatbelt for safety.",
+            "correct": "passenger",
+            "distractors": [
+                "cash",
+                "supply"
+            ],
+            "hint": "意思為「乘客」，此處用單數可數名詞",
+            "translation": "公車上的每位乘客為了安全都必須繫上安全帶。",
+            "id": 402
+        },
+        {
+            "sentence": "You should _______ your homework, not your smartphone.",
+            "correct": "focus on",
+            "distractors": [
+                "give up",
+                "beat"
+            ],
+            "hint": "片語意思為「專注於」，情態助動詞 should 後面接原形動詞",
+            "translation": "你應該專注於你的作業，而不是你的智慧型手機。",
+            "id": 403
+        },
+        {
+            "sentence": "Leo was _______ from school yesterday because he was sick.",
+            "correct": "absent",
+            "distractors": [
+                "worth",
+                "support"
+            ],
+            "hint": "形容詞意思為「缺席的」，與 be 動詞連用",
+            "translation": "里歐昨天因為生病所以學校缺席了。",
+            "id": 404
+        },
+        {
+            "sentence": "If you study hard, you can _______ your goal.",
+            "correct": "achieve",
+            "distractors": [
+                "crash",
+                "stay fit"
+            ],
+            "hint": "動詞意思為「達到/實現」，助動詞 can 後面接原形動詞",
+            "translation": "如果你努力學習，你就能達到你的目標。",
+            "id": 405
+        },
+        {
+            "sentence": "Did you _______ a letter from your friend in Japan?",
+            "correct": "receive",
+            "distractors": [
+                "passenger",
+                "offer"
+            ],
+            "hint": "動詞意思為「收到」，過去式疑問句使用 Did + 主詞 + 原形動詞",
+            "translation": "你有收到日本朋友寄來的信嗎？",
+            "id": 406
+        },
+        {
+            "sentence": "The rich man paid for the bicycle with _______.",
+            "correct": "cash",
+            "distractors": [
+                "focus on",
+                "absent"
+            ],
+            "hint": "名詞意思為「現金」，為不可數名詞",
+            "translation": "那位富翁用現金支付了腳踏車的費用。",
+            "id": 407
+        },
+        {
+            "sentence": "This interesting book is _______ reading again and again.",
+            "correct": "worth",
+            "distractors": [
+                "achieve",
+                "beat"
+            ],
+            "hint": "介系詞/形容詞意思為「值得」，常用句型為 be worth + V-ing",
+            "translation": "這本有趣的書值得一讀再讀。",
+            "id": 408
+        },
+        {
+            "sentence": "Our team will _______ the other team in the basketball game.",
+            "correct": "beat",
+            "distractors": [
+                "supply",
+                "soil"
+            ],
+            "hint": "動詞意思為「打敗」，未來式 will 後面接原形動詞",
+            "translation": "我們隊伍將會在籃球比賽中打敗另一隊。",
+            "id": 409
+        },
+        {
+            "sentence": "Never _______ when you face a difficult problem.",
+            "correct": "give up",
+            "distractors": [
+                "passenger",
+                "cash"
+            ],
+            "hint": "片語意思為「放棄」，祈使句否定使用 Never + 原形動詞",
+            "translation": "當你面對困難的問題時，絕對不要放棄。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "The Tortoise and the Hare (伊索寓言：龜兔賽跑)",
+            "article": "A fast hare always liked to say that he could {{1}} any animal in a race. A slow tortoise challenged him to a run. During the race, the hare was confident and decided to rest, while the tortoise chose to {{2}} running slowly. The tortoise did not {{3}} and won the race in the end.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "beat",
+                    "distractors": [
+                        "crash",
+                        "receive"
+                    ],
+                    "hint": "動詞意思為「打敗」，情態助動詞 could 後面接原形動詞",
+                    "translation": "一隻快速的野兔總是喜歡說他可以在比賽中打敗任何動物。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "focus on",
+                    "distractors": [
+                        "absent",
+                        "supply"
+                    ],
+                    "hint": "片語意思為「專注於」，動詞 choose 後面可接不定詞 to + 原形動詞",
+                    "translation": "在比賽期間，野兔很有自信並決定休息，而烏龜則選擇專注於慢慢向前跑。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "give up",
+                    "distractors": [
+                        "worth",
+                        "cash"
+                    ],
+                    "hint": "片語意思為「放棄」，助動詞 did not 後面接原形動詞",
+                    "translation": "烏龜沒有放棄，最後贏得了比賽。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "Jack and the Beanstalk (經典童話：傑克與魔豆)",
+            "article": "Jack and his mother were very poor and had no {{1}} to buy food. One day, a strange man made an {{2}} to trade magic beans for Jack's cow. When Jack brought the beans home, his angry mother threw them out into the garden {{3}}. The next morning, a huge beanstalk grew high into the sky.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "cash",
+                    "distractors": [
+                        "passenger",
+                        "soil"
+                    ],
+                    "hint": "名詞意思為「現金」，在此作不可數名詞使用",
+                    "translation": "傑克和他的母親非常貧窮，沒有現金買食物。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "offer",
+                    "distractors": [
+                        "absent",
+                        "beat"
+                    ],
+                    "hint": "名詞意思為「提議/提供」，前面配冠詞 an",
+                    "translation": "有一天，一個陌生人提議用魔豆交換傑克的牛。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "soil",
+                    "distractors": [
+                        "support",
+                        "supply"
+                    ],
+                    "hint": "名詞意思為「土壤」，這裡指花園的泥土",
+                    "translation": "當傑克把豆子帶回家時，他生氣的母親把它們扔到了肥沃的花園土壤裡。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "Green Flying and the Future (環保新知：綠色飛行與未來)",
+            "article": "Airplanes emit carbon, so engineers work hard to protect our air. Every year, millions of people travel as a {{1}} on international flights. Scientists want to {{2}} cleaner energy to airlines to reduce pollution. Many eco-friendly organizations offer full {{3}} to build electric planes in the future.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "passenger",
+                    "distractors": [
+                        "give up",
+                        "worth"
+                    ],
+                    "hint": "可數名詞意思為「乘客」，前面有單數冠詞 a",
+                    "translation": "每年有數百萬人作為乘客搭乘國際航班旅行。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "supply",
+                    "distractors": [
+                        "focus on",
+                        "absent"
+                    ],
+                    "hint": "動詞意思為「供給/提供」，不定詞 to 後面接原形動詞",
+                    "translation": "科學家們想要向航空公司供給更清潔的能源以減少污染。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "support",
+                    "distractors": [
+                        "receive",
+                        "cash"
+                    ],
+                    "hint": "名詞意思為「支持」，不可數名詞",
+                    "translation": "許多環保組織提供全力支持，以在未來製造電動飛機。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "The Tortoise and the Hare (伊索寓言：龜兔賽跑)",
+            "articleContent": [
+                {
+                    "en": "A fast hare always liked to say that he could beat any animal in a race.",
+                    "zh": "一隻快速的野兔總是喜歡說他可以在比賽中打敗任何動物。"
+                },
+                {
+                    "en": "A slow tortoise challenged him to a run.",
+                    "zh": "一隻慢吞吞的烏龜向他挑戰跑步。"
+                },
+                {
+                    "en": "During the race, the hare was confident and decided to rest, while the tortoise chose to focus on running slowly.",
+                    "zh": "在比賽期間，野兔很有自信並決定休息，而烏龜則選擇專注於慢慢向前跑。"
+                },
+                {
+                    "en": "The tortoise did not give up and won the race in the end.",
+                    "zh": "烏龜沒有放棄，最後贏得了比賽。"
+                },
+                {
+                    "en": "This famous story teaches us that slow and steady wins the race.",
+                    "zh": "這個著名的故事教導我們，持續努力最終會獲得勝利。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who challenged the fast hare to a race?",
+                    "options": [
+                        "A slow tortoise",
+                        "A tiny mouse",
+                        "A brave lion"
+                    ],
+                    "correct": "A slow tortoise"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the hare say he could do?",
+                    "options": [
+                        "Beat any animal in a race",
+                        "Fly in the blue sky",
+                        "Build a giant house"
+                    ],
+                    "correct": "Beat any animal in a race"
+                },
+                {
+                    "qId": 3,
+                    "question": "What did the hare decide to do during the race?",
+                    "options": [
+                        "Take a rest",
+                        "Take a shower",
+                        "Take a walk"
+                    ],
+                    "correct": "Take a rest"
+                },
+                {
+                    "qId": 4,
+                    "question": "What did the tortoise focus on during the race?",
+                    "options": [
+                        "Running slowly",
+                        "Sleeping under a tree",
+                        "Looking for cash"
+                    ],
+                    "correct": "Running slowly"
+                },
+                {
+                    "qId": 5,
+                    "question": "Who won the race in the end?",
+                    "options": [
+                        "The tortoise",
+                        "The hare",
+                        "Neither of them"
+                    ],
+                    "correct": "The tortoise"
+                },
+                {
+                    "qId": 6,
+                    "question": "What lesson does this story teach us?",
+                    "options": [
+                        "Slow and steady wins the race",
+                        "Fast animals always win",
+                        "Money can buy everything"
+                    ],
+                    "correct": "Slow and steady wins the race"
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "Jack and the Beanstalk (經典童話：傑克與魔豆)",
+            "articleContent": [
+                {
+                    "en": "Jack and his mother were very poor and had no cash to buy food.",
+                    "zh": "傑克和他的母親非常貧窮，沒有現金買食物。"
+                },
+                {
+                    "en": "One day, a strange man made an offer to trade magic beans for Jack's cow.",
+                    "zh": "有一天，一個陌生人提議用魔豆交換傑克的牛。"
+                },
+                {
+                    "en": "When Jack brought the beans home, his angry mother threw them out into the rich garden soil.",
+                    "zh": "當傑克把豆子帶回家時，他生氣的母親把它們扔到了花園土壤裡。"
+                },
+                {
+                    "en": "The next morning, a huge beanstalk grew high into the sky.",
+                    "zh": "第二天早上，一株巨大的豆莖長高聳入了天空。"
+                },
+                {
+                    "en": "Jack climbed it and found a magical giant's castle above the clouds.",
+                    "zh": "傑克爬上了豆莖，在雲端上方發現了一個神奇的巨人城堡。"
+                },
+                {
+                    "en": "He received a golden hen and knew the brave adventure was completely worth it.",
+                    "zh": "他收到了一隻金雞，並知道這場勇敢的冒險完全是值得的。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Why were Jack and his mother in trouble at first?",
+                    "options": [
+                        "They had no cash for food",
+                        "They were lost in a forest",
+                        "They had no cow"
+                    ],
+                    "correct": "They had no cash for food"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the strange man offer to Jack?",
+                    "options": [
+                        "Magic beans",
+                        "Magic balls",
+                        "A gold coin"
+                    ],
+                    "correct": "Magic beans"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where did Jack's mother throw the magic beans?",
+                    "options": [
+                        "Into the garden soil",
+                        "Into a deep river",
+                        "Into the trash bin"
+                    ],
+                    "correct": "Into the garden soil"
+                },
+                {
+                    "qId": 4,
+                    "question": "What grew in the garden the next morning?",
+                    "options": [
+                        "A huge beanstalk",
+                        "A giant apple tree",
+                        "Beautiful red flowers"
+                    ],
+                    "correct": "A huge beanstalk"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Jack find above the clouds?",
+                    "options": [
+                        "A giant's castle",
+                        "A tall building",
+                        "A magic forest"
+                    ],
+                    "correct": "A giant's castle"
+                },
+                {
+                    "qId": 6,
+                    "question": "What did Jack receive in the castle?",
+                    "options": [
+                        "A golden hen",
+                        "A magic book",
+                        "A golden pen"
+                    ],
+                    "correct": "A golden hen"
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "Green Flying and the Future (環保新知：綠色飛行與未來)",
+            "articleContent": [
+                {
+                    "en": "Airplanes emit carbon, so engineers work hard to protect our air.",
+                    "zh": "飛機會排放碳，所以工程師們努力工作以保護我們的空氣。"
+                },
+                {
+                    "en": "Every year, millions of people travel as a passenger on international flights.",
+                    "zh": "每年有數百萬人作為乘客搭乘國際航班旅行。"
+                },
+                {
+                    "en": "Scientists want to supply cleaner energy to airlines to reduce pollution.",
+                    "zh": "科學家們想要向航空公司供給更清潔的能源以減少污染。"
+                },
+                {
+                    "en": "Many eco-friendly organizations offer full support to build electric planes in the future.",
+                    "zh": "許多環保組織提供全力支持，以在未來製造電動飛機。"
+                },
+                {
+                    "en": "With new technology, safer planes will fly without causing environmental harm.",
+                    "zh": "有了新科技，更安全的飛機將在不造成環境傷害的情況下飛行。"
+                },
+                {
+                    "en": "If everyone works together, we can achieve a zero-emission future for air travel.",
+                    "zh": "如果大家共同努力，我們就能實現空中交通零排放的未來。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Why are scientists working on cleaner energy for flights?",
+                    "options": [
+                        "To reduce air pollution",
+                        "To make planes fly faster",
+                        "To lower ticket prices"
+                    ],
+                    "correct": "To reduce air pollution"
+                },
+                {
+                    "qId": 2,
+                    "question": "Who travels on international flights every year?",
+                    "options": [
+                        "Millions of passengers",
+                        "Thousands of passengers",
+                        "Billions of passengers"
+                    ],
+                    "correct": "Millions of passengers"
+                },
+                {
+                    "qId": 3,
+                    "question": "What do scientists want to supply to airlines?",
+                    "options": [
+                        "Cleaner energy",
+                        "Free cash",
+                        "Fresh air"
+                    ],
+                    "correct": "Cleaner energy"
+                },
+                {
+                    "qId": 4,
+                    "question": "Who offers full support for building electric planes?",
+                    "options": [
+                        "Eco-friendly organizations",
+                        "Toy factories",
+                        "Sports teams"
+                    ],
+                    "correct": "Eco-friendly organizations"
+                },
+                {
+                    "qId": 5,
+                    "question": "What kind of future do people hope to achieve for air travel?",
+                    "options": [
+                        "A zero-emission future",
+                        "A cheaper ticket",
+                        "A longer trip"
+                    ],
+                    "correct": "A zero-emission future"
+                },
+                {
+                    "qId": 6,
+                    "question": "What is the main theme of this news report?",
+                    "options": [
+                        "Green technology in aviation",
+                        "A history of airplane",
+                        "How to check in"
+                    ],
+                    "correct": "Green technology in aviation"
+                }
+            ]
+        }
+    ]
+}
