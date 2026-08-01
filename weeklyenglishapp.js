@@ -259,9 +259,9 @@ document.addEventListener("DOMContentLoaded", () => {
         html += `
             <div class="teacher-section-title" onclick="toggleTeacherElement('sec-list2')" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
                 <span>🎧 聽力二：短句理解 (點擊展開/收合)</span>
-                <span id="arrow-sec-list2" style="color: #8E44AD;">▼</span>
+                <span id="arrow-sec-list2" style="color: #8E44AD;">▲</span>
             </div>
-            <div id="sec-list2" style="display: none; margin-bottom: 15px;">
+            <div id="sec-list2" style="display: block; margin-bottom: 15px;">
         `;
         listeningStage2Data.forEach((q, idx) => {
             // 👇 修改這兩行：1. 防禦雙引號破壞單題按鈕 2. 製作帶有紅色底線的正確答案高亮句子
@@ -296,12 +296,17 @@ document.addEventListener("DOMContentLoaded", () => {
         listeningStage3Data.forEach((article, aIdx) => {
             // 👇 修改這行：在後面加上 .replace(/"/g, '&quot;')，把雙引號轉譯為 HTML 安全的實體字元
             let fullArticleText = article.articleContent.map(line => line.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')).join('. ');
+            
+            // 💡 新增：自動判斷是否為第一篇文章 (aIdx 為 0)
+            let arrowIcon = (aIdx === 0) ? '▲' : '▼';
+            let displayStyle = (aIdx === 0) ? 'display: block;' : 'display: none;';
+
             html += `
                 <button class="teacher-article-btn" onclick="toggleTeacherElement('t-list3-${aIdx}')">
                     <span>📜 ${article.title || '未命名短文'}</span>
-                    <span id="arrow-t-list3-${aIdx}">▼</span>
+                    <span id="arrow-t-list3-${aIdx}">${arrowIcon}</span>
                 </button>
-                <div id="t-list3-${aIdx}" class="teacher-article-content">
+                <div id="t-list3-${aIdx}" class="teacher-article-content" style="${displayStyle}">
                     <div style="margin-bottom: 15px; padding: 12px; background: #F4F7F6; border-radius: 8px; border-left: 4px solid #16A085;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px;">
                             <strong style="color: #16A085;">📖 聽力對話原文稿</strong>
@@ -405,12 +410,16 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="sec-read3" style="display: none; margin-bottom: 15px;">
         `;
         readingStage3Data.forEach((story, sIdx) => {
+            // 💡 新增：自動判斷是否為第一篇文章 (sIdx 為 0)
+            let arrowIcon = (sIdx === 0) ? '▲' : '▼';
+            let displayStyle = (sIdx === 0) ? 'display: block;' : 'display: none;';
+
             html += `
                 <button class="teacher-article-btn" onclick="toggleTeacherElement('t-read3-${sIdx}')">
                     <span>📜 ${story.title || '未命名故事'}</span>
-                    <span id="arrow-t-read3-${sIdx}">▼</span>
+                    <span id="arrow-t-read3-${sIdx}">${arrowIcon}</span>
                 </button>
-                <div id="t-read3-${sIdx}" class="teacher-article-content">
+                <div id="t-read3-${sIdx}" class="teacher-article-content" style="${displayStyle}">
                     <div style="margin-bottom: 15px; padding: 12px; background: #FEF9E7; border-radius: 8px; border-left: 4px solid #F39C12;">
                         <strong style="color: #D35400; display: block; margin-bottom: 8px; border-bottom: 1px solid #FADBD8; padding-bottom: 4px;">📖 故事原文與中文對照表</strong>
             `;
@@ -668,7 +677,10 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleTranslationBtn.style.color = '#333';
         toggleTranslationBtn.style.cursor = 'pointer';
 
-        storyTitleEl.textContent = currentStoryData.title || "故事理解";
+        // 自動在標題的 ( 或 （ 前面加上換行標籤，避免中英文太長被截斷
+        let formattedTitle = currentStoryData.title || "故事理解";
+        formattedTitle = formattedTitle.replace(/(?=\(|（)/, '<br>');
+        storyTitleEl.innerHTML = formattedTitle;
         storyContentEl.innerHTML = '';
 
         // 💡 自動尋找這篇文章在第二關的資料，用來解開克漏字
@@ -2218,9 +2230,11 @@ document.addEventListener("DOMContentLoaded", () => {
             articleHTML = articleHTML.replace(blank.marker, btnHTML);
         });
 
-        // 💡 將文章標題加在內文的最上方，並設定置中與底部間距
-        const titleHTML = currentReading2Article.title
-            ? `<h3 style="text-align: center; color: #2C3E50; margin-bottom: 20px; font-size: 24px;">${currentReading2Article.title}</h3>`
+        // 💡 將文章標題加在內文的最上方，自動偵測括號換行，並設定置中與底部間距
+        let formattedTitle = currentReading2Article.title || "";
+        formattedTitle = formattedTitle.replace(/(?=\(|（)/, '<br>');
+        const titleHTML = formattedTitle
+            ? `<h3 style="text-align: center; color: #2C3E50; margin-bottom: 20px; font-size: 24px; line-height: 1.4;">${formattedTitle}</h3>`
             : "";
         readingArticleBox.innerHTML = titleHTML + articleHTML;
 
@@ -2392,15 +2406,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. 🌍 審核與查看訪客名單
     const approveVisitorBtn = document.getElementById('tab-approve-visitor-btn');
     if (approveVisitorBtn) {
-        approveVisitorBtn.addEventListener('click', () => {
-            document.getElementById('teacher-review-content').style.display = 'none';
+        
+        // 👇 新增：將載入清單的邏輯獨立成一個可重複呼叫的函數 👇
+        window.loadVisitorApprovalList = function() {
             const approvalContainer = document.getElementById('teacher-visitor-approval-content');
-            approvalContainer.style.display = 'block';
-
-            // 💡 1. 點擊後先顯示讀取中動畫，提升專業感
+            
+            // 顯示讀取中動畫
             approvalContainer.innerHTML = '<div style="text-align:center; padding: 30px; font-size: 18px; color:#3498DB; font-weight: bold;">⏳ 正在向雲端同步最新名單...</div>';
 
-            // 💡 2. 強制獨立向雲端發送請求，確保抓到最新資料 (不受是否登入影響)
             const noCacheUrl = GAS_URL + '?t=' + new Date().getTime();
             fetch(noCacheUrl)
                 .then(response => response.json())
@@ -2465,17 +2478,31 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 })
                 .catch(err => {
+                    const approvalContainer = document.getElementById('teacher-visitor-approval-content');
                     approvalContainer.innerHTML = '<div style="text-align:center; padding: 20px; color:#E74C3C; font-weight: bold;">❌ 無法連線至雲端，請檢查網路狀態。</div>';
                 });
+        };
+        // 👆 新增結束 👆
+
+        approveVisitorBtn.addEventListener('click', () => {
+            document.getElementById('teacher-review-content').style.display = 'none';
+            const approvalContainer = document.getElementById('teacher-visitor-approval-content');
+            approvalContainer.style.display = 'block';
+            
+            // 👇 直接呼叫我們剛才獨立出來的函數
+            window.loadVisitorApprovalList();
         });
 
         // 綁定全域核准與刪除函數
         window.handleVisitorApprove = function (name) {
             if (confirm(`確定要讓訪客「${name}」正式登上大廳排行榜嗎？`)) {
                 sendAdminCommand({ action: 'approveVisitor', targetName: name }).then((res) => {
-                    if (res.status === 'error') { alert(res.message); return; } // 👈 新增攔截
+                    if (res.status === 'error') { alert(res.message); return; } 
                     alert(`✅ 已核准「${name}」！`);
-                    location.reload();
+                    
+                    // 👇 核心修改：不再使用 location.reload()，改為重新讀取清單並更新大廳背景的榜單
+                    window.loadVisitorApprovalList();
+                    renderLeaderboard();
                 });
             }
         };
@@ -2483,9 +2510,12 @@ document.addEventListener("DOMContentLoaded", () => {
         window.handleVisitorDelete = function (name) {
             if (confirm(`確定要將違規訪客「${name}」的紀錄永久刪除嗎？`)) {
                 sendAdminCommand({ action: 'deleteVisitor', targetName: name }).then((res) => {
-                    if (res.status === 'error') { alert(res.message); return; } // 👈 新增攔截
+                    if (res.status === 'error') { alert(res.message); return; } 
                     alert(`🗑️ 已刪除「${name}」的紀錄！`);
-                    location.reload();
+                    
+                    // 👇 核心修改：不再使用 location.reload()，改為重新讀取清單並更新大廳背景的榜單
+                    window.loadVisitorApprovalList();
+                    renderLeaderboard();
                 });
             }
         };
