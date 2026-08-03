@@ -128,9 +128,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // 👇 替換：向後端 API 請求暗號身分驗證
     function checkTeacherStatus(name) {
         if (!name) return;
-        
+
         if (teacherGodBtn) teacherGodBtn.style.display = 'none';
-        isGodMode = false; 
+        isGodMode = false;
 
         console.log(`[身分驗證] 正在向雲端確認暗號：${name}`);
 
@@ -138,20 +138,20 @@ document.addEventListener("DOMContentLoaded", () => {
             method: 'POST',
             body: JSON.stringify({ action: 'verifyTeacher', name: name })
         })
-        .then(response => response.json())
-        .then(data => {
-            console.log(`[身分驗證] 雲端回傳結果：`, data);
-            if (data.status === 'success' && data.isTeacher === true) {
-                // 名稱相符，解鎖按鈕！
-                if (teacherGodBtn) teacherGodBtn.style.display = 'flex'; 
-                
-                const teacherTitle = document.querySelector('#teacher-review-modal h2');
-                if (teacherTitle) {
-                    teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(老師身分安全驗證成功 🔒)</span>`;
+            .then(response => response.json())
+            .then(data => {
+                console.log(`[身分驗證] 雲端回傳結果：`, data);
+                if (data.status === 'success' && data.isTeacher === true) {
+                    // 名稱相符，解鎖按鈕！
+                    if (teacherGodBtn) teacherGodBtn.style.display = 'flex';
+
+                    const teacherTitle = document.querySelector('#teacher-review-modal h2');
+                    if (teacherTitle) {
+                        teacherTitle.innerHTML = `🛠️ 教材全覽與校對 <br><span style="font-size:15px; color:#E74C3C; font-weight:bold; display:block; margin-top:5px;">(老師身分安全驗證成功 🔒)</span>`;
+                    }
                 }
-            }
-        })
-        .catch(err => console.error("老師身分驗證失敗", err));
+            })
+            .catch(err => console.error("老師身分驗證失敗", err));
     }
 
     // 網頁剛載入時檢查一次 (處理重新整理或歡迎回來的情況)
@@ -296,7 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
         listeningStage3Data.forEach((article, aIdx) => {
             // 👇 修改這行：在後面加上 .replace(/"/g, '&quot;')，把雙引號轉譯為 HTML 安全的實體字元
             let fullArticleText = article.articleContent.map(line => line.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')).join('. ');
-            
+
             // 💡 新增：自動判斷是否為第一篇文章 (aIdx 為 0)
             let arrowIcon = (aIdx === 0) ? '▲' : '▼';
             let displayStyle = (aIdx === 0) ? 'display: block;' : 'display: none;';
@@ -1024,10 +1024,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (isVocabCompleted) updateDashboardUI();
     }
 
-    // 👇 新增本班固定 10 人名單 (依老師希望的預設順序填寫)
+    // 👇 新增本班固定 11 人名單 (依老師希望的預設順序填寫)
     const CLASS_STUDENTS = [
         "Wayne", "Kevin", "Jimmy", "大Anna", "小Anna",
-        "Miya", "Mina", "Yanyan", "Sandy", "Sherry"
+        "Miya", "Mina", "Yanyan", "Sandy", "Sherry", "Jennifer"
     ];
 
     function renderLeaderboard() {
@@ -1105,7 +1105,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         </li>
                     `;
                     });
-                    classCounterEl.textContent = `${completedCount}/10`;
+                    classCounterEl.textContent = `${completedCount}/11`;
 
                     // --- 2. 處理訪客進度 (💡 這裡完美接住全破與挑戰中的名單) ---
                     let visitorData = res.data.visitorData || [];
@@ -2328,8 +2328,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // 專屬老師的後台指令發送器
     function sendAdminCommand(payload) {
         // 👇 新增：自動附上老師的登入暗號作為安全通行證 (Token)
-        payload.teacherToken = localStorage.getItem('weekly_english_name'); 
-        
+        payload.teacherToken = localStorage.getItem('weekly_english_name');
+
         return fetch(GAS_URL, {
             method: 'POST',
             body: JSON.stringify(payload)
@@ -2406,11 +2406,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. 🌍 審核與查看訪客名單
     const approveVisitorBtn = document.getElementById('tab-approve-visitor-btn');
     if (approveVisitorBtn) {
-        
+
         // 👇 新增：將載入清單的邏輯獨立成一個可重複呼叫的函數 👇
-        window.loadVisitorApprovalList = function() {
+        window.loadVisitorApprovalList = function () {
             const approvalContainer = document.getElementById('teacher-visitor-approval-content');
-            
+
             // 顯示讀取中動畫
             approvalContainer.innerHTML = '<div style="text-align:center; padding: 30px; font-size: 18px; color:#3498DB; font-weight: bold;">⏳ 正在向雲端同步最新名單...</div>';
 
@@ -2488,7 +2488,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById('teacher-review-content').style.display = 'none';
             const approvalContainer = document.getElementById('teacher-visitor-approval-content');
             approvalContainer.style.display = 'block';
-            
+
             // 👇 直接呼叫我們剛才獨立出來的函數
             window.loadVisitorApprovalList();
         });
@@ -2497,9 +2497,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.handleVisitorApprove = function (name) {
             if (confirm(`確定要讓訪客「${name}」正式登上大廳排行榜嗎？`)) {
                 sendAdminCommand({ action: 'approveVisitor', targetName: name }).then((res) => {
-                    if (res.status === 'error') { alert(res.message); return; } 
+                    if (res.status === 'error') { alert(res.message); return; }
                     alert(`✅ 已核准「${name}」！`);
-                    
+
                     // 👇 核心修改：不再使用 location.reload()，改為重新讀取清單並更新大廳背景的榜單
                     window.loadVisitorApprovalList();
                     renderLeaderboard();
@@ -2510,9 +2510,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.handleVisitorDelete = function (name) {
             if (confirm(`確定要將違規訪客「${name}」的紀錄永久刪除嗎？`)) {
                 sendAdminCommand({ action: 'deleteVisitor', targetName: name }).then((res) => {
-                    if (res.status === 'error') { alert(res.message); return; } 
+                    if (res.status === 'error') { alert(res.message); return; }
                     alert(`🗑️ 已刪除「${name}」的紀錄！`);
-                    
+
                     // 👇 核心修改：不再使用 location.reload()，改為重新讀取清單並更新大廳背景的榜單
                     window.loadVisitorApprovalList();
                     renderLeaderboard();
