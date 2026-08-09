@@ -283,7 +283,7 @@
                 "melt",
                 "behave"
             ],
-            "hint": "behave 行為良好，melt 融化，sail 航行",
+            "hint": "behave 表現，melt 融化，sail 航行",
             "translation": "這艘船明天早上將航行過美麗的藍色海洋。",
             "id": 201
         },
@@ -316,7 +316,7 @@
                 "behave",
                 "sail"
             ],
-            "hint": "behave 行為良好，sail 航行，improve 改善",
+            "hint": "behave 表現，sail 航行，improve 改善",
             "translation": "你必須每天練習彈鋼琴來改善你的技巧。",
             "id": 204
         },
@@ -371,7 +371,7 @@
                 "melt",
                 "inspire"
             ],
-            "hint": "melt 融化，inspire 激勵，behave 行為良好",
+            "hint": "melt 融化，inspire 激勵，behave 表現",
             "translation": "老師要求學生們在戶外教學期間要表現良好。",
             "id": 209
         },
@@ -669,7 +669,7 @@
                 "melt",
                 "behave"
             ],
-            "hint": "behave 行為良好，melt 融化，sail 航行",
+            "hint": "behave 表現，melt 融化，sail 航行",
             "translation": "這艘船明天早上將航行過美麗的藍色海洋。",
             "id": 401
         },
@@ -702,7 +702,7 @@
                 "behave",
                 "sail"
             ],
-            "hint": "behave 行為良好，sail 航行，improve 改善",
+            "hint": "behave 表現，sail 航行，improve 改善",
             "translation": "你必須每天練習彈鋼琴來改善你的技巧。",
             "id": 404
         },
@@ -757,7 +757,7 @@
                 "melt",
                 "inspire"
             ],
-            "hint": "melt 融化，inspire 激勵，behave 行為良好",
+            "hint": "melt 融化，inspire 激勵，behave 表現",
             "translation": "老師要求學生們在戶外教學期間要表現良好。",
             "id": 409
         },
