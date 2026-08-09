@@ -613,7 +613,7 @@
                     "question": "What does John's uncle drop?",
                     "options": [
                         "A shiny ring.",
-                        "A Shiny necklace.",
+                        "A shiny necklace.",
                         "A new cell phone."
                     ],
                     "correct": "A shiny ring."
