@@ -1,900 +1,896 @@
 {
-    "updateDate": "2026-08-01",
-    "classPasscode": "801",
+    "updateDate": "2026-08-09",
+    "classPasscode": "808",
     "vocabData": [
         {
             "id": 1,
-            "english": "crash",
-            "chinese": "墜毀",
+            "english": "sail",
+            "chinese": "航行",
             "distractors": [
-                "passenger",
-                "focus on"
+                "melt",
+                "behave"
             ]
         },
         {
             "id": 2,
-            "english": "passenger",
-            "chinese": "乘客",
+            "english": "bottom",
+            "chinese": "底部",
             "distractors": [
-                "absent",
-                "achieve"
+                "campus",
+                "relative"
             ]
         },
         {
             "id": 3,
-            "english": "focus on",
-            "chinese": "專注",
+            "english": "pajamas",
+            "chinese": "睡衣",
             "distractors": [
-                "receive",
-                "cash"
+                "freezer",
+                "gentle"
             ]
         },
         {
             "id": 4,
-            "english": "absent",
-            "chinese": "缺席",
+            "english": "freezer",
+            "chinese": "冷凍庫",
             "distractors": [
-                "worth",
-                "beat"
+                "pajamas",
+                "bottom"
             ]
         },
         {
             "id": 5,
-            "english": "achieve",
-            "chinese": "達到",
+            "english": "melt",
+            "chinese": "融化",
             "distractors": [
-                "give up",
-                "supply"
+                "sail",
+                "improve"
             ]
         },
         {
             "id": 6,
-            "english": "receive",
-            "chinese": "收到",
+            "english": "inspire",
+            "chinese": "激勵",
             "distractors": [
-                "support",
-                "soil"
+                "behave",
+                "melt"
             ]
         },
         {
             "id": 7,
-            "english": "cash",
-            "chinese": "現金",
+            "english": "improve",
+            "chinese": "改善",
             "distractors": [
-                "stay fit",
-                "offer"
+                "inspire",
+                "sail"
             ]
         },
         {
             "id": 8,
-            "english": "worth",
-            "chinese": "值得",
+            "english": "according to",
+            "chinese": "根據",
             "distractors": [
-                "crash",
-                "passenger"
+                "in addition to",
+                "abroad"
             ]
         },
         {
             "id": 9,
-            "english": "beat",
-            "chinese": "打敗",
+            "english": "in addition to",
+            "chinese": "除...之外還有",
             "distractors": [
-                "focus on",
-                "absent"
+                "according to",
+                "relative"
             ]
         },
         {
             "id": 10,
-            "english": "give up",
-            "chinese": "放棄",
+            "english": "relative",
+            "chinese": "親戚",
             "distractors": [
-                "achieve",
-                "receive"
+                "gentle",
+                "intelligent"
             ]
         },
         {
             "id": 11,
-            "english": "supply",
-            "chinese": "供給",
+            "english": "campus",
+            "chinese": "校園",
             "distractors": [
-                "support",
-                "worth"
+                "bottom",
+                "freezer"
             ]
         },
         {
             "id": 12,
-            "english": "support",
-            "chinese": "支持",
+            "english": "abroad",
+            "chinese": "國外地",
             "distractors": [
-                "beat",
-                "supply"
+                "gentle",
+                "intelligent"
             ]
         },
         {
             "id": 13,
-            "english": "soil",
-            "chinese": "土壤",
+            "english": "gentle",
+            "chinese": "溫和的",
             "distractors": [
-                "beat",
-                "offer"
+                "intelligent",
+                "behave"
             ]
         },
         {
             "id": 14,
-            "english": "stay fit",
-            "chinese": "保持身材",
+            "english": "intelligent",
+            "chinese": "聰明的",
             "distractors": [
-                "focus on",
-                "give up"
+                "gentle",
+                "abroad"
             ]
         },
         {
             "id": 15,
-            "english": "offer",
-            "chinese": "提供",
+            "english": "behave",
+            "chinese": "表現",
             "distractors": [
-                "focus on",
-                "absent"
+                "improve",
+                "inspire"
             ]
         }
     ],
     "listeningData": [
         {
             "id": 101,
-            "english": "crash",
-            "chinese": "墜毀",
+            "english": "sail",
+            "chinese": "航行",
             "distractors": [
-                "passenger",
-                "focus on"
+                "melt",
+                "behave"
             ]
         },
         {
             "id": 102,
-            "english": "passenger",
-            "chinese": "乘客",
+            "english": "bottom",
+            "chinese": "底部",
             "distractors": [
-                "absent",
-                "achieve"
+                "campus",
+                "relative"
             ]
         },
         {
             "id": 103,
-            "english": "focus on",
-            "chinese": "專注",
+            "english": "pajamas",
+            "chinese": "睡衣",
             "distractors": [
-                "receive",
-                "cash"
+                "freezer",
+                "gentle"
             ]
         },
         {
             "id": 104,
-            "english": "absent",
-            "chinese": "缺席",
+            "english": "freezer",
+            "chinese": "冷凍庫",
             "distractors": [
-                "worth",
-                "beat"
+                "pajamas",
+                "bottom"
             ]
         },
         {
             "id": 105,
-            "english": "achieve",
-            "chinese": "達到",
+            "english": "melt",
+            "chinese": "融化",
             "distractors": [
-                "give up",
-                "supply"
+                "sail",
+                "improve"
             ]
         },
         {
             "id": 106,
-            "english": "receive",
-            "chinese": "收到",
+            "english": "inspire",
+            "chinese": "激勵",
             "distractors": [
-                "support",
-                "soil"
+                "behave",
+                "melt"
             ]
         },
         {
             "id": 107,
-            "english": "cash",
-            "chinese": "現金",
+            "english": "improve",
+            "chinese": "改善",
             "distractors": [
-                "stay fit",
-                "offer"
+                "inspire",
+                "sail"
             ]
         },
         {
             "id": 108,
-            "english": "worth",
-            "chinese": "值得",
+            "english": "according to",
+            "chinese": "根據",
             "distractors": [
-                "crash",
-                "passenger"
+                "in addition to",
+                "abroad"
             ]
         },
         {
             "id": 109,
-            "english": "beat",
-            "chinese": "打敗",
+            "english": "in addition to",
+            "chinese": "除...之外還有",
             "distractors": [
-                "focus on",
-                "absent"
+                "according to",
+                "relative"
             ]
         },
         {
             "id": 110,
-            "english": "give up",
-            "chinese": "放棄",
+            "english": "relative",
+            "chinese": "親戚",
             "distractors": [
-                "achieve",
-                "receive"
+                "gentle",
+                "intelligent"
             ]
         },
         {
             "id": 111,
-            "english": "supply",
-            "chinese": "供給",
+            "english": "campus",
+            "chinese": "校園",
             "distractors": [
-                "support",
-                "worth"
+                "bottom",
+                "freezer"
             ]
         },
         {
             "id": 112,
-            "english": "support",
-            "chinese": "支持",
+            "english": "abroad",
+            "chinese": "國外地",
             "distractors": [
-                "beat",
-                "supply"
+                "gentle",
+                "intelligent"
             ]
         },
         {
             "id": 113,
-            "english": "soil",
-            "chinese": "土壤",
+            "english": "gentle",
+            "chinese": "溫和的",
             "distractors": [
-                "beat",
-                "offer"
+                "intelligent",
+                "behave"
             ]
         },
         {
             "id": 114,
-            "english": "stay fit",
-            "chinese": "保持身材",
+            "english": "intelligent",
+            "chinese": "聰明的",
             "distractors": [
-                "focus on",
-                "give up"
+                "gentle",
+                "abroad"
             ]
         },
         {
             "id": 115,
-            "english": "offer",
-            "chinese": "提供",
+            "english": "behave",
+            "chinese": "表現",
             "distractors": [
-                "focus on",
-                "absent"
+                "improve",
+                "inspire"
             ]
         }
     ],
     "listeningStage2Data": [
         {
-            "sentence": "The plane did not _______ because the pilot was very careful.",
-            "correct": "crash",
+            "sentence": "The boat will _______ across the beautiful blue ocean tomorrow morning.",
+            "correct": "sail",
             "distractors": [
-                "receive",
-                "soil"
+                "melt",
+                "behave"
             ],
-            "hint": "意思為「墜毀」，否定句助動詞 did 後面接原形動詞",
-            "translation": "這架飛機沒有墜毀，因為機師非常小心。",
+            "hint": "behave 行為良好，melt 融化，sail 航行",
+            "translation": "這艘船明天早上將航行過美麗的藍色海洋。",
             "id": 201
         },
         {
-            "sentence": "Every _______ on the bus must wear a seatbelt for safety.",
-            "correct": "passenger",
+            "sentence": "Please put the ice cream in the _______ immediately.",
+            "correct": "freezer",
             "distractors": [
-                "cash",
-                "supply"
+                "pajamas",
+                "campus"
             ],
-            "hint": "意思為「乘客」，此處用單數可數名詞",
-            "translation": "公車上的每位乘客為了安全都必須繫上安全帶。",
+            "hint": "冰淇淋需要放在很冷的地方！",
+            "translation": "請立刻把冰淇淋放進冷凍庫裡。",
             "id": 202
         },
         {
-            "sentence": "You should _______ your homework, not your smartphone.",
-            "correct": "focus on",
+            "sentence": "If you leave the chocolate in the sun, it will _______.",
+            "correct": "melt",
             "distractors": [
-                "give up",
-                "beat"
+                "inspire",
+                "improve"
             ],
-            "hint": "片語意思為「專注於」，情態助動詞 should 後面接原形動詞",
-            "translation": "你應該專注於你的作業，而不是你的智慧型手機。",
+            "hint": "inspire 激勵，improve 改善，melt 融化",
+            "translation": "如果你把巧克力留在太陽下，它會融化。",
             "id": 203
         },
         {
-            "sentence": "Leo was _______ from school yesterday because he was sick.",
-            "correct": "absent",
+            "sentence": "You must practice playing the piano every day to _______ your skills.",
+            "correct": "improve",
             "distractors": [
-                "worth",
-                "support"
+                "behave",
+                "sail"
             ],
-            "hint": "形容詞意思為「缺席的」，與 be 動詞連用",
-            "translation": "里歐昨天因為生病所以學校缺席了。",
+            "hint": "behave 行為良好，sail 航行，improve 改善",
+            "translation": "你必須每天練習彈鋼琴來改善你的技巧。",
             "id": 204
         },
         {
-            "sentence": "If you study hard, you can _______ your goal.",
-            "correct": "achieve",
+            "sentence": "The mother gave her crying baby a very _______ hug.",
+            "correct": "gentle",
             "distractors": [
-                "crash",
-                "stay fit"
+                "intelligent",
+                "abroad"
             ],
-            "hint": "動詞意思為「達到/實現」，助動詞 can 後面接原形動詞",
-            "translation": "如果你努力學習，你就能達到你的目標。",
+            "hint": "媽媽給寶寶的擁抱是很輕柔的。",
+            "translation": "媽媽給了她哭泣的寶寶一個非常溫和的擁抱。",
             "id": 205
         },
         {
-            "sentence": "Did you _______ a letter from your friend in Japan?",
-            "correct": "receive",
+            "sentence": "Monkeys are very _______ animals that can learn to use tools quickly.",
+            "correct": "intelligent",
             "distractors": [
-                "passenger",
-                "offer"
+                "gentle",
+                "bottom"
             ],
-            "hint": "動詞意思為「收到」，過去式疑問句使用 Did + 主詞 + 原形動詞",
-            "translation": "你有收到日本朋友寄來的信嗎？",
+            "hint": "gentle 溫和的，bottom 底部，intelligent 聰明的",
+            "translation": "猴子是非常聰明的動物，能很快學會使用工具。",
             "id": 206
         },
         {
-            "sentence": "The rich man paid for the bicycle with _______.",
-            "correct": "cash",
+            "sentence": "Students are running and laughing happily on the school _______.",
+            "correct": "campus",
             "distractors": [
-                "focus on",
-                "absent"
+                "freezer",
+                "relative"
             ],
-            "hint": "名詞意思為「現金」，為不可數名詞",
-            "translation": "那位富翁用現金支付了腳踏車的費用。",
+            "hint": "freezer 冷凍庫，relative 親戚，campus 校園",
+            "translation": "學生們在校園裡開心地奔跑笑著。",
             "id": 207
         },
         {
-            "sentence": "This interesting book is _______ reading again and again.",
-            "correct": "worth",
+            "sentence": "My aunt is my favorite _______ because she is very kind to me.",
+            "correct": "relative",
             "distractors": [
-                "achieve",
-                "beat"
+                "pajamas",
+                "bottom"
             ],
-            "hint": "介系詞/形容詞意思為「值得」，常用句型為 be worth + V-ing",
-            "translation": "這本有趣的書值得一讀再讀。",
+            "hint": "pajamas 睡衣，bottom 底部，relative 親戚",
+            "translation": "我阿姨是我最喜歡的親戚，因為她對我很好。",
             "id": 208
         },
         {
-            "sentence": "Our team will _______ the other team in the basketball game.",
-            "correct": "beat",
+            "sentence": "The teacher asked the students to _______ well during the field trip.",
+            "correct": "behave",
             "distractors": [
-                "supply",
-                "soil"
+                "melt",
+                "inspire"
             ],
-            "hint": "動詞意思為「打敗」，未來式 will 後面接原形動詞",
-            "translation": "我們隊伍將會在籃球比賽中打敗另一隊。",
+            "hint": "melt 融化，inspire 激勵，behave 行為良好",
+            "translation": "老師要求學生們在戶外教學期間要表現良好。",
             "id": 209
         },
         {
-            "sentence": "Never _______ when you face a difficult problem.",
-            "correct": "give up",
+            "sentence": "_______ the weather report, it is going to rain this afternoon.",
+            "correct": "According to",
             "distractors": [
-                "passenger",
-                "cash"
+                "In addition to",
+                "Relative"
             ],
-            "hint": "片語意思為「放棄」，祈使句否定使用 Never + 原形動詞",
-            "translation": "當你面對困難的問題時，絕對不要放棄。",
+            "hint": "氣象報告說會下雨，表示我們是「根據」它。",
+            "translation": "根據天氣預報，今天下午會下雨。",
             "id": 210
         }
     ],
     "listeningStage3Data": [
         {
             "id": 303,
-            "title": "The Big Soccer Game (大滿貫足球賽)",
+            "title": "Summer Vacation Plans (暑假計畫)",
             "articleContent": [
                 {
-                    "en": "Sam wants to beat the other team in the soccer game.",
-                    "zh": "山姆想在足球比賽中打敗另一隊。"
+                    "en": "Tim is packing his pajamas for a trip abroad.",
+                    "zh": "提姆正在打包他的睡衣準備出國旅行。"
                 },
                 {
-                    "en": "His friends offer their support and come to watch him play.",
-                    "zh": "他的朋友提供支持並前來看他比賽。"
+                    "en": "His family is going to sail on a big ship.",
+                    "zh": "他的家人將要搭乘一艘大船航行。"
                 },
                 {
-                    "en": "During the game, Sam needs to focus on the ball.",
-                    "zh": "在比賽期間，山姆需要專注於球上。"
+                    "en": "He takes an ice cream from the freezer.",
+                    "zh": "他從冷凍庫拿了一支冰淇淋。"
                 },
                 {
-                    "en": "Even when the game is hard, he decides not to give up.",
-                    "zh": "即使比賽很艱難，他決定不放棄。"
+                    "en": "He wants to eat it before it begins to melt.",
+                    "zh": "他想在它開始融化前吃掉它。"
                 },
                 {
-                    "en": "Finally, Sam scores a goal and helps his team win.",
-                    "zh": "最後，山姆踢進一球並幫助他的球隊獲勝。"
+                    "en": "In addition to ice cream, he also brings some cookies.",
+                    "zh": "除了冰淇淋之外，他還帶了一些餅乾。"
                 },
                 {
-                    "en": "He feels happy because he can achieve his dream today.",
-                    "zh": "他感到很高興，因為他今天能夠實現他的夢想。"
+                    "en": "He is very excited about this wonderful trip.",
+                    "zh": "他對這趟美好的旅行感到非常興奮。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who wants to win in the game?",
+                    "question": "Who is packing for the trip?",
                     "options": [
-                        "Sam",
-                        "Sandy",
-                        "Steve"
+                        "Tim.",
+                        "Tom.",
+                        "Tony."
                     ],
-                    "correct": "Sam"
+                    "correct": "Tim."
                 },
                 {
                     "qId": 2,
-                    "question": "What does Sam need to focus on during the game?",
+                    "question": "What is Tim's family going to do?",
                     "options": [
-                        "The soccer ball",
-                        "His smartphone",
-                        "His new shoes"
+                        "They are going to sail on a big ship.",
+                        "They are going to buy a new house.",
+                        "They are going to sell some fruit."
                     ],
-                    "correct": "The soccer ball"
+                    "correct": "They are going to sail on a big ship."
                 },
                 {
                     "qId": 3,
-                    "question": "How do Sam's friends help him?",
+                    "question": "Where does Tim get the ice cream?",
                     "options": [
-                        "They offer their support",
-                        "They give him cash",
-                        "They cheer for him"
+                        "From the freezer.",
+                        "From the living room.",
+                        "From the school campus."
                     ],
-                    "correct": "They offer their support"
+                    "correct": "From the freezer."
                 },
                 {
                     "qId": 4,
-                    "question": "What does Sam decide not to do when the game is hard?",
+                    "question": "When does Tim want to eat the ice cream?",
                     "options": [
-                        "Give up",
-                        "Score a goal",
-                        "Lie on the ground"
+                        "Before it begins to melt.",
+                        "After it begins to melt.",
+                        "When he goes to sleep."
                     ],
-                    "correct": "Give up"
+                    "correct": "Before it begins to melt."
                 },
                 {
                     "qId": 5,
-                    "question": "Why does Sam feel happy at the end?",
+                    "question": "What does Tim bring in addition to ice cream?",
                     "options": [
-                        "Because he achieves his dream",
-                        "Because he receives a letter",
-                        "Because he loses the game"
+                        "Some cookies.",
+                        "Some hot dogs.",
+                        "Some fresh fruit."
                     ],
-                    "correct": "Because he achieves his dream"
+                    "correct": "Some cookies."
                 },
                 {
                     "qId": 6,
-                    "question": "Where does this story happen?",
+                    "question": "Why is Tim feeling excited?",
                     "options": [
-                        "At a soccer field",
-                        "On an airplane",
-                        "In a garden"
+                        "Because of his wonderful trip abroad.",
+                        "Because of his wonderful dream.",
+                        "Because he is going to a summer camp."
                     ],
-                    "correct": "At a soccer field"
+                    "correct": "Because of his wonderful trip abroad."
                 }
             ]
         },
         {
             "id": 304,
-            "title": "A Safe Flight to Tokyo (前往東京的安全飛行)",
+            "title": "The Smart Monkey on Campus (校園裡的聰明猴子)",
             "articleContent": [
                 {
-                    "en": "Mrs. Brown is a passenger on a flight to Tokyo today.",
-                    "zh": "布朗太太今天是飛往東京班機上的一位乘客。"
+                    "en": "There is a very intelligent monkey on the school campus.",
+                    "zh": "學校校園裡有一隻非常聰明的猴子。"
                 },
                 {
-                    "en": "She was absent from work last week to prepare for this trip.",
-                    "zh": "她上週請假沒上班，以準備這次旅行。"
+                    "en": "The teachers teach it how to behave well every day.",
+                    "zh": "老師們每天教牠如何表現良好。"
                 },
                 {
-                    "en": "Some people are afraid the plane might crash, but the pilot is very careful.",
-                    "zh": "有些人害怕飛機會墜毀，但機師非常小心。"
+                    "en": "It is always gentle when it plays with the young students.",
+                    "zh": "當牠和年輕學生玩耍時，牠總是很溫和。"
                 },
                 {
-                    "en": "Before landing, she receives a nice hot meal from the flight attendant.",
-                    "zh": "在降落前，她收到空服員送來的美味熱餐。"
+                    "en": "The monkey's actions inspire many children to love animals.",
+                    "zh": "這隻猴子的行為激勵了許多孩子去愛護動物。"
                 },
                 {
-                    "en": "After landing, she uses cash to buy a beautiful souvenir.",
-                    "zh": "降落後，她使用現金買了一個美麗的紀念品。"
-                },
-                {
-                    "en": "She thinks this special trip is definitely worth all the money.",
-                    "zh": "她認為這次特別的旅行絕對值得所有的錢。"
+                    "en": "According to the principal, the monkey will stay here forever.",
+                    "zh": "根據校長的說法，這隻猴子將永遠待在這裡。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who is a passenger on the plane today?",
+                    "question": "Who plays with the monkey?",
                     "options": [
-                        "Mrs. Brown",
-                        "Mr. Brown",
-                        "Mrs. Blake"
+                        "The young students.",
+                        "The police officers.",
+                        "The teachers."
                     ],
-                    "correct": "Mrs. Brown"
+                    "correct": "The young students."
                 },
                 {
                     "qId": 2,
-                    "question": "Why was Mrs. Brown absent from work last week?",
+                    "question": "What kind of animal is on the campus?",
                     "options": [
-                        "To prepare for her trip",
-                        "Because she was sick",
-                        "To prepare for her report"
+                        "An intelligent monkey.",
+                        "A dangerous lion.",
+                        "An intelligent dog."
                     ],
-                    "correct": "To prepare for her trip"
+                    "correct": "An intelligent monkey."
                 },
                 {
                     "qId": 3,
-                    "question": "What does Mrs. Brown receive before landing?",
+                    "question": "Where does this smart monkey live?",
                     "options": [
-                        "A nice hot meal",
-                        "A new book",
-                        "A bottle of water"
+                        "On the school campus.",
+                        "In a deep forest.",
+                        "At the beautiful beach."
                     ],
-                    "correct": "A nice hot meal"
+                    "correct": "On the school campus."
                 },
                 {
                     "qId": 4,
-                    "question": "What does she use to buy a souvenir after landing?",
+                    "question": "When is the monkey gentle?",
                     "options": [
-                        "Cash",
-                        "Credit card",
-                        "icash card"
+                        "When it plays with the young students.",
+                        "When it is hungry.",
+                        "When it sleeps in the tree."
                     ],
-                    "correct": "Cash"
+                    "correct": "When it plays with the young students."
                 },
                 {
                     "qId": 5,
-                    "question": "Where is Mrs. Brown flying to?",
+                    "question": "What does the monkey inspire the children to do?",
                     "options": [
-                        "Tokyo",
-                        "London",
-                        "New York"
+                        "To love animals.",
+                        "To do their homework.",
+                        "To clean the classroom."
                     ],
-                    "correct": "Tokyo"
+                    "correct": "To love animals."
                 },
                 {
                     "qId": 6,
-                    "question": "How does she feel about her trip?",
+                    "question": "Why does the principal say the monkey will stay?",
                     "options": [
-                        "It is worth all the money",
-                        "It is scary and terrible",
-                        "It is very boring"
+                        "Because it behaves well and everyone loves it.",
+                        "Because it is too sick to move.",
+                        "Because no one can catch it."
                     ],
-                    "correct": "It is worth all the money"
+                    "correct": "Because it behaves well and everyone loves it."
                 }
             ]
         },
         {
             "id": 305,
-            "title": "The Community Garden (社區花園)",
+            "title": "A Fun Family Gathering (有趣的家庭聚會)",
             "articleContent": [
                 {
-                    "en": "Grandfather loves working in the community garden every weekend.",
-                    "zh": "祖父喜歡每個週末在社區花園裡工作。"
+                    "en": "Many relatives come to visit John's house this weekend.",
+                    "zh": "這個週末許多親戚來拜訪約翰的家。"
                 },
                 {
-                    "en": "He needs rich soil and plenty of water for his plants.",
-                    "zh": "他的植物需要肥沃的土壤和充足的水分。"
+                    "en": "They go to a beautiful lake near his house.",
+                    "zh": "他們去他家附近一個美麗的湖泊。"
                 },
                 {
-                    "en": "The neighbors offer to help him water the flowers.",
-                    "zh": "鄰居們主動幫他給花朵澆水。"
+                    "en": "John's uncle drops his shiny ring to the bottom of the lake.",
+                    "zh": "約翰的叔叔把閃亮的戒指掉到湖底了。"
                 },
                 {
-                    "en": "They also supply new seeds to make the garden beautiful.",
-                    "zh": "他們還提供新種子讓花園變得美麗。"
+                    "en": "John dives into the water to find the ring.",
+                    "zh": "約翰潛入水中尋找戒指。"
                 },
                 {
-                    "en": "Grandfather works hard and receives many fresh tomatoes in summer.",
-                    "zh": "祖父努力工作，在夏天收穫了許多新鮮的番茄。"
+                    "en": "He wants to improve his diving skills this summer.",
+                    "zh": "他想要在這個夏天改善他的潛水技巧。"
                 },
                 {
-                    "en": "He gives them away to show his support to his friends.",
-                    "zh": "他把番茄送給大家，以向朋友們表達支持。"
+                    "en": "Finally, he finds the ring and everyone cheers for him.",
+                    "zh": "最後，他找到了戒指，大家都為他歡呼。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who loves working in the garden every weekend?",
+                    "question": "Who comes to visit John's house?",
                     "options": [
-                        "Grandfather",
-                        "Neighbors",
-                        "Grandmother"
+                        "His relatives.",
+                        "His classmates.",
+                        "His friends."
                     ],
-                    "correct": "Grandfather"
+                    "correct": "His relatives."
                 },
                 {
                     "qId": 2,
-                    "question": "What does Grandfather need for his plants?",
+                    "question": "What does John's uncle drop?",
                     "options": [
-                        "soil and water",
-                        "Cash",
-                        "seed and water"
+                        "A shiny ring.",
+                        "A Shiny necklace.",
+                        "A new cell phone."
                     ],
-                    "correct": "soil and water"
+                    "correct": "A shiny ring."
                 },
                 {
                     "qId": 3,
-                    "question": "What do the neighbors supply for the garden?",
+                    "question": "Where does the ring fall?",
                     "options": [
-                        "New seeds",
-                        "Delicious hot meals",
-                        "Water bottle"
+                        "To the bottom of the lake.",
+                        "To the bottom of the ocean.",
+                        "In the freezer."
                     ],
-                    "correct": "New seeds"
+                    "correct": "To the bottom of the lake."
                 },
                 {
                     "qId": 4,
-                    "question": "When does Grandfather receive many fresh tomatoes?",
+                    "question": "When does John's family go to the lake?",
                     "options": [
-                        "In summer",
-                        "In winter",
-                        "In spring"
+                        "This weekend.",
+                        "Next weekend.",
+                        "Last weekend."
                     ],
-                    "correct": "In summer"
+                    "correct": "This weekend."
                 },
                 {
                     "qId": 5,
-                    "question": "Where does Grandfather work every weekend?",
+                    "question": "What skill does John want to improve?",
                     "options": [
-                        "In the community garden",
-                        "In the backyard",
-                        "In the park"
+                        "His diving skills.",
+                        "His cooking skills.",
+                        "His singing skills."
                     ],
-                    "correct": "In the community garden"
+                    "correct": "His diving skills."
                 },
                 {
                     "qId": 6,
-                    "question": "Why does Grandfather give away the tomatoes?",
+                    "question": "Why does everyone cheer for John?",
                     "options": [
-                        "To show support to his friends",
-                        "To sell them for cash",
-                        "To get more seeds"
+                        "Because he finally finds the ring.",
+                        "Because he finally finds the missing dog.",
+                        "Because he buys them ice cream."
                     ],
-                    "correct": "To show support to his friends"
+                    "correct": "Because he finally finds the ring."
                 }
             ]
         }
     ],
     "readingStage1Data": [
         {
-            "sentence": "The plane did not _______ because the pilot was very careful.",
-            "correct": "crash",
+            "sentence": "The boat will _______ across the beautiful blue ocean tomorrow morning.",
+            "correct": "sail",
             "distractors": [
-                "receive",
-                "soil"
+                "melt",
+                "behave"
             ],
-            "hint": "意思為「墜毀」，否定句助動詞 did 後面接原形動詞",
-            "translation": "這架飛機沒有墜毀，因為機師非常小心。",
+            "hint": "behave 行為良好，melt 融化，sail 航行",
+            "translation": "這艘船明天早上將航行過美麗的藍色海洋。",
             "id": 401
         },
         {
-            "sentence": "Every _______ on the bus must wear a seatbelt for safety.",
-            "correct": "passenger",
+            "sentence": "Please put the ice cream in the _______ immediately.",
+            "correct": "freezer",
             "distractors": [
-                "cash",
-                "supply"
+                "pajamas",
+                "campus"
             ],
-            "hint": "意思為「乘客」，此處用單數可數名詞",
-            "translation": "公車上的每位乘客為了安全都必須繫上安全帶。",
+            "hint": "冰淇淋需要放在很冷的地方！",
+            "translation": "請立刻把冰淇淋放進冷凍庫裡。",
             "id": 402
         },
         {
-            "sentence": "You should _______ your homework, not your smartphone.",
-            "correct": "focus on",
+            "sentence": "If you leave the chocolate in the sun, it will _______.",
+            "correct": "melt",
             "distractors": [
-                "give up",
-                "beat"
+                "inspire",
+                "improve"
             ],
-            "hint": "片語意思為「專注於」，情態助動詞 should 後面接原形動詞",
-            "translation": "你應該專注於你的作業，而不是你的智慧型手機。",
+            "hint": "inspire 激勵，improve 改善，melt 融化",
+            "translation": "如果你把巧克力留在太陽下，它會融化。",
             "id": 403
         },
         {
-            "sentence": "Leo was _______ from school yesterday because he was sick.",
-            "correct": "absent",
+            "sentence": "You must practice playing the piano every day to _______ your skills.",
+            "correct": "improve",
             "distractors": [
-                "worth",
-                "support"
+                "behave",
+                "sail"
             ],
-            "hint": "形容詞意思為「缺席的」，與 be 動詞連用",
-            "translation": "里歐昨天因為生病所以學校缺席了。",
+            "hint": "behave 行為良好，sail 航行，improve 改善",
+            "translation": "你必須每天練習彈鋼琴來改善你的技巧。",
             "id": 404
         },
         {
-            "sentence": "If you study hard, you can _______ your goal.",
-            "correct": "achieve",
+            "sentence": "The mother gave her crying baby a very _______ hug.",
+            "correct": "gentle",
             "distractors": [
-                "crash",
-                "stay fit"
+                "intelligent",
+                "abroad"
             ],
-            "hint": "動詞意思為「達到/實現」，助動詞 can 後面接原形動詞",
-            "translation": "如果你努力學習，你就能達到你的目標。",
+            "hint": "媽媽給寶寶的擁抱是很輕柔的。",
+            "translation": "媽媽給了她哭泣的寶寶一個非常溫和的擁抱。",
             "id": 405
         },
         {
-            "sentence": "Did you _______ a letter from your friend in Japan?",
-            "correct": "receive",
+            "sentence": "Monkeys are very _______ animals that can learn to use tools quickly.",
+            "correct": "intelligent",
             "distractors": [
-                "passenger",
-                "offer"
+                "gentle",
+                "bottom"
             ],
-            "hint": "動詞意思為「收到」，過去式疑問句使用 Did + 主詞 + 原形動詞",
-            "translation": "你有收到日本朋友寄來的信嗎？",
+            "hint": "gentle 溫和的，bottom 底部，intelligent 聰明的",
+            "translation": "猴子是非常聰明的動物，能很快學會使用工具。",
             "id": 406
         },
         {
-            "sentence": "The rich man paid for the bicycle with _______.",
-            "correct": "cash",
+            "sentence": "Students are running and laughing happily on the school _______.",
+            "correct": "campus",
             "distractors": [
-                "focus on",
-                "absent"
+                "freezer",
+                "relative"
             ],
-            "hint": "名詞意思為「現金」，為不可數名詞",
-            "translation": "那位富翁用現金支付了腳踏車的費用。",
+            "hint": "freezer 冷凍庫，relative 親戚，campus 校園",
+            "translation": "學生們在校園裡開心地奔跑笑著。",
             "id": 407
         },
         {
-            "sentence": "This interesting book is _______ reading again and again.",
-            "correct": "worth",
+            "sentence": "My aunt is my favorite _______ because she is very kind to me.",
+            "correct": "relative",
             "distractors": [
-                "achieve",
-                "beat"
+                "pajamas",
+                "bottom"
             ],
-            "hint": "介系詞/形容詞意思為「值得」，常用句型為 be worth + V-ing",
-            "translation": "這本有趣的書值得一讀再讀。",
+            "hint": "pajamas 睡衣，bottom 底部，relative 親戚",
+            "translation": "我阿姨是我最喜歡的親戚，因為她對我很好。",
             "id": 408
         },
         {
-            "sentence": "Our team will _______ the other team in the basketball game.",
-            "correct": "beat",
+            "sentence": "The teacher asked the students to _______ well during the field trip.",
+            "correct": "behave",
             "distractors": [
-                "supply",
-                "soil"
+                "melt",
+                "inspire"
             ],
-            "hint": "動詞意思為「打敗」，未來式 will 後面接原形動詞",
-            "translation": "我們隊伍將會在籃球比賽中打敗另一隊。",
+            "hint": "melt 融化，inspire 激勵，behave 行為良好",
+            "translation": "老師要求學生們在戶外教學期間要表現良好。",
             "id": 409
         },
         {
-            "sentence": "Never _______ when you face a difficult problem.",
-            "correct": "give up",
+            "sentence": "_______ the weather report, it is going to rain this afternoon.",
+            "correct": "According to",
             "distractors": [
-                "passenger",
-                "cash"
+                "In addition to",
+                "Relative"
             ],
-            "hint": "片語意思為「放棄」，祈使句否定使用 Never + 原形動詞",
-            "translation": "當你面對困難的問題時，絕對不要放棄。",
+            "hint": "氣象報告說會下雨，表示我們是「根據」它。",
+            "translation": "根據天氣預報，今天下午會下雨。",
             "id": 410
         }
     ],
     "readingStage2Data": [
         {
             "id": 506,
-            "title": "The Tortoise and the Hare (伊索寓言：龜兔賽跑)",
-            "article": "A fast hare always liked to say that he could {{1}} any animal in a race. A slow tortoise challenged him to a run. During the race, the hare was confident and decided to rest, while the tortoise chose to {{2}} running slowly. The tortoise did not {{3}} and won the race in the end.",
+            "title": "The Little Mermaid (小美人魚)",
+            "article": "Deep at the {{1}} of the ocean, a little mermaid dreamed of the human world. She watched big ships {{2}} above her every day. Her sisters and other relatives told her it was dangerous. However, her love for a prince made her trade her voice for legs. In the end, her body began to {{3}} into sea foam.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "beat",
+                    "correct": "bottom",
                     "distractors": [
-                        "crash",
-                        "receive"
+                        "campus",
+                        "freezer"
                     ],
-                    "hint": "動詞意思為「打敗」，情態助動詞 could 後面接原形動詞",
-                    "translation": "一隻快速的野兔總是喜歡說他可以在比賽中打敗任何動物。"
+                    "hint": "海洋的最深處",
+                    "translation": "在海洋深處，一隻小美人魚夢想著人類世界。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "focus on",
+                    "correct": "sail",
                     "distractors": [
-                        "absent",
-                        "supply"
+                        "improve",
+                        "behave"
                     ],
-                    "hint": "片語意思為「專注於」，動詞 choose 後面可接不定詞 to + 原形動詞",
-                    "translation": "在比賽期間，野兔很有自信並決定休息，而烏龜則選擇專注於慢慢向前跑。"
+                    "hint": "船隻在水上移動的動作",
+                    "translation": "她每天看著大船在她上方航行。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "give up",
+                    "correct": "melt",
                     "distractors": [
-                        "worth",
-                        "cash"
+                        "inspire",
+                        "gentle"
                     ],
-                    "hint": "片語意思為「放棄」，助動詞 did not 後面接原形動詞",
-                    "translation": "烏龜沒有放棄，最後贏得了比賽。"
+                    "hint": "固體變成液體或消失的狀態",
+                    "translation": "最後，她的身體開始融化成海浪的泡沫。"
                 }
             ]
         },
         {
             "id": 507,
-            "title": "Jack and the Beanstalk (經典童話：傑克與魔豆)",
-            "article": "Jack and his mother were very poor and had no {{1}} to buy food. One day, a strange man made an {{2}} to trade magic beans for Jack's cow. When Jack brought the beans home, his angry mother threw them out into the garden {{3}}. The next morning, a huge beanstalk grew high into the sky.",
+            "title": "Our Warming Earth (暖化的地球)",
+            "article": "{{1}} recent news, our earth is getting warmer every year. The North Pole is like a giant {{2}} that keeps the earth cool, but the ice is disappearing fast. We need the help of {{3}} scientists to find good solutions. In addition to saving water, we must also plant more trees. We must take action to improve this terrible situation.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "cash",
+                    "correct": "According to",
                     "distractors": [
-                        "passenger",
-                        "soil"
+                        "In addition to",
+                        "Relative"
                     ],
-                    "hint": "名詞意思為「現金」，在此作不可數名詞使用",
-                    "translation": "傑克和他的母親非常貧窮，沒有現金買食物。"
+                    "hint": "表示「根據」某個消息來源",
+                    "translation": "根據最近的新聞，我們的地球每年都在變暖。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "offer",
+                    "correct": "freezer",
                     "distractors": [
-                        "absent",
-                        "beat"
+                        "pajamas",
+                        "campus"
                     ],
-                    "hint": "名詞意思為「提議/提供」，前面配冠詞 an",
-                    "translation": "有一天，一個陌生人提議用魔豆交換傑克的牛。"
+                    "hint": "可以把東西結冰的電器，比喻很冷的地方",
+                    "translation": "北極就像一個巨大的冷凍庫，讓地球保持涼爽，但冰層正在快速消失。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "soil",
+                    "correct": "intelligent",
                     "distractors": [
-                        "support",
-                        "supply"
+                        "gentle",
+                        "abroad"
                     ],
-                    "hint": "名詞意思為「土壤」，這裡指花園的泥土",
-                    "translation": "當傑克把豆子帶回家時，他生氣的母親把它們扔到了肥沃的花園土壤裡。"
+                    "hint": "形容頭腦很好、有智慧的人",
+                    "translation": "我們需要聰明的科學家來幫忙尋找好方法。"
                 }
             ]
         },
         {
             "id": 508,
-            "title": "Green Flying and the Future (環保新知：綠色飛行與未來)",
-            "article": "Airplanes emit carbon, so engineers work hard to protect our air. Every year, millions of people travel as a {{1}} on international flights. Scientists want to {{2}} cleaner energy to airlines to reduce pollution. Many eco-friendly organizations offer full {{3}} to build electric planes in the future.",
+            "title": "The Wooden Puppet (木偶奇遇記)",
+            "article": "Gepetto was a {{1}} old woodcarver who made a wooden puppet named Pinocchio. He wanted Pinocchio to be a real boy and go to a school {{2}}. However, Pinocchio did not know how to {{3}} well. He lied and ran away from home in his pajamas. A fairy helped him and tried to inspire him to be good. Finally, he learned his lesson and became a real human boy.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "passenger",
+                    "correct": "gentle",
                     "distractors": [
-                        "give up",
-                        "worth"
+                        "abroad",
+                        "intelligent"
                     ],
-                    "hint": "可數名詞意思為「乘客」，前面有單數冠詞 a",
-                    "translation": "每年有數百萬人作為乘客搭乘國際航班旅行。"
+                    "hint": "形容個性非常和藹、不粗魯",
+                    "translation": "傑佩托是一位溫和的老木雕師，他做了一個名叫皮諾丘的木偶。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "supply",
+                    "correct": "campus",
                     "distractors": [
-                        "focus on",
-                        "absent"
+                        "bottom",
+                        "relative"
                     ],
-                    "hint": "動詞意思為「供給/提供」，不定詞 to 後面接原形動詞",
-                    "translation": "科學家們想要向航空公司供給更清潔的能源以減少污染。"
+                    "hint": "學生上課與活動的場地",
+                    "translation": "他希望皮諾丘成為一個真正的男孩，並去校園上學。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "support",
+                    "correct": "behave",
                     "distractors": [
-                        "receive",
-                        "cash"
+                        "melt",
+                        "sail"
                     ],
-                    "hint": "名詞意思為「支持」，不可數名詞",
-                    "translation": "許多環保組織提供全力支持，以在未來製造電動飛機。"
+                    "hint": "守規矩、展現好的行為",
+                    "translation": "然而，皮諾丘不知道如何表現良好。"
                 }
             ]
         }
@@ -902,273 +898,269 @@
     "readingStage3Data": [
         {
             "id": 606,
-            "title": "The Tortoise and the Hare (伊索寓言：龜兔賽跑)",
+            "title": "The Little Mermaid (小美人魚)",
             "articleContent": [
                 {
-                    "en": "A fast hare always liked to say that he could beat any animal in a race.",
-                    "zh": "一隻快速的野兔總是喜歡說他可以在比賽中打敗任何動物。"
+                    "en": "Deep at the bottom of the ocean, a little mermaid dreamed of the human world.",
+                    "zh": "在海洋深處，一隻小美人魚夢想著人類世界。"
                 },
                 {
-                    "en": "A slow tortoise challenged him to a run.",
-                    "zh": "一隻慢吞吞的烏龜向他挑戰跑步。"
+                    "en": "She watched big ships sail above her every day.",
+                    "zh": "她每天看著大船在上方航行。"
                 },
                 {
-                    "en": "During the race, the hare was confident and decided to rest, while the tortoise chose to focus on running slowly.",
-                    "zh": "在比賽期間，野兔很有自信並決定休息，而烏龜則選擇專注於慢慢向前跑。"
+                    "en": "Her sisters and other relatives told her it was dangerous.",
+                    "zh": "她的姊妹和其他親戚告訴她這很危險。"
                 },
                 {
-                    "en": "The tortoise did not give up and won the race in the end.",
-                    "zh": "烏龜沒有放棄，最後贏得了比賽。"
+                    "en": "However, her love for a prince made her trade her voice for legs.",
+                    "zh": "然而，她對王子的愛讓她用聲音換取了雙腿。"
                 },
                 {
-                    "en": "This famous story teaches us that slow and steady wins the race.",
-                    "zh": "這個著名的故事教導我們，持續努力最終會獲得勝利。"
+                    "en": "In the end, her body began to melt into sea foam.",
+                    "zh": "最後，她的身體開始融化成海浪的泡沫。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who challenged the fast hare to a race?",
+                    "question": "Who warned the little mermaid that the human world was dangerous?",
                     "options": [
-                        "A slow tortoise",
-                        "A tiny mouse",
-                        "A brave lion"
+                        "Her sisters and other relatives.",
+                        "The intelligent scientists.",
+                        "Her brothers and other relatives."
                     ],
-                    "correct": "A slow tortoise"
+                    "correct": "Her sisters and other relatives."
                 },
                 {
                     "qId": 2,
-                    "question": "What did the hare say he could do?",
+                    "question": "What did the little mermaid watch every day?",
                     "options": [
-                        "Beat any animal in a race",
-                        "Fly in the blue sky",
-                        "Build a giant house"
+                        "Big ships sailing above her.",
+                        "Birds flying in the sky.",
+                        "Fish swimming in the ocean."
                     ],
-                    "correct": "Beat any animal in a race"
+                    "correct": "Big ships sailing above her."
                 },
                 {
                     "qId": 3,
-                    "question": "What did the hare decide to do during the race?",
+                    "question": "Where did the little mermaid live?",
                     "options": [
-                        "Take a rest",
-                        "Take a shower",
-                        "Take a walk"
+                        "Deep at the bottom of the ocean.",
+                        "On a top of the mountain.",
+                        "In a cold lake."
                     ],
-                    "correct": "Take a rest"
+                    "correct": "Deep at the bottom of the ocean."
                 },
                 {
                     "qId": 4,
-                    "question": "What did the tortoise focus on during the race?",
+                    "question": "When did her body become sea foam?",
                     "options": [
-                        "Running slowly",
-                        "Sleeping under a tree",
-                        "Looking for cash"
+                        "In the end.",
+                        "In the early morning.",
+                        "After the prince kissed her."
                     ],
-                    "correct": "Running slowly"
+                    "correct": "In the end."
                 },
                 {
                     "qId": 5,
-                    "question": "Who won the race in the end?",
+                    "question": "Why did she trade her voice for legs?",
                     "options": [
-                        "The tortoise",
-                        "The hare",
-                        "Neither of them"
+                        "Because of her love for a prince.",
+                        "Because she didn't like to sing.",
+                        "Because she likes to swim."
                     ],
-                    "correct": "The tortoise"
+                    "correct": "Because of her love for a prince."
                 },
                 {
                     "qId": 6,
-                    "question": "What lesson does this story teach us?",
+                    "question": "How did she feel about the human world?",
                     "options": [
-                        "Slow and steady wins the race",
-                        "Fast animals always win",
-                        "Money can buy everything"
+                        "She dreamed about it.",
+                        "She hated it very much.",
+                        "She forgot about it quickly."
                     ],
-                    "correct": "Slow and steady wins the race"
+                    "correct": "She dreamed about it."
                 }
             ]
         },
         {
             "id": 607,
-            "title": "Jack and the Beanstalk (經典童話：傑克與魔豆)",
+            "title": "Our Warming Earth (暖化的地球)",
             "articleContent": [
                 {
-                    "en": "Jack and his mother were very poor and had no cash to buy food.",
-                    "zh": "傑克和他的母親非常貧窮，沒有現金買食物。"
+                    "en": "According to recent news, our earth is getting warmer every year.",
+                    "zh": "根據最近的新聞，我們的地球每年都在變暖。"
                 },
                 {
-                    "en": "One day, a strange man made an offer to trade magic beans for Jack's cow.",
-                    "zh": "有一天，一個陌生人提議用魔豆交換傑克的牛。"
+                    "en": "The North Pole is like a giant freezer that keeps the earth cool, but the ice is disappearing fast.",
+                    "zh": "北極就像一個巨大的冷凍庫，讓地球保持涼爽，但冰層正在快速消失。"
                 },
                 {
-                    "en": "When Jack brought the beans home, his angry mother threw them out into the rich garden soil.",
-                    "zh": "當傑克把豆子帶回家時，他生氣的母親把它們扔到了花園土壤裡。"
+                    "en": "We need the help of intelligent scientists to find good solutions.",
+                    "zh": "我們需要聰明的科學家來幫忙尋找好方法。"
                 },
                 {
-                    "en": "The next morning, a huge beanstalk grew high into the sky.",
-                    "zh": "第二天早上，一株巨大的豆莖長高聳入了天空。"
+                    "en": "In addition to saving water, we must also plant more trees.",
+                    "zh": "除了節約用水之外，我們還必須種植更多的樹木。"
                 },
                 {
-                    "en": "Jack climbed it and found a magical giant's castle above the clouds.",
-                    "zh": "傑克爬上了豆莖，在雲端上方發現了一個神奇的巨人城堡。"
-                },
-                {
-                    "en": "He received a golden hen and knew the brave adventure was completely worth it.",
-                    "zh": "他收到了一隻金雞，並知道這場勇敢的冒險完全是值得的。"
+                    "en": "We must take action to improve this terrible situation.",
+                    "zh": "我們必須採取行動來改善這個糟糕的情況。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Why were Jack and his mother in trouble at first?",
+                    "question": "Who is trying to find good solutions for the earth?",
                     "options": [
-                        "They had no cash for food",
-                        "They were lost in a forest",
-                        "They had no cow"
+                        "Intelligent scientists.",
+                        "A young mermaid.",
+                        "A hard-working teacher."
                     ],
-                    "correct": "They had no cash for food"
+                    "correct": "Intelligent scientists."
                 },
                 {
                     "qId": 2,
-                    "question": "What did the strange man offer to Jack?",
+                    "question": "What is getting warmer every year?",
                     "options": [
-                        "Magic beans",
-                        "Magic balls",
-                        "A gold coin"
+                        "The earth.",
+                        "The ocean.",
+                        "The freezer."
                     ],
-                    "correct": "Magic beans"
+                    "correct": "The earth."
                 },
                 {
                     "qId": 3,
-                    "question": "Where did Jack's mother throw the magic beans?",
+                    "question": "Where is the giant ice that keeps the earth cool?",
                     "options": [
-                        "Into the garden soil",
-                        "Into a deep river",
-                        "Into the trash bin"
+                        "At the North Pole.",
+                        "At the South Pole.",
+                        "In the forest."
                     ],
-                    "correct": "Into the garden soil"
+                    "correct": "At the North Pole."
                 },
                 {
                     "qId": 4,
-                    "question": "What grew in the garden the next morning?",
+                    "question": "When is the earth getting warmer?",
                     "options": [
-                        "A huge beanstalk",
-                        "A giant apple tree",
-                        "Beautiful red flowers"
+                        "Every year.",
+                        "Every month.",
+                        "Every weekend."
                     ],
-                    "correct": "A huge beanstalk"
+                    "correct": "Every year."
                 },
                 {
                     "qId": 5,
-                    "question": "What did Jack find above the clouds?",
+                    "question": "Why do we need to plant more trees?",
                     "options": [
-                        "A giant's castle",
-                        "A tall building",
-                        "A magic forest"
+                        "To improve this terrible situation.",
+                        "To build a new house.",
+                        "To make new forests."
                     ],
-                    "correct": "A giant's castle"
+                    "correct": "To improve this terrible situation."
                 },
                 {
                     "qId": 6,
-                    "question": "What did Jack receive in the castle?",
+                    "question": "What should we do in addition to saving water?",
                     "options": [
-                        "A golden hen",
-                        "A magic book",
-                        "A golden pen"
+                        "Plant more trees.",
+                        "Cut more trees.",
+                        "Sleep all day."
                     ],
-                    "correct": "A golden hen"
+                    "correct": "Plant more trees."
                 }
             ]
         },
         {
             "id": 608,
-            "title": "Green Flying and the Future (環保新知：綠色飛行與未來)",
+            "title": "The Wooden Puppet (木偶奇遇記)",
             "articleContent": [
                 {
-                    "en": "Airplanes emit carbon, so engineers work hard to protect our air.",
-                    "zh": "飛機會排放碳，所以工程師們努力工作以保護我們的空氣。"
+                    "en": "Gepetto was a gentle old woodcarver who made a wooden puppet named Pinocchio.",
+                    "zh": "傑佩托是一位溫和的老木雕師，他做了一個名叫皮諾丘的木偶。"
                 },
                 {
-                    "en": "Every year, millions of people travel as a passenger on international flights.",
-                    "zh": "每年有數百萬人作為乘客搭乘國際航班旅行。"
+                    "en": "He wanted Pinocchio to be a real boy and go to a school campus.",
+                    "zh": "他希望皮諾丘成為一個真正的男孩，並去校園上學。"
                 },
                 {
-                    "en": "Scientists want to supply cleaner energy to airlines to reduce pollution.",
-                    "zh": "科學家們想要向航空公司供給更清潔的能源以減少污染。"
+                    "en": "However, Pinocchio did not know how to behave well.",
+                    "zh": "然而，皮諾丘不知道如何表現良好。"
                 },
                 {
-                    "en": "Many eco-friendly organizations offer full support to build electric planes in the future.",
-                    "zh": "許多環保組織提供全力支持，以在未來製造電動飛機。"
+                    "en": "He lied and ran away from home in his pajamas.",
+                    "zh": "他說謊並穿著睡衣離家出走。"
                 },
                 {
-                    "en": "With new technology, safer planes will fly without causing environmental harm.",
-                    "zh": "有了新科技，更安全的飛機將在不造成環境傷害的情況下飛行。"
+                    "en": "A fairy helped him and tried to inspire him to be good.",
+                    "zh": "一位仙女幫助他，並試圖激勵他變乖。"
                 },
                 {
-                    "en": "If everyone works together, we can achieve a zero-emission future for air travel.",
-                    "zh": "如果大家共同努力，我們就能實現空中交通零排放的未來。"
+                    "en": "Finally, he learned his lesson and became a real human boy.",
+                    "zh": "最後，他學到了教訓並成為一個真正的人類男孩。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Why are scientists working on cleaner energy for flights?",
+                    "question": "Who made the wooden puppet named Pinocchio?",
                     "options": [
-                        "To reduce air pollution",
-                        "To make planes fly faster",
-                        "To lower ticket prices"
+                        "Gepetto.",
+                        "A smart monkey.",
+                        "A fairy."
                     ],
-                    "correct": "To reduce air pollution"
+                    "correct": "Gepetto."
                 },
                 {
                     "qId": 2,
-                    "question": "Who travels on international flights every year?",
+                    "question": "What did Pinocchio wear when he ran away?",
                     "options": [
-                        "Millions of passengers",
-                        "Thousands of passengers",
-                        "Billions of passengers"
+                        "His pajamas.",
+                        "A heavy coat.",
+                        "A school uniform."
                     ],
-                    "correct": "Millions of passengers"
+                    "correct": "His pajamas."
                 },
                 {
                     "qId": 3,
-                    "question": "What do scientists want to supply to airlines?",
+                    "question": "Where did Gepetto want Pinocchio to go?",
                     "options": [
-                        "Cleaner energy",
-                        "Free cash",
-                        "Fresh air"
+                        "To a school campus.",
+                        "To the bottom of the lake.",
+                        "To study abroad."
                     ],
-                    "correct": "Cleaner energy"
+                    "correct": "To a school campus."
                 },
                 {
                     "qId": 4,
-                    "question": "Who offers full support for building electric planes?",
+                    "question": "When did Pinocchio become a real human boy?",
                     "options": [
-                        "Eco-friendly organizations",
-                        "Toy factories",
-                        "Sports teams"
+                        "After he learned his lesson.",
+                        "Before he met the fairy.",
+                        "After he told a lie."
                     ],
-                    "correct": "Eco-friendly organizations"
+                    "correct": "After he learned his lesson."
                 },
                 {
                     "qId": 5,
-                    "question": "What kind of future do people hope to achieve for air travel?",
+                    "question": "Why did Pinocchio get into trouble?",
                     "options": [
-                        "A zero-emission future",
-                        "A cheaper ticket",
-                        "A longer trip"
+                        "Because he lied and did not know how to behave well.",
+                        "Because he was a very intelligent boy.",
+                        "Because he studied too hard."
                     ],
-                    "correct": "A zero-emission future"
+                    "correct": "Because he lied and did not know how to behave well."
                 },
                 {
                     "qId": 6,
-                    "question": "What is the main theme of this news report?",
+                    "question": "How did the fairy help Pinocchio?",
                     "options": [
-                        "Green technology in aviation",
-                        "A history of airplane",
-                        "How to check in"
+                        "She tried to inspire him to be good.",
+                        "She taught him how to sail a boat.",
+                        "She put him in the freezer."
                     ],
-                    "correct": "Green technology in aviation"
+                    "correct": "She tried to inspire him to be good."
                 }
             ]
         }
