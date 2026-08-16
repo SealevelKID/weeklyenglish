@@ -1,0 +1,1180 @@
+{
+    "updateDate": "2026-08-16",
+    "classPasscode": "815",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "invent",
+            "chinese": "發明",
+            "distractors": [
+                "stress",
+                "arrange"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "opinion",
+            "chinese": "意見",
+            "distractors": [
+                "onion",
+                "form"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "onion",
+            "chinese": "洋蔥",
+            "distractors": [
+                "poison",
+                "opinion"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "stress",
+            "chinese": "強調",
+            "distractors": [
+                "refuse",
+                "arrange"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "careless",
+            "chinese": "粗心的",
+            "distractors": [
+                "independent",
+                "especially"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "independent",
+            "chinese": "獨立的",
+            "distractors": [
+                "careless",
+                "promise"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "rent",
+            "chinese": "租",
+            "distractors": [
+                "invent",
+                "refuse"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "refuse",
+            "chinese": "拒絕",
+            "distractors": [
+                "promise",
+                "stress"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "especially",
+            "chinese": "尤其是",
+            "distractors": [
+                "opinion",
+                "location"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "poison",
+            "chinese": "下毒",
+            "distractors": [
+                "onion",
+                "rent"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "promise",
+            "chinese": "承諾",
+            "distractors": [
+                "refuse",
+                "form"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "puzzle",
+            "chinese": "謎題",
+            "distractors": [
+                "invent",
+                "opinion"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "location",
+            "chinese": "地點",
+            "distractors": [
+                "rent",
+                "arrange"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "arrange",
+            "chinese": "安排",
+            "distractors": [
+                "stress",
+                "promise"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "form",
+            "chinese": "組成",
+            "distractors": [
+                "independent",
+                "careless"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "invent",
+            "chinese": "發明",
+            "distractors": [
+                "stress",
+                "arrange"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "opinion",
+            "chinese": "意見",
+            "distractors": [
+                "onion",
+                "form"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "onion",
+            "chinese": "洋蔥",
+            "distractors": [
+                "poison",
+                "opinion"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "stress",
+            "chinese": "強調",
+            "distractors": [
+                "refuse",
+                "arrange"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "careless",
+            "chinese": "粗心的",
+            "distractors": [
+                "independent",
+                "especially"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "independent",
+            "chinese": "獨立的",
+            "distractors": [
+                "careless",
+                "promise"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "rent",
+            "chinese": "租",
+            "distractors": [
+                "invent",
+                "refuse"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "refuse",
+            "chinese": "拒絕",
+            "distractors": [
+                "promise",
+                "stress"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "especially",
+            "chinese": "尤其是",
+            "distractors": [
+                "opinion",
+                "location"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "poison",
+            "chinese": "下毒",
+            "distractors": [
+                "onion",
+                "rent"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "promise",
+            "chinese": "承諾",
+            "distractors": [
+                "refuse",
+                "form"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "puzzle",
+            "chinese": "謎題",
+            "distractors": [
+                "invent",
+                "opinion"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "location",
+            "chinese": "地點",
+            "distractors": [
+                "rent",
+                "arrange"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "arrange",
+            "chinese": "安排",
+            "distractors": [
+                "stress",
+                "promise"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "form",
+            "chinese": "組成",
+            "distractors": [
+                "independent",
+                "careless"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "Thomas Edison tried to _______ a new kind of electric light bulb.",
+            "correct": "invent",
+            "distractors": [
+                "rent",
+                "poison"
+            ],
+            "hint": "表示「發明」新事物，動詞使用 invent。",
+            "translation": "湯瑪斯·愛迪生試圖發明一種新型電燈泡。",
+            "id": 201
+        },
+        {
+            "sentence": "In my _______, reading books every day is a wonderful habit.",
+            "correct": "opinion",
+            "distractors": [
+                "onion",
+                "puzzle"
+            ],
+            "hint": "片語 In one's opinion 表示「依某人之見/意見」。",
+            "translation": "依我看來，每天閱讀是一個很棒的習慣。",
+            "id": 202
+        },
+        {
+            "sentence": "Mom asked me to chop an _______ for the soup tonight.",
+            "correct": "onion",
+            "distractors": [
+                "opinion",
+                "location"
+            ],
+            "hint": "前方有冠詞 an，表示切一顆「洋蔥」。",
+            "translation": "媽媽要我為今晚的湯切一顆洋蔥。",
+            "id": 203
+        },
+        {
+            "sentence": "The teacher wanted to _______ the importance of being on time.",
+            "correct": "stress",
+            "distractors": [
+                "refuse",
+                "arrange"
+            ],
+            "hint": "動詞「強調」重要性，使用 stress。",
+            "translation": "老師想要強調守時的重要性。",
+            "id": 204
+        },
+        {
+            "sentence": "It was _______ of him to leave his house key on the school bus.",
+            "correct": "careless",
+            "distractors": [
+                "independent",
+                "especially"
+            ],
+            "hint": "形容人「粗心的、不小心的」，使用 careless。",
+            "translation": "他把家門鑰匙落在校車上，真是太粗心了。",
+            "id": 205
+        },
+        {
+            "sentence": "The girl became more _______ after learning how to take care of herself.",
+            "correct": "independent",
+            "distractors": [
+                "careless",
+                "poison"
+            ],
+            "hint": "形容變得更加「獨立的」，使用形容詞 independent。",
+            "translation": "那個女孩在學會照顧自己後變得更加獨立。",
+            "id": 206
+        },
+        {
+            "sentence": "They decided to _______ a small apartment near the university.",
+            "correct": "rent",
+            "distractors": [
+                "invent",
+                "form"
+            ],
+            "hint": "表示「租」房子或車輛，動詞使用 rent。",
+            "translation": "他們決定在大學附近租一間小公寓。",
+            "id": 207
+        },
+        {
+            "sentence": "Honest students always keep their _______ when they give their word.",
+            "correct": "promise",
+            "distractors": [
+                "refuse",
+                "stress"
+            ],
+            "hint": "keep one's promise 表示「遵守承諾」。",
+            "translation": "誠實的學生在許下承諾時總是會信守諾言。",
+            "id": 208
+        },
+        {
+            "sentence": "The boy did not want to _______ his friend's polite invitation.",
+            "correct": "refuse",
+            "distractors": [
+                "arrange",
+                "promise"
+            ],
+            "hint": "表示「拒絕」邀請，動詞使用 refuse。",
+            "translation": "那個男孩不想拒絕朋友禮貌的邀請。",
+            "id": 209
+        },
+        {
+            "sentence": "I enjoy outdoor sports, _______ playing soccer on sunny afternoons.",
+            "correct": "especially",
+            "distractors": [
+                "opinion",
+                "location"
+            ],
+            "hint": "副詞表示「尤其是、特別是」，使用 especially。",
+            "translation": "我喜歡戶外運動，特別是在晴朗的下午踢足球。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "Cooking Soup for the Family (為家人煮湯)",
+            "articleContent": [
+                {
+                    "en": "Leo wanted to make delicious soup for his family on Friday evening.",
+                    "zh": "里歐想在週五晚上為家人煮好喝的湯。"
+                },
+                {
+                    "en": "His sister Ella gave her opinion about adding some sweet corn.",
+                    "zh": "他的妹妹艾拉提出意見，建議加一些甜玉米。"
+                },
+                {
+                    "en": "Leo began to chop an onion carefully on the cutting board.",
+                    "zh": "里歐在砧板上小心地切著洋蔥。"
+                },
+                {
+                    "en": "He did not want to be careless and cut his finger.",
+                    "zh": "他不想因為粗心而切到手指。"
+                },
+                {
+                    "en": "Ella helped him arrange the bowls and spoons on the table.",
+                    "zh": "艾拉幫他把碗和湯匙整齊地擺在餐桌上。"
+                },
+                {
+                    "en": "Leo made a promise to cook dinner every weekend.",
+                    "zh": "里歐承諾每個週末都要煮晚餐。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who gave advice about adding sweet corn to the soup?",
+                    "options": [
+                        "Leo's sister",
+                        "Leo's mother",
+                        "Leo's brother"
+                    ],
+                    "correct": "Leo's sister"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Leo chop carefully on the cutting board?",
+                    "options": [
+                        "An onion",
+                        "A carrot",
+                        "A piece of meat"
+                    ],
+                    "correct": "An onion"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Leo prepare the soup for his family?",
+                    "options": [
+                        "On Friday evening",
+                        "On Sunday morning",
+                        "On Friday morning"
+                    ],
+                    "correct": "On Friday evening"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Ella arrange the bowls and spoons?",
+                    "options": [
+                        "On the table",
+                        "In the kitchen cabinet",
+                        "In the drawer"
+                    ],
+                    "correct": "On the table"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Leo promise to do every weekend?",
+                    "options": [
+                        "Cook dinner",
+                        "Wash the dishes",
+                        "Buy groceries"
+                    ],
+                    "correct": "Cook dinner"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Leo chop the vegetable carefully?",
+                    "options": [
+                        "Because he did not want to cut his finger",
+                        "Because the onion was very hard",
+                        "Because Ella told him to hurry"
+                    ],
+                    "correct": "Because he did not want to cut his finger"
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "A New Room for the Club (桌遊社的新空間)",
+            "articleContent": [
+                {
+                    "en": "The board game club needed a new location for their meetings after school.",
+                    "zh": "桌遊社在放學後需要一個新的活動地點。"
+                },
+                {
+                    "en": "The club leader, Max, decided to be independent and solve the problem himself.",
+                    "zh": "社長麥克斯決定獨立自主，自己解決這個問題。"
+                },
+                {
+                    "en": "He asked Mr. Brown if they could rent the empty art room.",
+                    "zh": "他詢問布朗老師他們是否可以租借空置的美術教室。"
+                },
+                {
+                    "en": "The teacher did not refuse his polite request.",
+                    "zh": "老師並沒有拒絕他有禮貌的請求。"
+                },
+                {
+                    "en": "Mr. Brown even gave them a special puzzle game as a gift.",
+                    "zh": "布朗老師甚至送給他們一個特別的謎題遊戲作為禮物。"
+                },
+                {
+                    "en": "All the club members were very happy with the new room.",
+                    "zh": "所有社員都對這間新的教室感到非常開心。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who was the leader of the board game club?",
+                    "options": [
+                        "Max",
+                        "Mark",
+                        "Leo"
+                    ],
+                    "correct": "Max"
+                },
+                {
+                    "qId": 2,
+                    "question": "What problem did the club need to solve?",
+                    "options": [
+                        "Finding a new location for meetings",
+                        "Buying new board games",
+                        "Finding a new art teacher"
+                    ],
+                    "correct": "Finding a new location for meetings"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the board game club usually hold their meetings?",
+                    "options": [
+                        "After school",
+                        "Before breakfast",
+                        "During the weekend"
+                    ],
+                    "correct": "After school"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where was the new space the club asked to use?",
+                    "options": [
+                        "The empty art room",
+                        "Their classroom",
+                        "The empty music room"
+                    ],
+                    "correct": "The empty art room"
+                },
+                {
+                    "qId": 5,
+                    "question": "What gift did Mr. Brown give to the club?",
+                    "options": [
+                        "A special puzzle game",
+                        "Some tables",
+                        "A new clock"
+                    ],
+                    "correct": "A special puzzle game"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Max talk to Mr. Brown?",
+                    "options": [
+                        "Because the club needed a place to meet",
+                        "Because he wanted to study art",
+                        "Because he didn't do his homework"
+                    ],
+                    "correct": "Because the club needed a place to meet"
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "The Green Cleaner Invention (環保清潔劑發明)",
+            "articleContent": [
+                {
+                    "en": "Amy and Ken worked in the science lab on Wednesday afternoon.",
+                    "zh": "艾咪和肯恩週三下午在自然實驗室做實驗。"
+                },
+                {
+                    "en": "They wanted to invent a safe cleaner made from orange peels.",
+                    "zh": "他們想用柳橙皮發明一種安全的清潔劑。"
+                },
+                {
+                    "en": "Amy stressed that chemical cleaners can poison river water.",
+                    "zh": "艾咪強調化學清潔劑可能會毒害河水。"
+                },
+                {
+                    "en": "They mixed natural oils together to form a soft foam.",
+                    "zh": "他們將天然油脂混合在一起，形成細緻的泡沫。"
+                },
+                {
+                    "en": "The cleaner smelled nice, especially when wiped on wooden desks.",
+                    "zh": "這款清潔劑聞起來很香，特別是擦在木桌上的時候。"
+                },
+                {
+                    "en": "Their science teacher praised them for their creative green idea.",
+                    "zh": "他們的自然老師稱讚了這個充滿創意的環保點子。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who worked together in the science lab?",
+                    "options": [
+                        "Amy and Ken",
+                        "Amy and Kevin",
+                        "Cathy and Ken"
+                    ],
+                    "correct": "Amy and Ken"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Amy and Ken want to invent?",
+                    "options": [
+                        "A safe cleaner",
+                        "A cleaning robot",
+                        "A cheaper cleaner"
+                    ],
+                    "correct": "A safe cleaner"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the students work on their science project?",
+                    "options": [
+                        "On Wednesday",
+                        "On Saturday",
+                        "On Friday"
+                    ],
+                    "correct": "On Wednesday"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the students do their experiment?",
+                    "options": [
+                        "In the science lab",
+                        "In their classroom",
+                        "In the art room"
+                    ],
+                    "correct": "In the science lab"
+                },
+                {
+                    "qId": 5,
+                    "question": "What formed when they mixed the natural oils together?",
+                    "options": [
+                        "A soft foam",
+                        "A green liquid",
+                        "A dangerous poison"
+                    ],
+                    "correct": "A soft foam"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Amy want to make a natural cleaner?",
+                    "options": [
+                        "Because chemical cleaners can poison river water",
+                        "Because orange peels smell good",
+                        "Because she want to spend money"
+                    ],
+                    "correct": "Because chemical cleaners can poison river water"
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "Thomas Edison tried to _______ a new kind of electric light bulb.",
+            "correct": "invent",
+            "distractors": [
+                "rent",
+                "poison"
+            ],
+            "hint": "表示「發明」新事物，動詞使用 invent。",
+            "translation": "湯瑪斯·愛迪生試圖發明一種新型電燈泡。",
+            "id": 401
+        },
+        {
+            "sentence": "In my _______, reading books every day is a wonderful habit.",
+            "correct": "opinion",
+            "distractors": [
+                "onion",
+                "puzzle"
+            ],
+            "hint": "片語 In one's opinion 表示「依某人之見/意見」。",
+            "translation": "依我看來，每天閱讀是一個很棒的習慣。",
+            "id": 402
+        },
+        {
+            "sentence": "Mom asked me to chop an _______ for the soup tonight.",
+            "correct": "onion",
+            "distractors": [
+                "opinion",
+                "location"
+            ],
+            "hint": "前方有冠詞 an，表示切一顆「洋蔥」。",
+            "translation": "媽媽要我為今晚的湯切一顆洋蔥。",
+            "id": 403
+        },
+        {
+            "sentence": "The teacher wanted to _______ the importance of being on time.",
+            "correct": "stress",
+            "distractors": [
+                "refuse",
+                "arrange"
+            ],
+            "hint": "動詞「強調」重要性，使用 stress。",
+            "translation": "老師想要強調守時的重要性。",
+            "id": 404
+        },
+        {
+            "sentence": "It was _______ of him to leave his house key on the school bus.",
+            "correct": "careless",
+            "distractors": [
+                "independent",
+                "especially"
+            ],
+            "hint": "形容人「粗心的、不小心的」，使用 careless。",
+            "translation": "他把家門鑰匙落在校車上，真是太粗心了。",
+            "id": 405
+        },
+        {
+            "sentence": "The girl became more _______ after learning how to take care of herself.",
+            "correct": "independent",
+            "distractors": [
+                "careless",
+                "poison"
+            ],
+            "hint": "形容變得更加「獨立的」，使用形容詞 independent。",
+            "translation": "那個女孩在學會照顧自己後變得更加獨立。",
+            "id": 406
+        },
+        {
+            "sentence": "They decided to _______ a small apartment near the university.",
+            "correct": "rent",
+            "distractors": [
+                "invent",
+                "form"
+            ],
+            "hint": "表示「租」房子或車輛，動詞使用 rent。",
+            "translation": "他們決定在大學附近租一間小公寓。",
+            "id": 407
+        },
+        {
+            "sentence": "Honest students always keep their _______ when they give their word.",
+            "correct": "promise",
+            "distractors": [
+                "refuse",
+                "stress"
+            ],
+            "hint": "keep one's promise 表示「遵守承諾」。",
+            "translation": "誠實的學生在許下承諾時總是會信守諾言。",
+            "id": 408
+        },
+        {
+            "sentence": "The boy did not want to _______ his friend's polite invitation.",
+            "correct": "refuse",
+            "distractors": [
+                "arrange",
+                "promise"
+            ],
+            "hint": "表示「拒絕」邀請，動詞使用 refuse。",
+            "translation": "那個男孩不想拒絕朋友禮貌的邀請。",
+            "id": 409
+        },
+        {
+            "sentence": "I enjoy outdoor sports, _______ playing soccer on sunny afternoons.",
+            "correct": "especially",
+            "distractors": [
+                "opinion",
+                "location"
+            ],
+            "hint": "副詞表示「尤其是、特別是」，使用 especially。",
+            "translation": "我喜歡戶外運動，特別是在晴朗的下午踢足球。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "Snow White and the Evil Queen (白雪公主與壞皇后)",
+            "article": "The evil queen wanted to find the secret {{1}} where Snow White lived. She decided to use a sweet red apple to {{2}} the young princess. The kind girl forgot the dwarfs' warning and was too {{3}} to stay safe. She took a bite of the apple and fell into a deep sleep. The prince found her in the glass coffin and woke her with pure love. Together, they made a promise to protect the magical kingdom forever.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "location",
+                    "distractors": [
+                        "opinion",
+                        "puzzle"
+                    ],
+                    "hint": "表示壞皇后想尋找的秘密「地點、位置」，名詞使用 location。",
+                    "translation": "壞皇后想找出白雪公主所居住的秘密地點。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "poison",
+                    "distractors": [
+                        "invent",
+                        "rent"
+                    ],
+                    "hint": "表示企圖用毒蘋果「下毒、毒害」，動詞使用 poison。",
+                    "translation": "她決定用一顆甜美的紅蘋果來毒害年輕的公主。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "careless",
+                    "distractors": [
+                        "independent",
+                        "especially"
+                    ],
+                    "hint": "形容公主太過「粗心的、大意的」，使用形容詞 careless。",
+                    "translation": "善良的女孩忘記了小矮人們的警告，太過粗心而無法保持安全。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "The Pied Piper of Hamelin (花衣魔笛手)",
+            "article": "The mayor asked the piper to {{1}} a plan to drive all the rats away from town. The mayor made a strong {{2}} to give the piper ten bags of gold coins. However, when the rats were gone, the greedy mayor chose to {{3}} the payment. The angry piper played a mysterious tune on his magic pipe. All the children in the town followed his sweet music into the mountains. The villagers learned that breaking a deal always brings heavy regret.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "arrange",
+                    "distractors": [
+                        "invent",
+                        "stress"
+                    ],
+                    "hint": "表示「安排、籌劃」計畫以趕走老鼠，動詞使用 arrange。",
+                    "translation": "市長請笛手安排一個計畫，將鎮上所有的老鼠趕走。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "promise",
+                    "distractors": [
+                        "opinion",
+                        "form"
+                    ],
+                    "hint": "表示許下強烈的「承諾」，名詞使用 promise。",
+                    "translation": "市長許下鄭重的承諾，要給笛手十袋金幣。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "refuse",
+                    "distractors": [
+                        "rent",
+                        "independent"
+                    ],
+                    "hint": "表示貪婪的市長選擇「拒絕」付款，動詞使用 refuse。",
+                    "translation": "然而，當老鼠消失後，貪婪的市長卻選擇拒絕付款。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "Alice and the Mad Tea Party (愛麗絲與瘋狂茶會)",
+            "article": "Alice sat down at the large tea table under a tree. The Hatter loved to {{1}} strange riddles that nobody could solve. The March Hare gave his strange {{2}} about how time works in Wonderland. They watched the colorful tea bubbles {{3}} unusual shapes in the air. Alice felt the party was a giant puzzle, especially when the Dormouse fell asleep. She decided to leave the forest and continue her magical adventure alone.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "invent",
+                    "distractors": [
+                        "poison",
+                        "rent"
+                    ],
+                    "hint": "表示瘋帽客喜歡「發明、編造」奇怪的謎題，動詞使用 invent。",
+                    "translation": "瘋帽客喜歡發明沒有人能解開的奇怪謎題。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "opinion",
+                    "distractors": [
+                        "onion",
+                        "careless"
+                    ],
+                    "hint": "表示三月兔提出了自己的古怪「意見、見解」，名詞使用 opinion。",
+                    "translation": "三月兔對仙境中時間的運作方式提出了他古怪的見解。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "form",
+                    "distractors": [
+                        "refuse",
+                        "promise"
+                    ],
+                    "hint": "表示茶水氣泡在空中「形成、組成」不尋常的形狀，動詞使用 form。",
+                    "translation": "他們看著彩色的茶水氣泡在空中形成不尋常的形狀。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "Snow White and the Evil Queen (白雪公主與壞皇后)",
+            "articleContent": [
+                {
+                    "en": "The evil queen wanted to find the secret location where Snow White lived.",
+                    "zh": "壞皇后想找出白雪公主所居住的秘密地點。"
+                },
+                {
+                    "en": "She decided to use a sweet red apple to poison the young princess.",
+                    "zh": "她決定用一顆甜美的紅蘋果來毒害年輕的公主。"
+                },
+                {
+                    "en": "The kind girl forgot the dwarfs' warning and was too careless to stay safe.",
+                    "zh": "善良的女孩忘記了小矮人們的警告，太過粗心而無法保持安全。"
+                },
+                {
+                    "en": "She took a bite of the apple and fell into a deep sleep.",
+                    "zh": "她咬了一口蘋果，便陷入了沉睡。"
+                },
+                {
+                    "en": "The prince found her in the glass coffin and woke her with pure love.",
+                    "zh": "王子在玻璃棺中找到了她，並用真愛喚醒了她。"
+                },
+                {
+                    "en": "Together, they made a promise to protect the magical kingdom forever.",
+                    "zh": "他們一起許下承諾，將永遠守護這個神奇的王國。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who wanted to harm the young princess with a magic fruit?",
+                    "options": [
+                        "The evil queen",
+                        "The seven dwarfs",
+                        "The forest animals"
+                    ],
+                    "correct": "The evil queen"
+                },
+                {
+                    "qId": 2,
+                    "question": "What kind of fruit did the queen use in her plan?",
+                    "options": [
+                        "A sweet red apple",
+                        "A fresh onion",
+                        "A yellow banana"
+                    ],
+                    "correct": "A sweet red apple"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where did the dwarfs place the sleeping princess?",
+                    "options": [
+                        "In a glass coffin",
+                        "In a dark cave",
+                        "In an old wooden house"
+                    ],
+                    "correct": "In a glass coffin"
+                },
+                {
+                    "qId": 4,
+                    "question": "Why did Snow White fall into a deep sleep?",
+                    "options": [
+                        "Because she ate the poisoned apple",
+                        "Because she was very tired",
+                        "Because the dwarfs asked her to rest"
+                    ],
+                    "correct": "Because she ate the poisoned apple"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did the prince and princess promise to do together?",
+                    "options": [
+                        "Protect the magical kingdom",
+                        "Cut down all the apple trees",
+                        "Leave the forest forever"
+                    ],
+                    "correct": "Protect the magical kingdom"
+                },
+                {
+                    "qId": 6,
+                    "question": "How did the prince wake the princess?",
+                    "options": [
+                        "With pure love",
+                        "By giving her clean water",
+                        "By singing a magic song"
+                    ],
+                    "correct": "With pure love"
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "The Pied Piper of Hamelin (花衣魔笛手)",
+            "articleContent": [
+                {
+                    "en": "The mayor asked the piper to arrange a plan to drive all the rats away from town.",
+                    "zh": "市長請笛手安排一個計畫，將鎮上所有的老鼠趕走。"
+                },
+                {
+                    "en": "The mayor made a strong promise to give the piper ten bags of gold coins.",
+                    "zh": "市長許下鄭重的承諾，要給笛手十袋金幣。"
+                },
+                {
+                    "en": "However, when the rats were gone, the greedy mayor chose to refuse the payment.",
+                    "zh": "然而，當老鼠消失後，貪婪的市長卻選擇拒絕付款。"
+                },
+                {
+                    "en": "The angry piper played a mysterious tune on his magic pipe.",
+                    "zh": "憤怒的笛手用他的魔笛吹奏了一首神秘的曲調。"
+                },
+                {
+                    "en": "All the children in the town followed his sweet music into the mountains.",
+                    "zh": "鎮上所有的孩子都跟隨著他美妙的音樂走進了山中。"
+                },
+                {
+                    "en": "The villagers learned that breaking a deal always brings heavy regret.",
+                    "zh": "村民們學到了毀約總會帶來沉重的悔恨。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who refused to give the piper his promised reward?",
+                    "options": [
+                        "The greedy mayor",
+                        "The children",
+                        "The villagers"
+                    ],
+                    "correct": "The greedy mayor"
+                },
+                {
+                    "qId": 2,
+                    "question": "What musical instrument did the piper play?",
+                    "options": [
+                        "A magic pipe",
+                        "A gold violin",
+                        "A silver flute"
+                    ],
+                    "correct": "A magic pipe"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where did the children follow the piper's music?",
+                    "options": [
+                        "Into the mountains",
+                        "To the river bank",
+                        "Into the school gym"
+                    ],
+                    "correct": "Into the mountains"
+                },
+                {
+                    "qId": 4,
+                    "question": "Why did the piper take the town's children away?",
+                    "options": [
+                        "Because the mayor broke his promise",
+                        "Because the children were noisy",
+                        "Because the town was flooded"
+                    ],
+                    "correct": "Because the mayor broke his promise"
+                },
+                {
+                    "qId": 5,
+                    "question": "What reward did the mayor promise to give the piper?",
+                    "options": [
+                        "Ten bags of gold coins",
+                        "A basket of fresh vegetables",
+                        "A new stone house"
+                    ],
+                    "correct": "Ten bags of gold coins"
+                },
+                {
+                    "qId": 6,
+                    "question": "What important lesson did the villagers learn at the end?",
+                    "options": [
+                        "Breaking a deal brings heavy regret",
+                        "Playing music is dangerous",
+                        "Never invite guests to town"
+                    ],
+                    "correct": "Breaking a deal brings heavy regret"
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "Alice and the Mad Tea Party (愛麗絲與瘋狂茶會)",
+            "articleContent": [
+                {
+                    "en": "Alice sat down at the large tea table under a tree.",
+                    "zh": "愛麗絲坐在樹下一張大茶桌旁。"
+                },
+                {
+                    "en": "The Hatter loved to invent strange riddles that nobody could solve.",
+                    "zh": "瘋帽客喜歡發明沒有人能解開的奇怪謎題。"
+                },
+                {
+                    "en": "The March Hare gave his strange opinion about how time works in Wonderland.",
+                    "zh": "三月兔對仙境中時間的運作方式提出了他古怪的見解。"
+                },
+                {
+                    "en": "They watched the colorful tea bubbles form unusual shapes in the air.",
+                    "zh": "他們看著彩色的茶水氣泡在空中形成不尋常的形狀。"
+                },
+                {
+                    "en": "Alice felt the party was a giant puzzle, especially when the Dormouse fell asleep.",
+                    "zh": "愛麗絲覺得這場茶會是一個巨大的謎團，尤其是當睡鼠睡著的時候。"
+                },
+                {
+                    "en": "She decided to leave the forest and continue her magical adventure alone.",
+                    "zh": "她決定離開森林，獨自繼續她的神奇冒險。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who loved to invent strange riddles at the table?",
+                    "options": [
+                        "The Hatter",
+                        "The Queen of Hearts",
+                        "Alice's sister"
+                    ],
+                    "correct": "The Hatter"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the colorful tea bubbles create in the air?",
+                    "options": [
+                        "Unusual shapes",
+                        "Normal shapes",
+                        "Little paper boats"
+                    ],
+                    "correct": "Unusual shapes"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where did Alice sit down for the tea party?",
+                    "options": [
+                        "At the large table under a tree",
+                        "Inside a dark castle",
+                        "Near the river shore"
+                    ],
+                    "correct": "At the large table under a tree"
+                },
+                {
+                    "qId": 4,
+                    "question": "Why did Alice feel the tea party was like a giant puzzle?",
+                    "options": [
+                        "Because the characters had strange conversations",
+                        "Because she was looking for a lost key",
+                        "Because the tea tasted very bad"
+                    ],
+                    "correct": "Because the characters had strange conversations"
+                },
+                {
+                    "qId": 5,
+                    "question": "What topic did the March Hare share his opinion on?",
+                    "options": [
+                        "How time works in Wonderland",
+                        "How to make sweet onion soup",
+                        "Where to buy pretty hats"
+                    ],
+                    "correct": "How time works in Wonderland"
+                },
+                {
+                    "qId": 6,
+                    "question": "What did Alice do at the end of the tea party?",
+                    "options": [
+                        "She left the forest",
+                        "She stayed and washed all the tea cups",
+                        "She fell asleep under the table"
+                    ],
+                    "correct": "She left the forest"
+                }
+            ]
+        }
+    ]
+}
