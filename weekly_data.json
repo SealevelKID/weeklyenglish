@@ -781,7 +781,7 @@
         {
             "id": 506,
             "title": "Hansel and Gretel in the Forest (糖果屋歷險)",
-            "article": "Hansel and Gretel were left in the deep forest by their parents. Hansel dropped white pebbles to leave a clear {{1}} on the path so they could find their way home. Later, the hungry children tripped over a large tree {{2}} while walking in the dark woods. Suddenly, they saw a wonderful house with sweet cookies on its {{3}}. A wicked old witch lived inside the house and tried to trap the little children. Gretel bravely pushed the witch into the oven and saved her brother.",
+            "article": "Hansel and Gretel were left in the deep forest by their parents. Hansel dropped some bread crumbs to leave a {{1}} on the path so they could find their way home. Later, the hungry children tripped over a large tree {{2}} while walking in the dark woods. Suddenly, they saw a wonderful house with sweet cookies on its {{3}}. A wicked old witch lived inside the house and tried to trap the little children. Gretel bravely pushed the witch into the oven and saved her brother.",
             "blanks": [
                 {
                     "id": 5001,
@@ -792,7 +792,7 @@
                         "link"
                     ],
                     "hint": "形容詞 clear 後面需要一個名詞，表示留下的標記或記號",
-                    "translation": "韓賽爾丟下白色小石子在小徑上留下清晰的記號，以便他們能找到回家的路。"
+                    "translation": "韓賽爾丟下麵包屑在小徑上留下記號，以便他們能找到回家的路。"
                 },
                 {
                     "id": 5002,
@@ -909,7 +909,7 @@
                     "zh": "韓賽爾與葛麗特被父母留在了深林之中。"
                 },
                 {
-                    "en": "Hansel dropped some pieces of bread to leave a mark on the path so they could find their way home.",
+                    "en": "Hansel dropped some bread crumbs to leave a mark on the path so they could find their way home.",
                     "zh": "韓賽爾丟下麵包碎屑在小徑上留下記號，以便他們能找到回家的路。"
                 },
                 {
@@ -932,7 +932,7 @@
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who left white pebbles along the forest path?",
+                    "question": "Who left bread crumbs along the forest path?",
                     "options": [
                         "Hansel",
                         "Gretel",
