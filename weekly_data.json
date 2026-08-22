@@ -1,0 +1,1178 @@
+{
+    "updateDate": "2026-08-22",
+    "classPasscode": "822",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "custom",
+            "chinese": "習俗",
+            "distractors": [
+                "mark",
+                "error"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "host",
+            "chinese": "主辦",
+            "distractors": [
+                "charge",
+                "tow"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "link",
+            "chinese": "關聯",
+            "distractors": [
+                "roof",
+                "root"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "error",
+            "chinese": "錯誤",
+            "distractors": [
+                "custom",
+                "mark"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "sold out",
+            "chinese": "賣完",
+            "distractors": [
+                "pick up",
+                "take part in"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "pick up",
+            "chinese": "買東西",
+            "distractors": [
+                "get rid of",
+                "take part in"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "root",
+            "chinese": "樹根",
+            "distractors": [
+                "roof",
+                "discount"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "roof",
+            "chinese": "屋頂",
+            "distractors": [
+                "root",
+                "link"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "take part in",
+            "chinese": "參加",
+            "distractors": [
+                "get rid of",
+                "pick up"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "get rid of",
+            "chinese": "擺脫",
+            "distractors": [
+                "take part in",
+                "sold out"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "discount",
+            "chinese": "折扣",
+            "distractors": [
+                "charge",
+                "extra"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "tow",
+            "chinese": "拖吊",
+            "distractors": [
+                "host",
+                "custom"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "extra",
+            "chinese": "額外的",
+            "distractors": [
+                "charge",
+                "discount"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "charge",
+            "chinese": "收費",
+            "distractors": [
+                "extra",
+                "tow"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "mark",
+            "chinese": "記號",
+            "distractors": [
+                "error",
+                "link"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "custom",
+            "chinese": "習俗",
+            "distractors": [
+                "mark",
+                "error"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "host",
+            "chinese": "主辦",
+            "distractors": [
+                "charge",
+                "tow"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "link",
+            "chinese": "關聯",
+            "distractors": [
+                "roof",
+                "root"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "error",
+            "chinese": "錯誤",
+            "distractors": [
+                "custom",
+                "mark"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "sold out",
+            "chinese": "賣完",
+            "distractors": [
+                "pick up",
+                "take part in"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "pick up",
+            "chinese": "買東西",
+            "distractors": [
+                "get rid of",
+                "take part in"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "root",
+            "chinese": "樹根",
+            "distractors": [
+                "roof",
+                "discount"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "roof",
+            "chinese": "屋頂",
+            "distractors": [
+                "root",
+                "link"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "take part in",
+            "chinese": "參加",
+            "distractors": [
+                "get rid of",
+                "pick up"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "get rid of",
+            "chinese": "擺脫",
+            "distractors": [
+                "take part in",
+                "sold out"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "discount",
+            "chinese": "折扣",
+            "distractors": [
+                "charge",
+                "extra"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "tow",
+            "chinese": "拖吊",
+            "distractors": [
+                "host",
+                "custom"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "extra",
+            "chinese": "額外的",
+            "distractors": [
+                "charge",
+                "discount"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "charge",
+            "chinese": "收費",
+            "distractors": [
+                "extra",
+                "tow"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "mark",
+            "chinese": "記號",
+            "distractors": [
+                "error",
+                "link"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "It is an old _______ to eat noodles on birthdays.",
+            "correct": "custom",
+            "distractors": [
+                "error",
+                "discount"
+            ],
+            "hint": "這裡需要表示傳統習俗的名詞",
+            "translation": "生日吃麵是一項古老的習俗。",
+            "id": 201
+        },
+        {
+            "sentence": "Our school will _______ the sports game this Friday.",
+            "correct": "host",
+            "distractors": [
+                "tow",
+                "charge"
+            ],
+            "hint": "助動詞 will 後面接原形動詞，表示舉辦或主辦",
+            "translation": "我們學校這週五將會主辦運動會。",
+            "id": 202
+        },
+        {
+            "sentence": "Scientists found a strong _______ between diet and health.",
+            "correct": "link",
+            "distractors": [
+                "roof",
+                "root"
+            ],
+            "hint": "表示兩件事物之間的關聯或連結",
+            "translation": "科學家發現飲食與健康之間有密切的關聯。",
+            "id": 203
+        },
+        {
+            "sentence": "There is a small spelling _______ on the blackboard.",
+            "correct": "error",
+            "distractors": [
+                "custom",
+                "mark"
+            ],
+            "hint": "表示拼字錯誤的名詞",
+            "translation": "黑板上有一個小小的拼字錯誤。",
+            "id": 204
+        },
+        {
+            "sentence": "All the concert tickets were _______ in five minutes.",
+            "correct": "sold out",
+            "distractors": [
+                "picked up",
+                "gotten rid of"
+            ],
+            "hint": "be 動詞後面搭配形容詞片語，表示全部賣光了",
+            "translation": "所有的演唱會門票在五分鐘內就賣完了。",
+            "id": 205
+        },
+        {
+            "sentence": "Dad asked me to _______ some fresh milk on my way home.",
+            "correct": "pick up",
+            "distractors": [
+                "get rid of",
+                "take part in"
+            ],
+            "hint": "不定詞 to 後面接原形動詞片語，表示順路購買",
+            "translation": "爸爸請我在回家路上順便買一些新鮮牛奶。",
+            "id": 206
+        },
+        {
+            "sentence": "The large bird landed safely on the high _______.",
+            "correct": "roof",
+            "distractors": [
+                "root",
+                "mark"
+            ],
+            "hint": "表示建築物最上方的屋頂",
+            "translation": "那隻大鳥安全地降落在高高的屋頂上。",
+            "id": 207
+        },
+        {
+            "sentence": "Many students want to _______ the singing contest next week.",
+            "correct": "take part in",
+            "distractors": [
+                "get rid of",
+                "pick up"
+            ],
+            "hint": "want to 後面接表示參加的動詞片語",
+            "translation": "許多學生想參加下週的歌唱比賽。",
+            "id": 208
+        },
+        {
+            "sentence": "We should _______ old newspapers to keep the room clean.",
+            "correct": "get rid of",
+            "distractors": [
+                "take part in",
+                "pick up"
+            ],
+            "hint": "助動詞 should 後面接表示丟棄、擺脫的片語",
+            "translation": "我們應該把舊報紙處理掉以保持房間乾淨。",
+            "id": 209
+        },
+        {
+            "sentence": "The bookstore offers a special _______ for students today.",
+            "correct": "discount",
+            "distractors": [
+                "charge",
+                "error"
+            ],
+            "hint": "表示打折、折扣優惠的名詞",
+            "translation": "這家書店今天為學生提供特別折扣。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "Culture Day Snacks (文化日點心)",
+            "articleContent": [
+                {
+                    "en": "Our school decided to host an international culture day this Saturday.",
+                    "zh": "我們學校決定在這個週六主辦一場國際文化日。"
+                },
+                {
+                    "en": "Mr. Lin asked Leo to pick up some snacks for the special custom display.",
+                    "zh": "林老師請里歐去買一些特色習俗展覽要用的小吃。"
+                },
+                {
+                    "en": "Leo went to the supermarket and found a ten percent discount on fruit cakes.",
+                    "zh": "里歐去了超級市場，發現水果蛋糕有打九折的折扣。"
+                },
+                {
+                    "en": "However, the popular strawberry cookies were completely sold out.",
+                    "zh": "然而，熱門的草莓餅乾已經完全賣完了。"
+                },
+                {
+                    "en": "The cashier told Leo that there would be an extra charge for gift boxes.",
+                    "zh": "收銀員告訴里歐，禮品盒需要額外收費。"
+                },
+                {
+                    "en": "Leo bought the cakes and returned to the classroom happily.",
+                    "zh": "里歐買了蛋糕並高興地回到教室。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who asked Leo to pick up snacks for the event?",
+                    "options": [
+                        "Mr. Lin",
+                        "Mrs. Lin",
+                        "Leo's classmate"
+                    ],
+                    "correct": "Mr. Lin"
+                },
+                {
+                    "qId": 2,
+                    "question": "What event will the school host this Saturday?",
+                    "options": [
+                        "An international culture day",
+                        "A school sports day",
+                        "A singing competition"
+                    ],
+                    "correct": "An international culture day"
+                },
+                {
+                    "qId": 3,
+                    "question": "When will the culture day take place?",
+                    "options": [
+                        "This Saturday",
+                        "This Friday",
+                        "Next Monday"
+                    ],
+                    "correct": "This Saturday"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Leo go to buy the snacks?",
+                    "options": [
+                        "To the supermarket",
+                        "To the convenience store",
+                        "To the local night market"
+                    ],
+                    "correct": "To the supermarket"
+                },
+                {
+                    "qId": 5,
+                    "question": "Which item was completely sold out at the store?",
+                    "options": [
+                        "Strawberry cookies",
+                        "Fruit cakes",
+                        "Strawberry cakes"
+                    ],
+                    "correct": "Strawberry cookies"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Leo need to pay an extra charge?",
+                    "options": [
+                        "For the gift boxes",
+                        "For the fruit cakes",
+                        "For the supermarket plastic bag"
+                    ],
+                    "correct": "For the gift boxes"
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "Cleaning the Garden (花園大掃除)",
+            "articleContent": [
+                {
+                    "en": "Many students decided to take part in the school garden cleanup on Sunday morning.",
+                    "zh": "許多學生決定在週日早上參加學校花園的大掃除。"
+                },
+                {
+                    "en": "They worked hard to get rid of thick weeds near the big tree.",
+                    "zh": "他們努力拔除大樹附近濃密的雜草。"
+                },
+                {
+                    "en": "Ken saw a giant tree root growing under the old wooden bench.",
+                    "zh": "肯恩看到一條巨大的樹根生長在舊木椅下方。"
+                },
+                {
+                    "en": "Suddenly, a worker noticed a red mark on the damaged roof of the garden shed.",
+                    "zh": "突然間，一名工人注意到花園棚屋損壞的屋頂上有個紅色記號。"
+                },
+                {
+                    "en": "The worker fixed the roof quickly so there was no error in the safety report.",
+                    "zh": "工人迅速修好了屋頂，因此安全報告中沒有任何錯誤。"
+                },
+                {
+                    "en": "All the volunteers felt proud after finishing the difficult task.",
+                    "zh": "所有志工在完成這項艱鉅的任務後都感到很自豪。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who took part in the garden cleanup on Sunday?",
+                    "options": [
+                        "Many students",
+                        "Many workers",
+                        "A group of parents"
+                    ],
+                    "correct": "Many students"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the students try to get rid of near the tree?",
+                    "options": [
+                        "Thick weeds",
+                        "Fallen leaves",
+                        "Broken wooden benches"
+                    ],
+                    "correct": "Thick weeds"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the garden cleanup take place?",
+                    "options": [
+                        "On Sunday morning",
+                        "On Friday afternoon",
+                        "On Saturday night"
+                    ],
+                    "correct": "On Sunday morning"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where was the giant tree root growing?",
+                    "options": [
+                        "Under the old wooden bench",
+                        "On the garden roof",
+                        "Inside the garden shed"
+                    ],
+                    "correct": "Under the old wooden bench"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did the worker see on the roof of the shed?",
+                    "options": [
+                        "A red mark",
+                        "A blue sign",
+                        "A yellow flag"
+                    ],
+                    "correct": "A red mark"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did the worker fix the roof quickly?",
+                    "options": [
+                        "To avoid errors in the safety report",
+                        "To build a new room",
+                        "To grow plants on it"
+                    ],
+                    "correct": "To avoid errors in the safety report"
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "A Parking Mistake (停車失誤)",
+            "articleContent": [
+                {
+                    "en": "Uncle David drove his car to the city stadium yesterday afternoon.",
+                    "zh": "大衛叔叔昨天下午開車去市立體育館。"
+                },
+                {
+                    "en": "He parked in a no-parking zone by error because the sign was hidden.",
+                    "zh": "因為標誌被遮住了，他失誤將車停在禁停區。"
+                },
+                {
+                    "en": "A police officer had to tow the car away to the parking yard.",
+                    "zh": "一名警官不得不把車子拖吊到保管場。"
+                },
+                {
+                    "en": "The officer explained the link between illegal parking and heavy traffic jams.",
+                    "zh": "警官解釋了違規停車與嚴重交通堵塞之間的關聯。"
+                },
+                {
+                    "en": "Uncle David had to pay a service charge and an extra fine to get his car back.",
+                    "zh": "大衛叔叔必須支付一筆服務費和額外罰款才能領回他的車。"
+                },
+                {
+                    "en": "He promised to follow all the traffic rules carefully in the future.",
+                    "zh": "他保證未來一定會仔細遵守所有交通規則。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who drove to the city stadium yesterday afternoon?",
+                    "options": [
+                        "Uncle David",
+                        "Uncle John",
+                        "A police officer"
+                    ],
+                    "correct": "Uncle David"
+                },
+                {
+                    "qId": 2,
+                    "question": "What happened to Uncle David's car?",
+                    "options": [
+                        "It was towed away by a police officer",
+                        "It broke down on the road",
+                        "It was sold to another person"
+                    ],
+                    "correct": "It was towed away by a police officer"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Uncle David go to the stadium?",
+                    "options": [
+                        "Yesterday afternoon",
+                        "Yesterday morning",
+                        "Last night"
+                    ],
+                    "correct": "Yesterday afternoon"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Uncle David accidentally park his car?",
+                    "options": [
+                        "In a no-parking zone",
+                        "Inside the stadium garage",
+                        "In front of his house"
+                    ],
+                    "correct": "In a no-parking zone"
+                },
+                {
+                    "qId": 5,
+                    "question": "What link did the police officer explain?",
+                    "options": [
+                        "The link between illegal parking and traffic jams",
+                        "The link between fast driving and car accidents",
+                        "The link between car weight and road damage"
+                    ],
+                    "correct": "The link between illegal parking and traffic jams"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did Uncle David have to pay an extra fine?",
+                    "options": [
+                        "To get his car back from the parking yard",
+                        "To buy a new stadium ticket",
+                        "To repair his broken car"
+                    ],
+                    "correct": "To get his car back from the parking yard"
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "It is an old _______ to eat noodles on birthdays.",
+            "correct": "custom",
+            "distractors": [
+                "error",
+                "discount"
+            ],
+            "hint": "這裡需要表示傳統習俗的名詞",
+            "translation": "生日吃麵是一項古老的習俗。",
+            "id": 401
+        },
+        {
+            "sentence": "Our school will _______ the sports game this Friday.",
+            "correct": "host",
+            "distractors": [
+                "tow",
+                "charge"
+            ],
+            "hint": "助動詞 will 後面接原形動詞，表示舉辦或主辦",
+            "translation": "我們學校這週五將會主辦運動會。",
+            "id": 402
+        },
+        {
+            "sentence": "Scientists found a strong _______ between diet and health.",
+            "correct": "link",
+            "distractors": [
+                "roof",
+                "root"
+            ],
+            "hint": "表示兩件事物之間的關聯或連結",
+            "translation": "科學家發現飲食與健康之間有密切的關聯。",
+            "id": 403
+        },
+        {
+            "sentence": "There is a small spelling _______ on the blackboard.",
+            "correct": "error",
+            "distractors": [
+                "custom",
+                "mark"
+            ],
+            "hint": "表示拼字錯誤的名詞",
+            "translation": "黑板上有一個小小的拼字錯誤。",
+            "id": 404
+        },
+        {
+            "sentence": "All the concert tickets were _______ in five minutes.",
+            "correct": "sold out",
+            "distractors": [
+                "picked up",
+                "gotten rid of"
+            ],
+            "hint": "be 動詞後面搭配形容詞片語，表示全部賣光了",
+            "translation": "所有的演唱會門票在五分鐘內就賣完了。",
+            "id": 405
+        },
+        {
+            "sentence": "Dad asked me to _______ some fresh milk on my way home.",
+            "correct": "pick up",
+            "distractors": [
+                "get rid of",
+                "take part in"
+            ],
+            "hint": "不定詞 to 後面接原形動詞片語，表示順路購買",
+            "translation": "爸爸請我在回家路上順便買一些新鮮牛奶。",
+            "id": 406
+        },
+        {
+            "sentence": "The large bird landed safely on the high _______.",
+            "correct": "roof",
+            "distractors": [
+                "root",
+                "mark"
+            ],
+            "hint": "表示建築物最上方的屋頂",
+            "translation": "那隻大鳥安全地降落在高高的屋頂上。",
+            "id": 407
+        },
+        {
+            "sentence": "Many students want to _______ the singing contest next week.",
+            "correct": "take part in",
+            "distractors": [
+                "get rid of",
+                "pick up"
+            ],
+            "hint": "want to 後面接表示參加的動詞片語",
+            "translation": "許多學生想參加下週的歌唱比賽。",
+            "id": 408
+        },
+        {
+            "sentence": "We should _______ old newspapers to keep the room clean.",
+            "correct": "get rid of",
+            "distractors": [
+                "take part in",
+                "pick up"
+            ],
+            "hint": "助動詞 should 後面接表示丟棄、擺脫的片語",
+            "translation": "我們應該把舊報紙處理掉以保持房間乾淨。",
+            "id": 409
+        },
+        {
+            "sentence": "The bookstore offers a special _______ for students today.",
+            "correct": "discount",
+            "distractors": [
+                "charge",
+                "error"
+            ],
+            "hint": "表示打折、折扣優惠的名詞",
+            "translation": "這家書店今天為學生提供特別折扣。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "Hansel and Gretel in the Forest (糖果屋歷險)",
+            "article": "Hansel and Gretel were left in the deep forest by their parents. Hansel dropped white pebbles to leave a clear {{1}} on the path so they could find their way home. Later, the hungry children tripped over a large tree {{2}} while walking in the dark woods. Suddenly, they saw a wonderful house with sweet cookies on its {{3}}. A wicked old witch lived inside the house and tried to trap the little children. Gretel bravely pushed the witch into the oven and saved her brother.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "mark",
+                    "distractors": [
+                        "error",
+                        "link"
+                    ],
+                    "hint": "形容詞 clear 後面需要一個名詞，表示留下的標記或記號",
+                    "translation": "韓賽爾丟下白色小石子在小徑上留下清晰的記號，以便他們能找到回家的路。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "root",
+                    "distractors": [
+                        "roof",
+                        "tow"
+                    ],
+                    "hint": "名詞片語 tree _______ 表示樹木在地下的根部",
+                    "translation": "後來，飢餓的孩子們在黑暗的樹林中行走時被一條大樹根絆倒了。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "roof",
+                    "distractors": [
+                        "root",
+                        "custom"
+                    ],
+                    "hint": "介系詞 on 其後接名詞，表示房子最上方的屋頂結構",
+                    "translation": "突然間，他們看到了一座屋頂上鋪著香甜餅乾的奇妙房子。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "Cinderella and the Royal Ball (仙度瑞拉的舞會)",
+            "article": "The royal palace announced that the prince would {{1}} a grand ball for all the ladies. Cinderella really wanted to {{2}} the celebration, but her cruel stepmother gave her endless chores. According to royal {{3}}, every guest had to arrive before the palace gates closed at midnight. A kind fairy godmother appeared and magically transformed a pumpkin into a golden carriage. Cinderella wore a beautiful gown with glowing glass slippers and danced with the prince. She quickly ran away before the clock struck twelve, leaving behind one shiny glass slipper.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "host",
+                    "distractors": [
+                        "charge",
+                        "tow"
+                    ],
+                    "hint": "助動詞 would 後面接原形動詞，表示舉辦或主辦大型活動",
+                    "translation": "王宮宣布王子將為所有女士主辦一場盛大的舞會。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "take part in",
+                    "distractors": [
+                        "pick up",
+                        "get rid of"
+                    ],
+                    "hint": "wanted to 後面接動詞片語，表示參與或參加慶典",
+                    "translation": "仙度瑞拉非常想參加這場慶祝活動，但她殘忍的繼母給了她做不完的家務。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "custom",
+                    "distractors": [
+                        "error",
+                        "mark"
+                    ],
+                    "hint": "According to 後面接名詞，表示依照傳統或習俗慣例",
+                    "translation": "按照王室習俗，每位賓客都必須在午夜王宮大門關閉前抵達。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "Tom Sawyer Paints the Fence (湯姆歷險記：刷籬笆)",
+            "article": "On a sunny Saturday, Aunt Polly told Tom to paint the long wooden fence. Tom wanted to {{1}} this boring chore, so he came up with a clever plan. When his friend Ben walked by, Tom pretended that painting was an exciting art that required an {{2}} payment to try. Ben begged for a chance, so Tom decided not to {{3}} any money but took Ben's red apple instead. Soon, other boys gave Tom their favorite toys just to pick up the paintbrush and paint a section. By the afternoon, the fence had three coats of paint, and Tom became the richest boy in town.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "get rid of",
+                    "distractors": [
+                        "take part in",
+                        "sold out"
+                    ],
+                    "hint": "wanted to 後面接動詞片語，表示擺脫或免除不想要的任務",
+                    "translation": "湯姆想擺脫這個無聊的苦差事，於是想出了一個聰明的計畫。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "extra",
+                    "distractors": [
+                        "discount",
+                        "custom"
+                    ],
+                    "hint": "不定冠詞 an 後面接以母音開頭的形容詞，表示額外的",
+                    "translation": "當他的朋友班走過時，湯姆假裝刷油漆是一門刺激的藝術，需要額外付費才能嘗試。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "charge",
+                    "distractors": [
+                        "host",
+                        "tow"
+                    ],
+                    "hint": "decided not to 後面接原形動詞，表示收費或索取費用",
+                    "translation": "班懇求給他一次機會，所以湯姆決定不收取任何金錢，而是拿走了班的紅蘋果。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "Hansel and Gretel in the Forest (糖果屋歷險)",
+            "articleContent": [
+                {
+                    "en": "Hansel and Gretel were left in the deep forest by their parents.",
+                    "zh": "韓賽爾與葛麗特被父母留在了深林之中。"
+                },
+                {
+                    "en": "Hansel dropped some pieces of bread to leave a mark on the path so they could find their way home.",
+                    "zh": "韓賽爾丟下麵包碎屑在小徑上留下記號，以便他們能找到回家的路。"
+                },
+                {
+                    "en": "Later, the hungry children tripped over a large tree root while walking in the dark woods.",
+                    "zh": "後來，飢餓的孩子們在黑暗的樹林中行走時被一條大樹根絆倒了。"
+                },
+                {
+                    "en": "Suddenly, they saw a wonderful house with sweet cookies on its roof.",
+                    "zh": "突然間，他們看到了一座屋頂上鋪著香甜餅乾的奇妙房子。"
+                },
+                {
+                    "en": "A wicked old witch lived inside the house and tried to trap the little children.",
+                    "zh": "一個邪惡的老巫婆住在房子裡，企圖困住這兩個年幼的孩子。"
+                },
+                {
+                    "en": "Gretel bravely pushed the witch into the oven and saved her brother.",
+                    "zh": "葛麗特勇敢地把巫婆推進烤箱，救了她的哥哥。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who left white pebbles along the forest path?",
+                    "options": [
+                        "Hansel",
+                        "Gretel",
+                        "The old witch"
+                    ],
+                    "correct": "Hansel"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the children see on the roof of the strange house?",
+                    "options": [
+                        "Sweet cookies",
+                        "Fried chicken",
+                        "Shiny gold coins"
+                    ],
+                    "correct": "Sweet cookies"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the children trip over the tree root?",
+                    "options": [
+                        "While walking in the dark woods",
+                        "Early on a sunny morning",
+                        "After they returned to their house"
+                    ],
+                    "correct": "While walking in the dark woods"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the wicked old witch live?",
+                    "options": [
+                        "Inside the candy house",
+                        "High up in a wooden tower",
+                        "Near the forest lake"
+                    ],
+                    "correct": "Inside the candy house"
+                },
+                {
+                    "qId": 5,
+                    "question": "Why did Hansel leave marks along the path?",
+                    "options": [
+                        "To find their way back home",
+                        "To decorate the forest road",
+                        "To feed the wild birds"
+                    ],
+                    "correct": "To find their way back home"
+                },
+                {
+                    "qId": 6,
+                    "question": "How did Gretel save her brother from danger?",
+                    "options": [
+                        "By pushing the witch into the oven",
+                        "By asking forest animals for help",
+                        "By running away alone into the dark"
+                    ],
+                    "correct": "By pushing the witch into the oven"
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "Cinderella and the Royal Ball (仙度瑞拉的舞會)",
+            "articleContent": [
+                {
+                    "en": "The royal palace announced that the prince would host a grand ball for all the ladies.",
+                    "zh": "王宮宣布王子將為所有女士主辦一場盛大的舞會。"
+                },
+                {
+                    "en": "Cinderella really wanted to take part in the celebration, but her cruel stepmother gave her endless chores.",
+                    "zh": "仙度瑞拉非常想參加這場慶祝活動，但她殘忍的繼母給了她做不完的家務。"
+                },
+                {
+                    "en": "According to royal custom, every guest had to arrive before the palace gates closed at midnight.",
+                    "zh": "按照王室習俗，每位賓客都必須在午夜王宮大門關閉前抵達。"
+                },
+                {
+                    "en": "A kind fairy godmother appeared and magically transformed a pumpkin into a golden carriage.",
+                    "zh": "一位善良的神仙教母出現了，並用魔法將一顆南瓜變成了金色馬車。"
+                },
+                {
+                    "en": "Cinderella wore a beautiful gown with glowing glass slippers and danced with the prince.",
+                    "zh": "仙度瑞拉穿著美麗的禮服和閃亮的玻璃鞋，與王子共舞。"
+                },
+                {
+                    "en": "She quickly ran away before the clock struck twelve, leaving behind one shiny glass slipper.",
+                    "zh": "她在鐘聲敲響十二點前迅速逃走，留下了一隻閃亮的玻璃鞋。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who hosted the grand ball at the royal palace?",
+                    "options": [
+                        "The prince",
+                        "The fairy godmother",
+                        "Cinderella's stepmother"
+                    ],
+                    "correct": "The prince"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the fairy godmother turn into a golden carriage?",
+                    "options": [
+                        "A pumpkin",
+                        "A wooden bench",
+                        "A giant apple"
+                    ],
+                    "correct": "A pumpkin"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the guests have to arrive at the royal palace?",
+                    "options": [
+                        "Before midnight",
+                        "Early at sunrise",
+                        "Exactly at noon"
+                    ],
+                    "correct": "Before midnight"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Cinderella dance with the prince?",
+                    "options": [
+                        "In the royal palace",
+                        "In her small garden",
+                        "Near the village fountain"
+                    ],
+                    "correct": "In the royal palace"
+                },
+                {
+                    "qId": 5,
+                    "question": "Why was Cinderella unable to go to the ball at first?",
+                    "options": [
+                        "Because her stepmother gave her endless chores",
+                        "Because she lost her party invitation",
+                        "Because she woke up too late"
+                    ],
+                    "correct": "Because her stepmother gave her endless chores"
+                },
+                {
+                    "qId": 6,
+                    "question": "What did Cinderella leave behind when she ran away?",
+                    "options": [
+                        "A shiny glass slipper"
+                    ],
+                    "correct": "A shiny glass slipper"
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "Tom Sawyer Paints the Fence (湯姆歷險記：刷籬笆)",
+            "articleContent": [
+                {
+                    "en": "On a sunny Saturday, Aunt Polly told Tom to paint the long wooden fence.",
+                    "zh": "在一個陽光明媚的星期六，波莉阿姨叫湯姆去刷長長的木籬笆。"
+                },
+                {
+                    "en": "Tom wanted to get rid of this boring chore, so he came up with a clever plan.",
+                    "zh": "湯姆想擺脫這個無聊的苦差事，於是想出了一個聰明的計畫。"
+                },
+                {
+                    "en": "When his friend Ben walked by, Tom pretended that painting was an exciting art that required an extra payment to try.",
+                    "zh": "當他的朋友班走過時，湯姆假裝刷油漆是一門刺激的藝術，需要額外付費才能嘗試。"
+                },
+                {
+                    "en": "Ben begged for a chance, so Tom decided not to charge any money but took Ben's red apple instead.",
+                    "zh": "班懇求給他一次機會，所以湯姆決定不收取任何金錢，而是拿走了班的紅蘋果。"
+                },
+                {
+                    "en": "Soon, other boys gave Tom their favorite toys just to pick up the paintbrush and paint a section.",
+                    "zh": "不久，其他男孩給了湯姆他們最喜歡的玩具，只為了拿起油漆刷去刷上一段。"
+                },
+                {
+                    "en": "By the afternoon, the fence had three coats of paint, and Tom became the richest boy in town.",
+                    "zh": "到下午時，籬笆已經刷了三層油漆，而湯姆成了鎮上最富有的男孩。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who told Tom Sawyer to paint the long fence?",
+                    "options": [
+                        "Aunt Polly",
+                        "His school teacher",
+                        "His best friend Ben"
+                    ],
+                    "correct": "Aunt Polly"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Ben give Tom to get a turn to paint?",
+                    "options": [
+                        "A red apple",
+                        "A shiny glass marble",
+                        "A piece of sweet cake"
+                    ],
+                    "correct": "A red apple"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Aunt Polly ask Tom to do the chore?",
+                    "options": [
+                        "On a sunny Saturday",
+                        "On a rainy Monday morning",
+                        "Late on Friday night"
+                    ],
+                    "correct": "On a sunny Saturday"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did the boys gather to paint the fence?",
+                    "options": [
+                        "In front of Aunt Polly's house",
+                        "In the school playground",
+                        "Next to the town church"
+                    ],
+                    "correct": "In front of Aunt Polly's house"
+                },
+                {
+                    "qId": 5,
+                    "question": "Why did the other boys want to paint the fence?",
+                    "options": [
+                        "Because Tom pretended it was a special and fun art",
+                        "Because Aunt Polly promised them money",
+                        "Because they wanted to help the community"
+                    ],
+                    "correct": "Because Tom pretended it was a special and fun art"
+                },
+                {
+                    "qId": 6,
+                    "question": "How many coats of paint did the fence receive by the afternoon?",
+                    "options": [
+                        "Three coats of paint",
+                        "One thin coat",
+                        "Five thick coats"
+                    ],
+                    "correct": "Three coats of paint"
+                }
+            ]
+        }
+    ]
+}
