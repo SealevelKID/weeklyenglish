@@ -1076,7 +1076,9 @@
                     "qId": 6,
                     "question": "What did Cinderella leave behind when she ran away?",
                     "options": [
-                        "A shiny glass slipper"
+                        "A shiny glass slipper",
+                        "A silk handkerchief",
+                        "A golden necklace"
                     ],
                     "correct": "A shiny glass slipper"
                 }
