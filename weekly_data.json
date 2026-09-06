@@ -1,910 +1,902 @@
 {
-    "updateDate": "2026-08-29",
-    "classPasscode": "829",
+    "updateDate": "2026-09-06",
+    "classPasscode": "905",
     "vocabData": [
         {
             "id": 1,
-            "english": "enter",
-            "chinese": "進入",
+            "english": "reduce",
+            "chinese": "減少",
             "distractors": [
-                "cough",
-                "rise"
+                "cancel",
+                "panic"
             ]
         },
         {
             "id": 2,
-            "english": "naughty",
-            "chinese": "頑皮的",
+            "english": "cancel",
+            "chinese": "取消",
             "distractors": [
-                "selfish",
-                "humorous"
+                "reduce",
+                "allow"
             ]
         },
         {
             "id": 3,
-            "english": "passenger",
-            "chinese": "乘客",
+            "english": "panic",
+            "chinese": "恐慌",
             "distractors": [
-                "prize",
-                "income"
+                "ability",
+                "audience"
             ]
         },
         {
             "id": 4,
-            "english": "income",
-            "chinese": "收入",
+            "english": "outgoing",
+            "chinese": "外向的",
             "distractors": [
-                "quality",
-                "result"
+                "rarely",
+                "fluent"
             ]
         },
         {
             "id": 5,
-            "english": "succeed",
-            "chinese": "成功",
+            "english": "rarely",
+            "chinese": "很少",
             "distractors": [
-                "enter",
-                "set"
+                "outgoing",
+                "client"
             ]
         },
         {
             "id": 6,
-            "english": "modern",
-            "chinese": "現代的",
+            "english": "fluent",
+            "chinese": "流利的",
             "distractors": [
-                "brief",
-                "naughty"
+                "rarely",
+                "sample"
             ]
         },
         {
             "id": 7,
-            "english": "brief",
-            "chinese": "簡短的",
+            "english": "concert",
+            "chinese": "音樂會",
             "distractors": [
-                "modern",
-                "selfish"
+                "emergency",
+                "client"
             ]
         },
         {
             "id": 8,
-            "english": "result",
-            "chinese": "結果",
+            "english": "require",
+            "chinese": "需要",
             "distractors": [
-                "prize",
-                "income"
+                "allow",
+                "reduce"
             ]
         },
         {
             "id": 9,
-            "english": "cough",
-            "chinese": "咳嗽",
+            "english": "ability",
+            "chinese": "能力",
             "distractors": [
-                "rise",
-                "enter"
+                "panic",
+                "concert"
             ]
         },
         {
             "id": 10,
-            "english": "rise",
-            "chinese": "上升",
+            "english": "audience",
+            "chinese": "觀眾",
             "distractors": [
-                "set",
-                "succeed"
+                "client",
+                "sample"
             ]
         },
         {
             "id": 11,
-            "english": "set",
-            "chinese": "落下",
+            "english": "as long as",
+            "chinese": "只要",
             "distractors": [
-                "rise",
-                "cough"
+                "rarely",
+                "outgoing"
             ]
         },
         {
             "id": 12,
-            "english": "selfish",
-            "chinese": "自私的",
+            "english": "sample",
+            "chinese": "樣本",
             "distractors": [
-                "humorous",
-                "naughty"
+                "client",
+                "emergency"
             ]
         },
         {
             "id": 13,
-            "english": "humorous",
-            "chinese": "幽默的",
+            "english": "client",
+            "chinese": "客戶",
             "distractors": [
-                "selfish",
-                "brief"
+                "audience",
+                "sample"
             ]
         },
         {
             "id": 14,
-            "english": "quality",
-            "chinese": "品質",
+            "english": "emergency",
+            "chinese": "緊急事件",
             "distractors": [
-                "prize",
-                "result"
+                "concert",
+                "ability"
             ]
         },
         {
             "id": 15,
-            "english": "prize",
-            "chinese": "獎",
+            "english": "allow",
+            "chinese": "允許",
             "distractors": [
-                "income",
-                "quality"
+                "require",
+                "cancel"
             ]
         }
     ],
     "listeningData": [
         {
             "id": 101,
-            "english": "enter",
-            "chinese": "進入",
+            "english": "reduce",
+            "chinese": "減少",
             "distractors": [
-                "cough",
-                "rise"
+                "cancel",
+                "panic"
             ]
         },
         {
             "id": 102,
-            "english": "naughty",
-            "chinese": "頑皮的",
+            "english": "cancel",
+            "chinese": "取消",
             "distractors": [
-                "selfish",
-                "humorous"
+                "reduce",
+                "allow"
             ]
         },
         {
             "id": 103,
-            "english": "passenger",
-            "chinese": "乘客",
+            "english": "panic",
+            "chinese": "恐慌",
             "distractors": [
-                "prize",
-                "income"
+                "ability",
+                "audience"
             ]
         },
         {
             "id": 104,
-            "english": "income",
-            "chinese": "收入",
+            "english": "outgoing",
+            "chinese": "外向的",
             "distractors": [
-                "quality",
-                "result"
+                "rarely",
+                "fluent"
             ]
         },
         {
             "id": 105,
-            "english": "succeed",
-            "chinese": "成功",
+            "english": "rarely",
+            "chinese": "很少",
             "distractors": [
-                "enter",
-                "set"
+                "outgoing",
+                "client"
             ]
         },
         {
             "id": 106,
-            "english": "modern",
-            "chinese": "現代的",
+            "english": "fluent",
+            "chinese": "流利的",
             "distractors": [
-                "brief",
-                "naughty"
+                "rarely",
+                "sample"
             ]
         },
         {
             "id": 107,
-            "english": "brief",
-            "chinese": "簡短的",
+            "english": "concert",
+            "chinese": "音樂會",
             "distractors": [
-                "modern",
-                "selfish"
+                "emergency",
+                "client"
             ]
         },
         {
             "id": 108,
-            "english": "result",
-            "chinese": "結果",
+            "english": "require",
+            "chinese": "需要",
             "distractors": [
-                "prize",
-                "income"
+                "allow",
+                "reduce"
             ]
         },
         {
             "id": 109,
-            "english": "cough",
-            "chinese": "咳嗽",
+            "english": "ability",
+            "chinese": "能力",
             "distractors": [
-                "rise",
-                "enter"
+                "panic",
+                "concert"
             ]
         },
         {
             "id": 110,
-            "english": "rise",
-            "chinese": "上升",
+            "english": "audience",
+            "chinese": "觀眾",
             "distractors": [
-                "set",
-                "succeed"
+                "client",
+                "sample"
             ]
         },
         {
             "id": 111,
-            "english": "set",
-            "chinese": "落下",
+            "english": "as long as",
+            "chinese": "只要",
             "distractors": [
-                "rise",
-                "cough"
+                "rarely",
+                "outgoing"
             ]
         },
         {
             "id": 112,
-            "english": "selfish",
-            "chinese": "自私的",
+            "english": "sample",
+            "chinese": "樣本",
             "distractors": [
-                "humorous",
-                "naughty"
+                "client",
+                "emergency"
             ]
         },
         {
             "id": 113,
-            "english": "humorous",
-            "chinese": "幽默的",
+            "english": "client",
+            "chinese": "客戶",
             "distractors": [
-                "selfish",
-                "brief"
+                "audience",
+                "sample"
             ]
         },
         {
             "id": 114,
-            "english": "quality",
-            "chinese": "品質",
+            "english": "emergency",
+            "chinese": "緊急事件",
             "distractors": [
-                "prize",
-                "result"
+                "concert",
+                "ability"
             ]
         },
         {
             "id": 115,
-            "english": "prize",
-            "chinese": "獎",
+            "english": "allow",
+            "chinese": "允許",
             "distractors": [
-                "income",
-                "quality"
+                "require",
+                "cancel"
             ]
         }
     ],
     "listeningStage2Data": [
         {
-            "sentence": "Please knock on the door before you _______ the room.",
-            "correct": "enter",
+            "sentence": "We need to _______ the use of plastic bags to protect our Earth.",
+            "correct": "reduce",
             "distractors": [
-                "cough",
-                "set"
+                "cancel",
+                "panic"
             ],
-            "hint": "祈使句動詞原形，表示「進入」房間。",
-            "translation": "在你進入房間之前請先敲門。",
+            "hint": "need to 後面接原形動詞，意思為「減少」。",
+            "translation": "我們需要減少塑膠袋的使用以保護地球。",
             "id": 201
         },
         {
-            "sentence": "The sun will _______ in the east and go down in the west.",
-            "correct": "rise",
+            "sentence": "The heavy rain forced the school to _______ the outdoor sports day.",
+            "correct": "cancel",
             "distractors": [
-                "cough",
-                "enter"
+                "require",
+                "allow"
             ],
-            "hint": "助動詞 will 後面接原形動詞，指太陽「升起、上升」。",
-            "translation": "太陽會從東方升起並在西方落下。",
+            "hint": "force someone to 後接原形動詞，表示「取消」。",
+            "translation": "大雨迫使學校取消了戶外運動會。",
             "id": 202
         },
         {
-            "sentence": "If you work hard every day, you will _______ in the future.",
-            "correct": "succeed",
+            "sentence": "Please stay calm and do not _______ when the fire alarm rings.",
+            "correct": "panic",
             "distractors": [
-                "result",
-                "income"
+                "allow",
+                "reduce"
             ],
-            "hint": "條件句與未來式搭配，表示在未來會「成功」。",
-            "translation": "如果你每天努力，你未來一定會成功。",
+            "hint": "助動詞 do not 後接原形動詞，指陷入「恐慌」。",
+            "translation": "當火警響起時，請保持冷靜，不要恐慌。",
             "id": 203
         },
         {
-            "sentence": "The little boy is very _______ and likes to play tricks on his sister.",
-            "correct": "naughty",
+            "sentence": "Emma is very _______ and makes friends easily wherever she goes.",
+            "correct": "outgoing",
             "distractors": [
-                "modern",
-                "brief"
+                "rarely",
+                "fluent"
             ],
-            "hint": "形容詞修飾人的個性，表示「頑皮的」。",
-            "translation": "那個小男孩非常頑皮，喜歡捉弄他的妹妹。",
+            "hint": "be動詞後面接形容詞，指性格「外向的」。",
+            "translation": "艾瑪非常外向，無論走到哪裡都能輕鬆交到朋友。",
             "id": 204
         },
         {
-            "sentence": "Don't be _______; you should learn to share your toys with friends.",
-            "correct": "selfish",
+            "sentence": "Tom _______ eats fast food because he prefers healthy home-cooked meals.",
+            "correct": "rarely",
             "distractors": [
-                "humorous",
-                "naughty"
+                "outgoing",
+                "fluent"
             ],
-            "hint": "否定祈使句接形容詞，表示不要太「自私的」。",
-            "translation": "不要自私；你應該學會跟朋友分享你的玩具。",
+            "hint": "頻率副詞放在一般動詞前面，表示「很少」。",
+            "translation": "湯姆很少吃速食，因為他比較喜歡健康的手煮家常菜。",
             "id": 205
         },
         {
-            "sentence": "Mr. Lin gave a _______ speech because everyone was hungry.",
-            "correct": "brief",
+            "sentence": "She can speak _______ English because she practices talking every day.",
+            "correct": "fluent",
             "distractors": [
-                "modern",
-                "humorous"
+                "outgoing",
+                "rarely"
             ],
-            "hint": "形容詞修飾名詞 speech，表示「簡短的」。",
-            "translation": "林先生做了一場簡短的演講，因為大家都餓了。",
+            "hint": "修飾著名詞 English 的形容詞，表示「流利的」。",
+            "translation": "她能說流利的英語，因為她每天都練習說話。",
             "id": 206
         },
         {
-            "sentence": "The cold air made the sick child _______ loudly all night.",
-            "correct": "cough",
+            "sentence": "Thousands of excited fans went to the stadium for the rock _______.",
+            "correct": "concert",
             "distractors": [
-                "rise",
-                "enter"
+                "client",
+                "emergency"
             ],
-            "hint": "使役動詞 made 接原形動詞，表示「咳嗽」。",
-            "translation": "寒冷的空氣讓生病的孩子整晚大聲咳嗽。",
+            "hint": "一場聚集觀眾的音樂演出。",
+            "translation": "數千名興奮的歌迷前往體育場參加搖滾音樂會。",
             "id": 207
         },
         {
-            "sentence": "Every _______ on the train must show their ticket to the guard.",
-            "correct": "passenger",
+            "sentence": "Good learning habits _______ regular practice and full attention.",
+            "correct": "require",
             "distractors": [
-                "prize",
-                "income"
+                "allow",
+                "cancel"
             ],
-            "hint": "單數名詞表示火車上的「乘客」。",
-            "translation": "火車上的每位乘客都必須出示車票給站務員。",
+            "hint": "主詞是複數名詞，動詞用原形，表示「需要」。",
+            "translation": "良好的學習習慣需要規律的練習與全然的專注。",
             "id": 208
         },
         {
-            "sentence": "She won the first _______ in the English speaking contest.",
-            "correct": "prize",
+            "sentence": "Birds have the amazing _______ to fly high across the wide sky.",
+            "correct": "ability",
             "distractors": [
-                "quality",
-                "result"
+                "panic",
+                "sample"
             ],
-            "hint": "名詞與 first 搭配，表示贏得第一名「獎項」。",
-            "translation": "她在英語演講比賽中贏得第一名大獎。",
+            "hint": "the ability to + 原形動詞，表示做某事的「能力」。",
+            "translation": "鳥類擁有在遼闊天空中高飛的驚人能力。",
             "id": 209
         },
         {
-            "sentence": "Our teacher is so _______ that his stories always make us laugh.",
-            "correct": "humorous",
+            "sentence": "You can borrow my bicycle _______ you return it before five o'clock.",
+            "correct": "as long as",
             "distractors": [
-                "selfish",
-                "brief"
+                "rarely",
+                "fluent"
             ],
-            "hint": "so...that...句型，形容詞表示「幽默的」。",
-            "translation": "我們的老師非常幽默，他的故事總是逗得我們哈哈大笑。",
+            "hint": "連接詞片語引導條件子句，意思是「只要」。",
+            "translation": "只要你在五點前歸還，你就可以借用我的腳踏車。",
             "id": 210
         }
     ],
     "listeningStage3Data": [
         {
             "id": 303,
-            "title": "A Funny Train Trip (有趣的火車之旅)",
+            "title": "The School Talent Show (學校才藝表演)",
             "articleContent": [
                 {
-                    "en": "Yesterday afternoon, Tom became a passenger on a modern train to Taipei.",
-                    "zh": "昨天下午，湯姆成為搭乘開往台北的現代化火車的乘客。"
+                    "en": "Leo is an outgoing boy who loves music very much.",
+                    "zh": "里奧是個非常熱愛音樂且外向的男孩。"
                 },
                 {
-                    "en": "He wanted to enter the dining car to buy some snacks and drinks.",
-                    "zh": "他想要進入餐車買一些點心和飲料。"
+                    "en": "He rarely gets nervous, but today there is a big concert in the school hall.",
+                    "zh": "他很少感到緊張，但今天學校大廳有一場大型音樂會。"
                 },
                 {
-                    "en": "A naughty cat suddenly jumped out of a bag.",
-                    "zh": "一隻頑皮的貓突然從袋子裡跳了出來。"
+                    "en": "A huge audience sits quietly, waiting for Leo's performance.",
+                    "zh": "龐大的觀眾安靜地坐著，等待里奧的表演。"
                 },
                 {
-                    "en": "The friendly train conductor told a brief and humorous joke to calm everyone down.",
-                    "zh": "親切的列車長講了一個簡短又幽默的笑話讓大家平靜下來。"
+                    "en": "Teachers allow students to invite their families as long as they arrive on time.",
+                    "zh": "老師們允許學生邀請家人，只要他們準時抵達。"
                 },
                 {
-                    "en": "As the sun began to set, they arrived safely at the final station.",
-                    "zh": "隨著太陽開始落下，他們安全抵達了終點站。"
+                    "en": "Leo plays the piano smoothly with great confidence and ability.",
+                    "zh": "里奧帶著極大的自信與能力流暢地彈奏鋼琴。"
+                },
+                {
+                    "en": "Everyone cheers warmly when the music ends.",
+                    "zh": "當音樂結束時，每個人都熱情地歡呼。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who became a passenger on the train?",
+                    "question": "Who is performing music on the stage?",
                     "options": [
-                        "Tom",
-                        "A naughty boy",
-                        "An old doctor"
+                        "Leo, an outgoing boy",
+                        "Lina",
+                        "a shy student",
+                        "Tommy",
+                        "a lazy boy"
                     ],
-                    "correct": "Tom"
+                    "correct": "Leo, an outgoing boy"
                 },
                 {
                     "qId": 2,
-                    "question": "What did Tom want to do on the train?",
+                    "question": "What event takes place in the school hall today?",
                     "options": [
-                        "Enter the dining car to buy snacks",
-                        "Fix the train engine",
-                        "Read a thick textbook"
+                        "A big music concert",
+                        "A science experiment fair",
+                        "A basketball final game"
                     ],
-                    "correct": "Enter the dining car to buy snacks"
+                    "correct": "A big music concert"
                 },
                 {
                     "qId": 3,
-                    "question": "When did Tom take this modern train?",
+                    "question": "How could the family members enter the hall?",
                     "options": [
-                        "Yesterday afternoon",
-                        "Early tomorrow morning",
-                        "Late last night"
+                        "As long as they arrived on time",
+                        "Only after the show finished",
+                        "Early in the morning before sunrise"
                     ],
-                    "correct": "Yesterday afternoon"
+                    "correct": "As long as they arrived on time"
                 },
                 {
                     "qId": 4,
-                    "question": "Where were the passengers traveling to?",
+                    "question": "Where does the audience gather to watch the performance?",
                     "options": [
-                        "Taipei",
-                        "Tainan",
-                        "A quiet village"
+                        "In the school hall",
+                        "In the outdoor playground",
+                        "In the school gym"
                     ],
-                    "correct": "Taipei"
+                    "correct": "In the school hall"
                 },
                 {
                     "qId": 5,
-                    "question": "What suddenly jumped out of a bag?",
+                    "question": "What instrument does Leo play with great ability?",
                     "options": [
-                        "A naughty cat",
-                        "A broken robot",
-                        "A cute dog"
+                        "The piano",
+                        "The electric guitar",
+                        "The wooden violin"
                     ],
-                    "correct": "A naughty cat"
+                    "correct": "The piano"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did the conductor tell a brief joke?",
+                    "question": "Why did the audience cheer warmly at the end?",
                     "options": [
-                        "To calm everyone down",
-                        "To sell more train tickets",
-                        "To win a gold medal"
+                        "Because Leo gave a wonderful performance",
+                        "Because the concert was canceled",
+                        "Because they wanted to leave early"
                     ],
-                    "correct": "To calm everyone down"
+                    "correct": "Because Leo gave a wonderful performance"
                 }
             ]
         },
         {
             "id": 304,
-            "title": "The School Art Contest (學校美術比賽)",
+            "title": "Meeting an Important Client (會見重要客戶)",
             "articleContent": [
                 {
-                    "en": "Last Friday, Lisa worked hard in the art classroom because she wanted to succeed.",
-                    "zh": "上週五，麗莎在美術教室努力創作，因為她想要成功。"
+                    "en": "Mr. Brown works in a busy office in Taipei.",
+                    "zh": "布朗先生在台北一間繁忙的辦公室工作。"
                 },
                 {
-                    "en": "She painted a lovely picture of the sun beginning to rise over the ocean.",
-                    "zh": "她畫了一幅太陽開始從海面上升起的美麗圖畫。"
+                    "en": "Yesterday, an important client visited him to discuss a new project.",
+                    "zh": "昨天，一位重要客戶拜訪他討論新專案。"
                 },
                 {
-                    "en": "Her classmate had a sudden cough, but Lisa kindly shared some warm water with him.",
-                    "zh": "她的同學突然咳嗽，但麗莎很親切地和他分享了溫水。"
+                    "en": "Mr. Brown prepared a detailed product sample on the meeting table.",
+                    "zh": "布朗先生在會議桌上準備了一份詳細的產品樣本。"
                 },
                 {
-                    "en": "She was never selfish with her high quality paints and colorful brushes.",
-                    "zh": "她對於自己高品質的顏料與彩色畫筆從不自私。"
+                    "en": "The client was impressed because Mr. Brown spoke fluent English.",
+                    "zh": "這位客戶印象深刻，因為布朗先生說著流利的英語。"
                 },
                 {
-                    "en": "In the end, the exciting result was that Lisa won the first prize.",
-                    "zh": "最後，令人興奮的結果是麗莎贏得了一等獎。"
+                    "en": "The company's new design will require three months to finish.",
+                    "zh": "公司的新設計將需要三個月來完成。"
+                },
+                {
+                    "en": "Both sides signed the agreement happily before lunch.",
+                    "zh": "雙方在午餐前開心地簽署了協議。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who worked hard in the classroom to succeed?",
+                    "question": "Who visited Mr. Brown at his office yesterday?",
                     "options": [
-                        "Lisa",
-                        "Tina",
-                        "Andy"
+                        "An important business client",
+                        "His old school friend",
+                        "A delivery mail carrier"
                     ],
-                    "correct": "Lisa"
+                    "correct": "An important business client"
                 },
                 {
                     "qId": 2,
-                    "question": "What kind of painting did Lisa create?",
+                    "question": "What did Mr. Brown show on the meeting table?",
                     "options": [
-                        "A picture of the sun beginning to rise",
-                        "A picture of a modern train",
-                        "A brief portrait of a cat"
+                        "A detailed product sample",
+                        "A basket of fresh fruits",
+                        "A box of toy models"
                     ],
-                    "correct": "A picture of the sun beginning to rise"
+                    "correct": "A detailed product sample"
                 },
                 {
                     "qId": 3,
-                    "question": "When was the exciting contest held?",
+                    "question": "When did both sides sign the agreement?",
                     "options": [
-                        "Last Friday",
-                        "Next Monday afternoon",
-                        "Two weeks ago"
+                        "Before lunch",
+                        "Late at night",
+                        "Last week"
                     ],
-                    "correct": "Last Friday"
+                    "correct": "Before lunch"
                 },
                 {
                     "qId": 4,
-                    "question": "Where did Lisa paint her beautiful picture?",
+                    "question": "Where did the business discussion take place?",
                     "options": [
-                        "In the art classroom",
-                        "At the train station",
-                        "In the school library"
+                        "In a busy office in Taipei",
+                        "At a train station",
+                        "In a quiet coffee shop"
                     ],
-                    "correct": "In the art classroom"
+                    "correct": "In a busy office in Taipei"
                 },
                 {
                     "qId": 5,
-                    "question": "What thing of high quality did Lisa share with others?",
+                    "question": "What language skill did Mr. Brown demonstrate during the meeting?",
                     "options": [
-                        "Her paints and brushes",
-                        "Her gold prize",
-                        "Her delicious snacks"
+                        "Speaking fluent English",
+                        "Writing French poems",
+                        "Singing Japanese songs"
                     ],
-                    "correct": "Her paints and brushes"
+                    "correct": "Speaking fluent English"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did Lisa feel very happy in the end?",
+                    "question": "Why did the client feel impressed during the meeting?",
                     "options": [
-                        "Because she won the first prize",
-                        "Because she got a higher income",
-                        "Because school was canceled"
+                        "Because Mr. Brown spoke fluent English",
+                        "Because the meeting was canceled",
+                        "Because there was a sudden panic"
                     ],
-                    "correct": "Because she won the first prize"
+                    "correct": "Because Mr. Brown spoke fluent English"
                 }
             ]
         },
         {
             "id": 305,
-            "title": "A Good Job Choice (一份好的工作選擇)",
+            "title": "Safety Drill at School (學校安全演習)",
             "articleContent": [
                 {
-                    "en": "Mr. Brown went to a modern company yesterday for a job interview.",
-                    "zh": "布朗先生昨天去了一家現代化公司進行求職面試。"
+                    "en": "On Friday morning, the loud bell sounded for a fire emergency drill.",
+                    "zh": "週五早晨，響亮的鐘聲響起進行火災緊急演習。"
                 },
                 {
-                    "en": "The manager asked him to enter the bright office and give a brief self-introduction.",
-                    "zh": "經理請他進入明亮的辦公室並做簡短的自我介紹。"
+                    "en": "The teachers told students not to panic or run in the hallway.",
+                    "zh": "老師們告訴學生不要恐慌或在走廊上奔跑。"
                 },
                 {
-                    "en": "Mr. Brown shared humorous stories about how he helped a team succeed in sales.",
-                    "zh": "布朗先生分享了幽默的故事，說明他如何協助團隊在銷售上獲得成功。"
+                    "en": "Everyone walked calmly down the stairs to reduce potential accidents.",
+                    "zh": "每個人冷靜地走下樓梯以減少潛在的意外。"
                 },
                 {
-                    "en": "He explained that product quality is more important than just earning a high income.",
-                    "zh": "他解釋說產品品質比單純賺取高收入更重要。"
+                    "en": "The weather was bad, so the principal had to cancel the outdoor speech.",
+                    "zh": "天氣很差，所以校長不得不取消戶外演講。"
                 },
                 {
-                    "en": "The manager loved his honesty and immediately offered him the special prize of the position.",
-                    "zh": "經理非常喜歡他的真誠，並立刻給了他這個特別職位的錄取機會。"
+                    "en": "They gathered safely inside the gym instead.",
+                    "zh": "他們改為安全地聚集在體育館內。"
+                },
+                {
+                    "en": "All the classes followed the safety rules perfectly.",
+                    "zh": "所有的班級都完美地遵守了安全守則。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who went to the modern company for an interview?",
+                    "question": "Who instructed the students not to panic in the hallway?",
                     "options": [
-                        "Mr. Brown",
-                        "Mr. White",
-                        "Mrs. Blake"
+                        "The teachers",
+                        "The bus drivers",
+                        "The kitchen cooks"
                     ],
-                    "correct": "Mr. Brown"
+                    "correct": "The teachers"
                 },
                 {
                     "qId": 2,
-                    "question": "What did Mr. Brown do in the bright office?",
+                    "question": "What drill was held at school on Friday morning?",
                     "options": [
-                        "Gave a brief self-introduction",
-                        "Repaired the office computers",
-                        "Cleaned all the desks"
+                        "A fire emergency drill",
+                        "A swimming race drill",
+                        "A cooking competition drill"
                     ],
-                    "correct": "Gave a brief self-introduction"
+                    "correct": "A fire emergency drill"
                 },
                 {
                     "qId": 3,
-                    "question": "When did this job interview take place?",
+                    "question": "When did the loud emergency bell ring?",
                     "options": [
-                        "Yesterday",
-                        "This morning",
-                        "Next weekend"
+                        "On Friday morning",
+                        "On Sunday afternoon",
+                        "At midnight"
                     ],
-                    "correct": "Yesterday"
+                    "correct": "On Friday morning"
                 },
                 {
                     "qId": 4,
-                    "question": "Where did the interview take place?",
+                    "question": "Where did the students gather after leaving the classrooms?",
                     "options": [
-                        "In a modern company office",
-                        "On a moving train",
-                        "In an old office"
+                        "Inside the school gym",
+                        "On the outdoor soccer field",
+                        "At the city central park"
                     ],
-                    "correct": "In a modern company office"
+                    "correct": "Inside the school gym"
                 },
                 {
                     "qId": 5,
-                    "question": "What thing did Mr. Brown value more than just high income?",
+                    "question": "What event did the principal cancel due to bad weather?",
                     "options": [
-                        "Product quality",
-                        "Cheap price",
-                        "The beautiful sunset"
+                        "The outdoor speech",
+                        "The morning breakfast",
+                        "The final math exam"
                     ],
-                    "correct": "Product quality"
+                    "correct": "The outdoor speech"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did the manager offer Mr. Brown the job immediately?",
+                    "question": "Why did the students walk calmly down the stairs?",
                     "options": [
-                        "Because he loved his honesty and humorous stories",
-                        "Because Mr. Brown started to cough",
-                        "Because nobody else came"
+                        "To reduce potential accidents",
+                        "To find their lost books",
+                        "To listen to loud music"
                     ],
-                    "correct": "Because he loved his honesty and humorous stories"
+                    "correct": "To reduce potential accidents"
                 }
             ]
         }
     ],
     "readingStage1Data": [
         {
-            "sentence": "Please knock on the door before you _______ the room.",
-            "correct": "enter",
+            "sentence": "We need to _______ the use of plastic bags to protect our Earth.",
+            "correct": "reduce",
             "distractors": [
-                "cough",
-                "set"
+                "cancel",
+                "panic"
             ],
-            "hint": "祈使句動詞原形，表示「進入」房間。",
-            "translation": "在你進入房間之前請先敲門。",
+            "hint": "need to 後面接原形動詞，意思為「減少」。",
+            "translation": "我們需要減少塑膠袋的使用以保護地球。",
             "id": 401
         },
         {
-            "sentence": "The sun will _______ in the east and go down in the west.",
-            "correct": "rise",
+            "sentence": "The heavy rain forced the school to _______ the outdoor sports day.",
+            "correct": "cancel",
             "distractors": [
-                "cough",
-                "enter"
+                "require",
+                "allow"
             ],
-            "hint": "助動詞 will 後面接原形動詞，指太陽「升起、上升」。",
-            "translation": "太陽會從東方升起並在西方落下。",
+            "hint": "force someone to 後接原形動詞，表示「取消」。",
+            "translation": "大雨迫使學校取消了戶外運動會。",
             "id": 402
         },
         {
-            "sentence": "If you work hard every day, you will _______ in the future.",
-            "correct": "succeed",
+            "sentence": "Please stay calm and do not _______ when the fire alarm rings.",
+            "correct": "panic",
             "distractors": [
-                "result",
-                "income"
+                "allow",
+                "reduce"
             ],
-            "hint": "條件句與未來式搭配，表示在未來會「成功」。",
-            "translation": "如果你每天努力，你未來一定會成功。",
+            "hint": "助動詞 do not 後接原形動詞，指陷入「恐慌」。",
+            "translation": "當火警響起時，請保持冷靜，不要恐慌。",
             "id": 403
         },
         {
-            "sentence": "The little boy is very _______ and likes to play tricks on his sister.",
-            "correct": "naughty",
+            "sentence": "Emma is very _______ and makes friends easily wherever she goes.",
+            "correct": "outgoing",
             "distractors": [
-                "modern",
-                "brief"
+                "rarely",
+                "fluent"
             ],
-            "hint": "形容詞修飾人的個性，表示「頑皮的」。",
-            "translation": "那個小男孩非常頑皮，喜歡捉弄他的妹妹。",
+            "hint": "be動詞後面接形容詞，指性格「外向的」。",
+            "translation": "艾瑪非常外向，無論走到哪裡都能輕鬆交到朋友。",
             "id": 404
         },
         {
-            "sentence": "Don't be _______; you should learn to share your toys with friends.",
-            "correct": "selfish",
+            "sentence": "Tom _______ eats fast food because he prefers healthy home-cooked meals.",
+            "correct": "rarely",
             "distractors": [
-                "humorous",
-                "naughty"
+                "outgoing",
+                "fluent"
             ],
-            "hint": "否定祈使句接形容詞，表示不要太「自私的」。",
-            "translation": "不要自私；你應該學會跟朋友分享你的玩具。",
+            "hint": "頻率副詞放在一般動詞前面，表示「很少」。",
+            "translation": "湯姆很少吃速食，因為他比較喜歡健康的手煮家常菜。",
             "id": 405
         },
         {
-            "sentence": "Mr. Lin gave a _______ speech because everyone was hungry.",
-            "correct": "brief",
+            "sentence": "She can speak _______ English because she practices talking every day.",
+            "correct": "fluent",
             "distractors": [
-                "modern",
-                "humorous"
+                "outgoing",
+                "rarely"
             ],
-            "hint": "形容詞修飾名詞 speech，表示「簡短的」。",
-            "translation": "林先生做了一場簡短的演講，因為大家都餓了。",
+            "hint": "修飾著名詞 English 的形容詞，表示「流利的」。",
+            "translation": "她能說流利的英語，因為她每天都練習說話。",
             "id": 406
         },
         {
-            "sentence": "The cold air made the sick child _______ loudly all night.",
-            "correct": "cough",
+            "sentence": "Thousands of excited fans went to the stadium for the rock _______.",
+            "correct": "concert",
             "distractors": [
-                "rise",
-                "enter"
+                "client",
+                "emergency"
             ],
-            "hint": "使役動詞 made 接原形動詞，表示「咳嗽」。",
-            "translation": "寒冷的空氣讓生病的孩子整晚大聲咳嗽。",
+            "hint": "一場聚集觀眾的音樂演出。",
+            "translation": "數千名興奮的歌迷前往體育場參加搖滾音樂會。",
             "id": 407
         },
         {
-            "sentence": "Every _______ on the train must show their ticket to the guard.",
-            "correct": "passenger",
+            "sentence": "Good learning habits _______ regular practice and full attention.",
+            "correct": "require",
             "distractors": [
-                "prize",
-                "income"
+                "allow",
+                "cancel"
             ],
-            "hint": "單數名詞表示火車上的「乘客」。",
-            "translation": "火車上的每位乘客都必須出示車票給站務員。",
+            "hint": "主詞是複數名詞，動詞用原形，表示「需要」。",
+            "translation": "良好的學習習慣需要規律的練習與全然的專注。",
             "id": 408
         },
         {
-            "sentence": "She won the first _______ in the English speaking contest.",
-            "correct": "prize",
+            "sentence": "Birds have the amazing _______ to fly high across the wide sky.",
+            "correct": "ability",
             "distractors": [
-                "quality",
-                "result"
+                "panic",
+                "sample"
             ],
-            "hint": "名詞與 first 搭配，表示贏得第一名「獎項」。",
-            "translation": "她在英語演講比賽中贏得第一名大獎。",
+            "hint": "the ability to + 原形動詞，表示做某事的「能力」。",
+            "translation": "鳥類擁有在遼闊天空中高飛的驚人能力。",
             "id": 409
         },
         {
-            "sentence": "Our teacher is so _______ that his stories always make us laugh.",
-            "correct": "humorous",
+            "sentence": "You can borrow my bicycle _______ you return it before five o'clock.",
+            "correct": "as long as",
             "distractors": [
-                "selfish",
-                "brief"
+                "rarely",
+                "fluent"
             ],
-            "hint": "so...that...句型，形容詞表示「幽默的」。",
-            "translation": "我們的老師非常幽默，他的故事總是逗得我們哈哈大笑。",
+            "hint": "連接詞片語引導條件子句，意思是「只要」。",
+            "translation": "只要你在五點前歸還，你就可以借用我的腳踏車。",
             "id": 410
         }
     ],
     "readingStage2Data": [
         {
             "id": 506,
-            "title": "The Selfish Giant (自私的巨人)",
-            "article": "A giant had a lovely garden, but he was too {{1}} to let children play inside. The cold winter stayed, and the warm sun refused to {{2}} in spring. One afternoon, a little boy started to {{3}} because of the freezing wind. The giant felt sorry and opened his garden gates to let all children {{4}} freely. The warm spring returned at once.",
+            "title": "The Bremen Town Musicians (不來梅樂隊)",
+            "article": "An old donkey decided to leave his farm to become a musician in Bremen. Along the way, he met a dog, a cat, and a rooster who had the {{1}} to sing loudly. The four animals became friends {{2}} they all shared the same dream of freedom. At night, they found a house filled with robbers eating a rich dinner. To drive them away, the animals made a huge noise together, which sounded like a strange and wild {{3}}. The frightened robbers ran into the dark woods and never returned.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "selfish",
+                    "correct": "ability",
                     "distractors": [
-                        "humorous",
-                        "modern"
+                        "sample",
+                        "emergency"
                     ],
-                    "hint": "too...to... 句型接形容詞，表示太「自私的」。",
-                    "translation": "一個巨人擁有一座可愛的花園，但他太自私了而不讓孩子們進去玩耍。"
+                    "hint": "名詞，表示某種天賦或做某事的「能力」。",
+                    "translation": "沿途上，他遇見了一隻狗、一隻貓和一隻擁有大聲歌唱能力的公雞。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "rise",
+                    "correct": "because",
                     "distractors": [
-                        "set",
-                        "cough"
+                        "although",
+                        "so"
                     ],
-                    "hint": "不定詞 to 接原形動詞，表示太陽「升起、冒出」。",
-                    "translation": "寒冬持續停留，溫暖的太陽在春天裡也拒絕升起。"
+                    "hint": "連接詞，表示「因為」。",
+                    "translation": "因為他們都懷抱著對自由的同一個夢想，這四隻動物便成為了好友。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "cough",
+                    "correct": "concert",
                     "distractors": [
-                        "rise",
-                        "enter"
+                        "client",
+                        "panic"
                     ],
-                    "hint": "start to 後接原形動詞，表示「咳嗽」。",
-                    "translation": "某天下午，一個小男孩因為刺骨的寒風開始咳嗽。"
-                },
-                {
-                    "id": 5004,
-                    "marker": "{{4}}",
-                    "correct": "enter",
-                    "distractors": [
-                        "set",
-                        "succeed"
-                    ],
-                    "hint": "使役動詞 let 接原形動詞，表示「進入」。",
-                    "translation": "巨人感到十分愧疚，便打開了花園大門讓所有孩子自由進入。"
+                    "hint": "名詞，指由多種聲音或樂器匯聚而成的「音樂會」。",
+                    "translation": "為了趕走他們，動物們一起製造出巨大的聲響，聽起來就像是一場奇特又狂野的音樂會。"
                 }
             ]
         },
         {
             "id": 507,
-            "title": "The Boy Who Cried Wolf (放羊的孩子)",
-            "article": "A bored shepherd boy was very {{1}} and wanted to play tricks on the villagers. He gave a {{2}} yell and shouted that a big wolf was coming. When a real wolf truly appeared, the terrified boy could only cry in fear. In the end, his bad plan did not {{3}}, and no one came to help him.",
+            "title": "Robin Hood and the Golden Arrow (羅賓漢與金箭)",
+            "article": "The Sheriff of Nottingham planned an archery contest to trap Robin Hood in town. He knew the legendary archer could not resist showing his supreme skill. However, heavy rains caused an unexpected {{1}} in the flooded courtyard, threatening the event. The sheriff refused to {{2}} the grand competition because he wanted to catch the outlaw. Disguised as a poor beggar, Robin secretly sent a hidden {{3}} of his finest green arrow to the guards to announce his arrival before winning the gold and escaping into Sherwood Forest.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "naughty",
+                    "correct": "emergency",
                     "distractors": [
-                        "modern",
-                        "brief"
+                        "ability",
+                        "panic"
                     ],
-                    "hint": "形容詞修飾牧童的個性「頑皮的」。",
-                    "translation": "一個無聊的牧童非常頑皮，想對村民惡作劇。"
+                    "hint": "名詞，指暴雨引發的危險「緊急事件」。",
+                    "translation": "然而，暴雨在積水的中庭引發了意想不到的緊急事件，威脅到賽事的進行。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "brief",
+                    "correct": "cancel",
                     "distractors": [
-                        "modern",
-                        "humorous"
+                        "reduce",
+                        "require"
                     ],
-                    "hint": "形容詞修飾名詞 cry，表示「簡短的」。",
-                    "translation": "他發出簡短的呼喊，大喊著大野狼來了。"
+                    "hint": "原形動詞，接在 refused to 之後，表示「取消」。",
+                    "translation": "郡長拒絕取消這場盛大的比賽，因為他一心想要逮捕這位法外之徒。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "succeed",
+                    "correct": "sample",
                     "distractors": [
-                        "rise",
-                        "set"
+                        "client",
+                        "concert"
                     ],
-                    "hint": "助動詞 did not 後接原形動詞，表示計畫「成功」。",
-                    "translation": "最後，他的壞計畫沒有成功，而且沒有人來幫他。"
+                    "hint": "名詞，指作為代表物品的「樣本、樣品」。",
+                    "translation": "羅賓偽裝成貧窮的乞丐，在奪得黃金並逃進雪伍德森林之前，暗中將他最精良的綠色箭矢樣本送交給衛兵以宣告現身。"
                 }
             ]
         },
         {
             "id": 508,
-            "title": "The North Wind and the Sun (北風與太陽)",
-            "article": "The North Wind and the Sun argued about their strength and made a {{1}} joke about it. They agreed that the one who made a traveler remove his coat would win the {{2}}. As the sun began to {{3}}, it shone warm rays over the road. The final {{4}} proved that gentleness is always stronger than force.",
+            "title": "King Midas and the Golden Touch (邁達斯國王與金手指)",
+            "article": "King Midas loved gold more than anything else in the whole world. A mysterious visitor granted his wish to turn whatever he touched into gold, but this gift soon caused a terrible {{1}}. When he tried to eat a meal, the bread turned into hard metal before he could swallow it. Hungry and desperate, the weeping king begged the god to {{2}} his foolish wish. The god felt pity and told him that washing in the river would cure the curse, {{3}} he truly learned to value life above gold.",
             "blanks": [
                 {
                     "id": 5001,
                     "marker": "{{1}}",
-                    "correct": "humorous",
+                    "correct": "emergency",
                     "distractors": [
-                        "selfish",
-                        "brief"
+                        "ability",
+                        "concert"
                     ],
-                    "hint": "形容詞修飾名詞 joke，表示「幽默的」。",
-                    "translation": "北風和太陽爭論著彼此的力量，並為此開了一個幽默的玩笑。"
+                    "hint": "名詞，指因無法進食而面臨威脅生命的「緊急狀況」。",
+                    "translation": "一位神秘的訪客實現了他的願望，讓他摸到的任何東西都變成黃金，但這份禮物很快引發了一場可怕的緊急危機。"
                 },
                 {
                     "id": 5002,
                     "marker": "{{2}}",
-                    "correct": "prize",
+                    "correct": "cancel",
                     "distractors": [
-                        "income",
-                        "quality"
+                        "fluent",
+                        "allow"
                     ],
-                    "hint": "名詞表示獲勝的「獎勵、獎項」。",
-                    "translation": "他們同意誰能讓旅行者脫掉外套就能贏得獎勵。"
+                    "hint": "原形動詞，不定詞 to 後接原形，表示「取消」。",
+                    "translation": "又餓又絕望的國王哭泣著祈求神明取消他愚蠢的願望。"
                 },
                 {
                     "id": 5003,
                     "marker": "{{3}}",
-                    "correct": "set",
+                    "correct": "as long as",
                     "distractors": [
-                        "rise",
-                        "enter"
+                        "rarely",
+                        "outgoing"
                     ],
-                    "hint": "不定詞 to 後接原形動詞，指太陽「落下」。",
-                    "translation": "當太陽開始落下時，它朝著道路照射出溫暖的光芒。"
-                },
-                {
-                    "id": 5004,
-                    "marker": "{{4}}",
-                    "correct": "result",
-                    "distractors": [
-                        "prize",
-                        "income"
-                    ],
-                    "hint": "名詞表示比賽的「結果」。",
-                    "translation": "最終的結果證明了溫和總是勝過強硬的力量。"
+                    "hint": "連接詞片語引導條件子句，意思是「只要」。",
+                    "translation": "神明心生憐憫，並告訴他只要他真正學會珍惜生命勝過黃金，在河中清洗就能解除詛咒。"
                 }
             ]
         }
@@ -912,257 +904,269 @@
     "readingStage3Data": [
         {
             "id": 606,
-            "title": "The Selfish Giant (自私的巨人)",
+            "title": "The Bremen Town Musicians (不來梅樂隊)",
             "articleContent": [
                 {
-                    "en": "A giant had a lovely garden, but he was too selfish to let children play inside.",
-                    "zh": "一個巨人擁有一座可愛的花園，但他太自私了而不讓孩子們進去玩耍。"
+                    "en": "An old donkey decided to leave his farm to become a musician in Bremen.",
+                    "zh": "一隻老驢子決定離開農場，前往不來梅成為一名音樂家。"
                 },
                 {
-                    "en": "The cold winter stayed, and the warm sun refused to rise in spring.",
-                    "zh": "寒冬持續停留，溫暖的太陽在春天裡也拒絕升起。"
+                    "en": "Along the way, he met a dog, a cat, and a rooster who had the ability to sing loudly.",
+                    "zh": "沿途上，他遇見了一隻狗、一隻貓和一隻擁有大聲歌唱能力的公雞。"
                 },
                 {
-                    "en": "One afternoon, a little boy started to cough because of the freezing wind.",
-                    "zh": "某天下午，一個小男孩因為刺骨的寒風開始咳嗽。"
+                    "en": "The four animals became friends because they all shared the same dream of freedom.",
+                    "zh": "因為他們都懷抱著對自由的同一個夢想，這四隻動物便成為了好友。"
                 },
                 {
-                    "en": "The giant felt sorry and opened his garden gates to let all children enter freely.",
-                    "zh": "巨人感到十分愧疚，便打開了花園大門讓所有孩子自由進入。"
+                    "en": "At night, they found a house filled with robbers eating a rich dinner.",
+                    "zh": "夜晚，他們發現了一間屋子，裡面坐滿了正在享用豐盛晚餐的強盜。"
                 },
                 {
-                    "en": "The warm spring returned at once.",
-                    "zh": "溫暖的春天立刻又回來了。"
+                    "en": "To drive them away, the animals made a huge noise together, which sounded like a strange and wild concert.",
+                    "zh": "為了趕走他們，動物們一起製造出巨大的聲響，聽起來就像是一場奇特又狂野的音樂會。"
+                },
+                {
+                    "en": "The frightened robbers ran into the dark woods and never returned.",
+                    "zh": "受驚嚇的強盜們逃進了黑暗的森林，再也沒有回來。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who owned the beautiful garden at the beginning?",
+                    "question": "Who decided to leave the farm first to become a musician?",
                     "options": [
-                        "A selfish giant",
-                        "A kind giant",
-                        "A funny woman"
+                        "An old donkey",
+                        "A young sheep",
+                        "An angry farmer"
                     ],
-                    "correct": "A selfish giant"
+                    "correct": "An old donkey"
                 },
                 {
                     "qId": 2,
-                    "question": "What happened to the garden during the cold winter?",
+                    "question": "What special talent did the rooster possess?",
                     "options": [
-                        "The sun refused to rise",
-                        "The trees refused to grow",
-                        "The children refused to sleep"
+                        "The ability to sing loudly",
+                        "The skill to swim across rivers",
+                        "The speed to run faster than horses"
                     ],
-                    "correct": "The sun refused to rise"
+                    "correct": "The ability to sing loudly"
                 },
                 {
                     "qId": 3,
-                    "question": "When did a little boy start coughing in the garden?",
+                    "question": "When did the animals discover the house in the woods?",
                     "options": [
-                        "In the freezing afternoon",
-                        "At the hot noon",
-                        "In the warm worning"
+                        "At night",
+                        "Early at dawn",
+                        "In the afternoon"
                     ],
-                    "correct": "In the freezing afternoon"
+                    "correct": "At night"
                 },
                 {
                     "qId": 4,
-                    "question": "Where were the children not allowed to enter at first?",
+                    "question": "Where did the frightened robbers run after hearing the noise?",
                     "options": [
-                        "The giant's garden",
-                        "The old castle",
-                        "The school gym"
+                        "Into the dark woods",
+                        "Toward the town",
+                        "Across the deep blue lake"
                     ],
-                    "correct": "The giant's garden"
+                    "correct": "Into the dark woods"
                 },
                 {
                     "qId": 5,
-                    "question": "What kind of sound did the freezing boy make in the cold?",
+                    "question": "What did the animals' loud noise sound like to the robbers?",
                     "options": [
-                        "A painful cough",
-                        "A brief song",
-                        "A humorous laugh"
+                        "A strange and wild concert",
+                        "A whisper in the gentle wind",
+                        "A soft bedtime story"
                     ],
-                    "correct": "A painful cough"
+                    "correct": "A strange and wild concert"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did the warm spring finally return to the garden?",
+                    "question": "Why did the four animals agree to travel together?",
                     "options": [
-                        "Because the giant opened the gate",
-                        "Because he sold the garden",
-                        "Because the sun began to set"
+                        "Because they shared the same dream of freedom",
+                        "Because they wanted to buy expensive jewelry",
+                        "Because they were searching for their lost owners"
                     ],
-                    "correct": "Because the giant opened the gate"
+                    "correct": "Because they shared the same dream of freedom"
                 }
             ]
         },
         {
             "id": 607,
-            "title": "The Boy Who Cried Wolf (放羊的孩子)",
+            "title": "Robin Hood and the Golden Arrow (羅賓漢與金箭)",
             "articleContent": [
                 {
-                    "en": "A bored shepherd boy was very naughty and wanted to play tricks on the villagers.",
-                    "zh": "一個無聊的牧童非常頑皮，想對村民惡作劇。"
+                    "en": "The Sheriff of Nottingham planned an archery contest to trap Robin Hood in town.",
+                    "zh": "諾丁漢郡長策劃了一場射箭比賽，打算在鎮上誘捕羅賓漢。"
                 },
                 {
-                    "en": "He gave a brief yell and shouted that a big wolf was coming.",
-                    "zh": "他發出簡短的呼喊，大喊著大野狼來了。"
+                    "en": "He knew the legendary archer could not resist showing his supreme skill.",
+                    "zh": "他知道這位傳奇神射手無法抗拒展現高超技藝的機會。"
                 },
                 {
-                    "en": "When a real wolf truly appeared, the terrified boy could only cry in fear.",
-                    "zh": "當一隻真正的狼真的出現時，嚇壞的男孩只能在恐懼中哭泣。"
+                    "en": "However, heavy rains caused an unexpected emergency in the flooded courtyard, threatening the event.",
+                    "zh": "然而，暴雨在積水的中庭引發了意想不到的緊急事件，威脅到賽事的進行。"
                 },
                 {
-                    "en": "In the end, his bad plan did not succeed, and no one came to help him.",
-                    "zh": "最後，他的壞計畫沒有成功，而且沒有人來幫他。"
+                    "en": "The sheriff refused to cancel the grand competition because he wanted to catch the outlaw.",
+                    "zh": "郡長拒絕取消這場盛大的比賽，因為他一心想要逮捕這位法外之徒。"
+                },
+                {
+                    "en": "Disguised as a poor beggar, Robin secretly sent a hidden sample of his finest green arrow to the guards to announce his arrival before winning the gold and escaping into Sherwood Forest.",
+                    "zh": "羅賓偽裝成貧窮的乞丐，在奪得黃金並逃進雪伍德森林之前，暗中將他最精良的綠色箭矢樣本送交給衛兵以宣告現身。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who wanted to play tricks on the villagers?",
+                    "question": "Who planned an archery contest to capture Robin Hood?",
                     "options": [
-                        "A bored shepherd boy",
-                        "An old woodcarver",
-                        "A little girl"
+                        "The Sheriff of Nottingham",
+                        "A traveling merchant from France",
+                        "An old farmer from Sherwood"
                     ],
-                    "correct": "A bored shepherd boy"
+                    "correct": "The Sheriff of Nottingham"
                 },
                 {
                     "qId": 2,
-                    "question": "What did the boy shout to trick the villagers?",
+                    "question": "What kind of crisis did the sudden storm cause in the courtyard?",
                     "options": [
-                        "He shouted that a big wolf was coming",
-                        "He said he won the first prize",
-                        "He invited everyone to a party"
+                        "An unexpected flood emergency",
+                        "A quiet night of heavy snowfall",
+                        "A terrible shortage of sweet food"
                     ],
-                    "correct": "He shouted that a big wolf was coming"
+                    "correct": "An unexpected flood emergency"
                 },
                 {
                     "qId": 3,
-                    "question": "When did the boy shout for help again?",
+                    "question": "When did Robin Hood reveal his presence to the guards?",
                     "options": [
-                        "When a real wolf truly appeared",
-                        "When the dog disappeared",
-                        "After the sun began to set"
+                        "Before winning the gold prize",
+                        "After being locked inside the dungeon",
+                        "Many weeks after leaving the country"
                     ],
-                    "correct": "When a real wolf truly appeared"
+                    "correct": "Before winning the gold prize"
                 },
                 {
                     "qId": 4,
-                    "question": "Where was the boy guarding the sheep?",
+                    "question": "Where did Robin Hood quickly escape after taking the prize?",
                     "options": [
-                        "On the grassy hill",
-                        "Inside a forest",
-                        "Near the lake"
+                        "Into Sherwood Forest",
+                        "Behind the high city castle wall",
+                        "Across the frozen blue river"
                     ],
-                    "correct": "On the grassy hill"
+                    "correct": "Into Sherwood Forest"
                 },
                 {
                     "qId": 5,
-                    "question": "What kind of yell did the boy give at first?",
+                    "question": "What special item did Robin give the guards as a secret sign?",
                     "options": [
-                        "A brief one",
-                        "A humorous joke",
-                        "A sweet song"
+                        "A sample of his finest green arrow",
+                        "A golden ring belonging to the king",
+                        "A bag of stolen silver coins"
                     ],
-                    "correct": "A brief one"
+                    "correct": "A sample of his finest green arrow"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did nobody come to save the sheep in the end?",
+                    "question": "Why did the sheriff refuse to stop the outdoor competition?",
                     "options": [
-                        "Because the villagers no longer believed the boy",
-                        "Because they were too busy",
-                        "Because the gate was locked"
+                        "Because he wanted to trap Robin Hood",
+                        "Because the weather became bright and warm",
+                        "Because all the villagers begged to see the show"
                     ],
-                    "correct": "Because the villagers no longer believed the boy"
+                    "correct": "Because he wanted to trap Robin Hood"
                 }
             ]
         },
         {
             "id": 608,
-            "title": "The North Wind and the Sun (北風與太陽)",
+            "title": "King Midas and the Golden Touch (邁達斯國王與金手指)",
             "articleContent": [
                 {
-                    "en": "The North Wind and the Sun argued about their strength and made a humorous joke about it.",
-                    "zh": "北風和太陽爭論著彼此的力量，並為此開了一個幽默的玩笑。"
+                    "en": "King Midas loved gold more than anything else in the whole world.",
+                    "zh": "邁達斯國王熱愛黃金勝過世界上的一切事物。"
                 },
                 {
-                    "en": "They agreed that the one who made a traveler remove his coat would win the prize.",
-                    "zh": "他們同意誰能讓旅行者脫掉外套就能贏得獎勵。"
+                    "en": "A mysterious visitor granted his wish to turn whatever he touched into gold, but this gift soon caused a terrible emergency.",
+                    "zh": "一位神秘的訪客實現了他的願望，讓他摸到的任何東西都變成黃金，但這份禮物很快引發了一場可怕的緊急危機。"
                 },
                 {
-                    "en": "As the sun began to set, it shone warm rays over the road.",
-                    "zh": "當太陽開始落下時，它朝著道路照射出溫暖的光芒。"
+                    "en": "When he tried to eat a meal, the bread turned into hard metal before he could swallow it.",
+                    "zh": "當他試圖用餐時，麵包還沒來得及吞下就變成了堅硬的金屬。"
                 },
                 {
-                    "en": "The final result proved that gentleness is always stronger than force.",
-                    "zh": "最終的結果證明了溫和總是勝過強硬的力量。"
+                    "en": "Hungry and desperate, the weeping king begged the god to cancel his foolish wish.",
+                    "zh": "又餓又絕望的國王哭泣著祈求神明取消他愚蠢的願望。"
+                },
+                {
+                    "en": "The god felt pity and told him that washing in the river would cure the curse, as long as he truly learned to value life above gold.",
+                    "zh": "神明心生憐憫，並告訴他只要他真正學會珍惜生命勝過黃金，在河中清洗就能解除詛咒。"
                 }
             ],
             "questions": [
                 {
                     "qId": 1,
-                    "question": "Who had an argument about their personal power?",
+                    "question": "Who made a greedy wish to turn everything into gold?",
                     "options": [
-                        "The North Wind and the Sun",
-                        "The East Wind and the Moon",
-                        "The South Wind and the Star"
+                        "King Midas",
+                        "A poor village baker",
+                        "A brave young prince"
                     ],
-                    "correct": "The North Wind and the Sun"
+                    "correct": "King Midas"
                 },
                 {
                     "qId": 2,
-                    "question": "What did they challenge each other to do?",
+                    "question": "What serious emergency did the king face during his meal?",
                     "options": [
-                        "Make a traveler take off his heavy coat",
-                        "Build a high quality modern building",
-                        "Run a race across the ocean"
+                        "His food turned into hard gold metal",
+                        "Poisonous snakes entered the dining hall",
+                        "Strong thieves stole all the royal plates"
                     ],
-                    "correct": "Make a traveler take off his heavy coat"
+                    "correct": "His food turned into hard gold metal"
                 },
                 {
                     "qId": 3,
-                    "question": "When did the sun shine its gentle rays on the traveler?",
+                    "question": "When was the golden curse finally removed from the king?",
                     "options": [
-                        "As the sun began to set",
-                        "As the sun began to rise",
-                        "As the moon began to rise"
+                        "After he washed his hands in the river",
+                        "Before the mysterious visitor left the palace",
+                        "When he counted ten thousand silver coins"
                     ],
-                    "correct": "As the sun began to set"
+                    "correct": "After he washed his hands in the river"
                 },
                 {
                     "qId": 4,
-                    "question": "Where did the traveler walk along during the contest?",
+                    "question": "Where did the magical transformation of food happen?",
                     "options": [
-                        "Along a quiet country road",
-                        "Along the river",
-                        "Along the seashore"
+                        "At the king's dining table",
+                        "High up in the watchtower",
+                        "Inside the dark royal garden"
                     ],
-                    "correct": "Along a quiet country road"
+                    "correct": "At the king's dining table"
                 },
                 {
                     "qId": 5,
-                    "question": "What did the Sun win?",
+                    "question": "What item turned into hard metal before the king could eat it?",
                     "options": [
-                        "The prize",
-                        "A heavy coat",
-                        "A train ticket"
+                        "The loaf of bread",
+                        "A bowl of fresh soup",
+                        "A ripe red apple"
                     ],
-                    "correct": "The prize"
+                    "correct": "The loaf of bread"
                 },
                 {
                     "qId": 6,
-                    "question": "Why did the traveler take off his coat in the end?",
+                    "question": "Why did the god agree to lift the magical curse?",
                     "options": [
-                        "Because he felt hot",
-                        "Because he felt cold",
-                        "Because he wanted to go swimming"
+                        "Because King Midas truly regretted his greed",
+                        "Because the king offered a large sum of money",
+                        "Because the soldiers threatened to attack the visitor"
                     ],
-                    "correct": "Because he felt hot"
+                    "correct": "Because King Midas truly regretted his greed"
                 }
             ]
         }
