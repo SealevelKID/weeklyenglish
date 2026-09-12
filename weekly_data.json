@@ -1,0 +1,1156 @@
+{
+    "updateDate": "2026-09-12",
+    "classPasscode": "912",
+    "vocabData": [
+        {
+            "id": 1,
+            "english": "focus on",
+            "chinese": "專注",
+            "distractors": [
+                "rely on",
+                "gain weight"
+            ]
+        },
+        {
+            "id": 2,
+            "english": "rely on",
+            "chinese": "依賴",
+            "distractors": [
+                "focus on",
+                "serve"
+            ]
+        },
+        {
+            "id": 3,
+            "english": "gain weight",
+            "chinese": "增加體重",
+            "distractors": [
+                "sign up",
+                "retire"
+            ]
+        },
+        {
+            "id": 4,
+            "english": "nearly",
+            "chinese": "幾乎",
+            "distractors": [
+                "hardly",
+                "colorful"
+            ]
+        },
+        {
+            "id": 5,
+            "english": "hardly",
+            "chinese": "幾乎不",
+            "distractors": [
+                "nearly",
+                "fold"
+            ]
+        },
+        {
+            "id": 6,
+            "english": "spill",
+            "chinese": "灑出",
+            "distractors": [
+                "fire",
+                "film"
+            ]
+        },
+        {
+            "id": 7,
+            "english": "fire",
+            "chinese": "開除",
+            "distractors": [
+                "spill",
+                "retire"
+            ]
+        },
+        {
+            "id": 8,
+            "english": "fried",
+            "chinese": "炸",
+            "distractors": [
+                "film",
+                "fold"
+            ]
+        },
+        {
+            "id": 9,
+            "english": "film",
+            "chinese": "拍攝",
+            "distractors": [
+                "spill",
+                "fried"
+            ]
+        },
+        {
+            "id": 10,
+            "english": "sign up",
+            "chinese": "登記",
+            "distractors": [
+                "retire",
+                "serve"
+            ]
+        },
+        {
+            "id": 11,
+            "english": "scholarship",
+            "chinese": "獎學金",
+            "distractors": [
+                "colorful",
+                "fried"
+            ]
+        },
+        {
+            "id": 12,
+            "english": "fold",
+            "chinese": "摺",
+            "distractors": [
+                "spill",
+                "film"
+            ]
+        },
+        {
+            "id": 13,
+            "english": "colorful",
+            "chinese": "多采多姿的",
+            "distractors": [
+                "scholarship",
+                "fried"
+            ]
+        },
+        {
+            "id": 14,
+            "english": "retire",
+            "chinese": "退休",
+            "distractors": [
+                "fire",
+                "sign up"
+            ]
+        },
+        {
+            "id": 15,
+            "english": "serve",
+            "chinese": "服務",
+            "distractors": [
+                "rely on",
+                "focus on"
+            ]
+        }
+    ],
+    "listeningData": [
+        {
+            "id": 101,
+            "english": "focus on",
+            "chinese": "專注",
+            "distractors": [
+                "rely on",
+                "gain weight"
+            ]
+        },
+        {
+            "id": 102,
+            "english": "rely on",
+            "chinese": "依賴",
+            "distractors": [
+                "focus on",
+                "serve"
+            ]
+        },
+        {
+            "id": 103,
+            "english": "gain weight",
+            "chinese": "增加體重",
+            "distractors": [
+                "sign up",
+                "retire"
+            ]
+        },
+        {
+            "id": 104,
+            "english": "nearly",
+            "chinese": "幾乎",
+            "distractors": [
+                "hardly",
+                "colorful"
+            ]
+        },
+        {
+            "id": 105,
+            "english": "hardly",
+            "chinese": "幾乎不",
+            "distractors": [
+                "nearly",
+                "fold"
+            ]
+        },
+        {
+            "id": 106,
+            "english": "spill",
+            "chinese": "灑出",
+            "distractors": [
+                "fire",
+                "film"
+            ]
+        },
+        {
+            "id": 107,
+            "english": "fire",
+            "chinese": "開除",
+            "distractors": [
+                "spill",
+                "retire"
+            ]
+        },
+        {
+            "id": 108,
+            "english": "fried",
+            "chinese": "炸",
+            "distractors": [
+                "film",
+                "fold"
+            ]
+        },
+        {
+            "id": 109,
+            "english": "film",
+            "chinese": "拍攝",
+            "distractors": [
+                "spill",
+                "fried"
+            ]
+        },
+        {
+            "id": 110,
+            "english": "sign up",
+            "chinese": "登記",
+            "distractors": [
+                "retire",
+                "serve"
+            ]
+        },
+        {
+            "id": 111,
+            "english": "scholarship",
+            "chinese": "獎學金",
+            "distractors": [
+                "colorful",
+                "fried"
+            ]
+        },
+        {
+            "id": 112,
+            "english": "fold",
+            "chinese": "摺",
+            "distractors": [
+                "spill",
+                "film"
+            ]
+        },
+        {
+            "id": 113,
+            "english": "colorful",
+            "chinese": "多采多姿的",
+            "distractors": [
+                "scholarship",
+                "fried"
+            ]
+        },
+        {
+            "id": 114,
+            "english": "retire",
+            "chinese": "退休",
+            "distractors": [
+                "fire",
+                "sign up"
+            ]
+        },
+        {
+            "id": 115,
+            "english": "serve",
+            "chinese": "服務",
+            "distractors": [
+                "rely on",
+                "focus on"
+            ]
+        }
+    ],
+    "listeningStage2Data": [
+        {
+            "sentence": "You must _______ your study if you want to get good grades.",
+            "correct": "focus on",
+            "distractors": [
+                "rely on",
+                "gain weight"
+            ],
+            "hint": "後面接受詞代名詞或名詞，表示「集中精神於……」",
+            "translation": "如果你想拿到好成績，就必須專注於學業。",
+            "id": 201
+        },
+        {
+            "sentence": "Little children usually _______ their parents for food and clothes.",
+            "correct": "rely on",
+            "distractors": [
+                "focus on",
+                "sign up"
+            ],
+            "hint": "表示依靠、信賴某人，介系詞搭配 on",
+            "translation": "小孩子通常依賴父母提供食物與衣服。",
+            "id": 202
+        },
+        {
+            "sentence": "If you eat too much _______ chicken, you will gain weight easily.",
+            "correct": "fried",
+            "distractors": [
+                "colorful",
+                "scholarship"
+            ],
+            "hint": "修飾名詞 chicken，表示「油炸的」形容詞",
+            "translation": "如果你吃太多炸雞，很容易就會增加體重。",
+            "id": 203
+        },
+        {
+            "sentence": "Be careful with that hot soup, or you might _______ it on the table.",
+            "correct": "spill",
+            "distractors": [
+                "fold",
+                "film"
+            ],
+            "hint": "助動詞 might 後面接原形動詞，表示液體「潑灑出」",
+            "translation": "小心那碗熱湯，否則你可能會把它灑在桌上。",
+            "id": 204
+        },
+        {
+            "sentence": "He was so tired that he could _______ keep his eyes open.",
+            "correct": "hardly",
+            "distractors": [
+                "nearly",
+                "colorful"
+            ],
+            "hint": "帶有否定意味的副詞，表示「幾乎不、簡直不能」",
+            "translation": "他太累了，簡直無法睜開眼睛。",
+            "id": 205
+        },
+        {
+            "sentence": "It took _______ two hours to clean the whole classroom.",
+            "correct": "nearly",
+            "distractors": [
+                "hardly",
+                "fried"
+            ],
+            "hint": "副詞修飾時間長度，表示「差不多、將近」",
+            "translation": "打掃整間教室幾乎花了兩個小時。",
+            "id": 206
+        },
+        {
+            "sentence": "The boss decided to _______ the worker who never came on time.",
+            "correct": "fire",
+            "distractors": [
+                "serve",
+                "retire"
+            ],
+            "hint": "不定詞 to 後面接原形動詞，在此表示「解僱、開除」",
+            "translation": "老闆決定開除那個從不準時上班的員工。",
+            "id": 207
+        },
+        {
+            "sentence": "Many students want to _______ for the summer camp.",
+            "correct": "sign up",
+            "distractors": [
+                "focus on",
+                "rely on"
+            ],
+            "hint": "動詞片語搭配介系詞 for，表示「報名、登記」",
+            "translation": "許多學生想要報名參加夏令營。",
+            "id": 208
+        },
+        {
+            "sentence": "The clever boy won a big _______ because of his excellent test scores.",
+            "correct": "scholarship",
+            "distractors": [
+                "fried",
+                "colorful"
+            ],
+            "hint": "名詞，表示學校或機構發放的「獎學金」",
+            "translation": "那位聰明的男孩因為優異的考試成績贏得了一大筆獎學金。",
+            "id": 209
+        },
+        {
+            "sentence": "After sixty-five, my grandfather plans to _______ from his busy job.",
+            "correct": "retire",
+            "distractors": [
+                "fire",
+                "fold"
+            ],
+            "hint": "表示到達一定年齡後「退休」，常搭配介系詞 from",
+            "translation": "六十五歲之後，我祖父打算從繁忙的工作中退休。",
+            "id": 210
+        }
+    ],
+    "listeningStage3Data": [
+        {
+            "id": 303,
+            "title": "The School Cooking Contest (學校烹飪比賽)",
+            "articleContent": [
+                {
+                    "en": "Yesterday, Leo and Amy decided to sign up for the school cooking contest.",
+                    "zh": "昨天，里歐和艾咪決定報名參加學校烹飪比賽。"
+                },
+                {
+                    "en": "They were busy in the kitchen and had to focus on making fried rice.",
+                    "zh": "他們在廚房裡忙個不停，必須專注於做炒飯。"
+                },
+                {
+                    "en": "Suddenly, Leo moved his arm quickly and began to spill water on the floor.",
+                    "zh": "突然，里歐手臂揮得太快，把水灑在了地板上。"
+                },
+                {
+                    "en": "They could hardly finish the dish before the bell rang.",
+                    "zh": "在鐘聲響起之前，他們幾乎來不及完成這道菜。"
+                },
+                {
+                    "en": "Luckily, they cleaned the floor and were ready to serve the hot dish to the judges.",
+                    "zh": "幸運的是，他們清理了地板，並準備好將熱騰騰的料理端給評審。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who decided to sign up for the contest yesterday?",
+                    "options": [
+                        "Leo and Amy",
+                        "Tommy and Lucy",
+                        "Leo and Mark"
+                    ],
+                    "correct": "Leo and Amy"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Leo and Amy have to focus on making?",
+                    "options": [
+                        "Fried rice",
+                        "Fried chicken",
+                        "A bowl of hot soup"
+                    ],
+                    "correct": "Fried rice"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did the two students enter the competition?",
+                    "options": [
+                        "Yesterday",
+                        "Last weekend",
+                        "This morning"
+                    ],
+                    "correct": "Yesterday"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where were Leo and Amy cooking their dish?",
+                    "options": [
+                        "In the kitchen",
+                        "In the classroom",
+                        "In the school library"
+                    ],
+                    "correct": "In the kitchen"
+                },
+                {
+                    "qId": 5,
+                    "question": "What did Leo accidentally spill on the floor?",
+                    "options": [
+                        "Water",
+                        "Hot soup",
+                        "Cooking oil"
+                    ],
+                    "correct": "Water"
+                },
+                {
+                    "qId": 6,
+                    "question": "How did they feel before the bell rang?",
+                    "options": [
+                        "They were very rushed and could hardly finish",
+                        "They were relaxed and had plenty of time",
+                        "They were bored and fell asleep"
+                    ],
+                    "correct": "They were very rushed and could hardly finish"
+                }
+            ]
+        },
+        {
+            "id": 304,
+            "title": "Grandfather's Art Project (爺爺的藝術計畫)",
+            "articleContent": [
+                {
+                    "en": "Mr. Brown worked hard for forty years and chose to retire last month.",
+                    "zh": "布朗先生辛勤工作了四十年，並在上個月選擇退休。"
+                },
+                {
+                    "en": "Now, his granddaughter Lily helps him film short art lessons in his studio.",
+                    "zh": "現在，他的孫女莉莉在工作室幫他拍攝簡短的藝術課程。"
+                },
+                {
+                    "en": "Together, they carefully fold paper to make colorful paper birds every afternoon.",
+                    "zh": "每天下午，他們一起仔細地摺紙，製作五彩繽紛的紙鳥。"
+                },
+                {
+                    "en": "Mr. Brown does not rely on expensive tools to create beautiful things.",
+                    "zh": "布朗先生不依賴昂貴的工具來創造美好的事物。"
+                },
+                {
+                    "en": "Nearly fifty students watch their interesting videos online every day.",
+                    "zh": "每天將近有五十位學生在網路上觀看他們有趣的影片。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who helps Mr. Brown film the art lessons?",
+                    "options": [
+                        "His granddaughter Lily",
+                        "His art teacher",
+                        "A young school friend"
+                    ],
+                    "correct": "His granddaughter Lily"
+                },
+                {
+                    "qId": 2,
+                    "question": "What do Mr. Brown and Lily fold together?",
+                    "options": [
+                        "Colorful paper birds",
+                        "Old newspapers",
+                        "Paper airplanes"
+                    ],
+                    "correct": "Colorful paper birds"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Mr. Brown decide to retire from work?",
+                    "options": [
+                        "Last month",
+                        "Last year",
+                        "Yesterday morning"
+                    ],
+                    "correct": "Last month"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where does Lily film the art lessons?",
+                    "options": [
+                        "In Mr. Brown's studio",
+                        "In an art museum",
+                        "In a local park"
+                    ],
+                    "correct": "In Mr. Brown's studio"
+                },
+                {
+                    "qId": 5,
+                    "question": "What does Mr. Brown make for his online students?",
+                    "options": [
+                        "Short art lessons and paper birds",
+                        "Cooking videos and delicious food",
+                        "Science books and tests"
+                    ],
+                    "correct": "Short art lessons and paper birds"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why do nearly fifty students watch their videos?",
+                    "options": [
+                        "Because they want to learn interesting paper art",
+                        "Because they want to win a big scholarship",
+                        "Because they need to clean the room"
+                    ],
+                    "correct": "Because they want to learn interesting paper art"
+                }
+            ]
+        },
+        {
+            "id": 305,
+            "title": "A Healthy Plan for Success (邁向成功的健康計畫)",
+            "articleContent": [
+                {
+                    "en": "Sam wants to win a big scholarship to study at a great high school.",
+                    "zh": "山姆想贏得大筆獎學金去讀一所優秀的高中。"
+                },
+                {
+                    "en": "However, he ate too much fried food at home and began to gain weight last winter.",
+                    "zh": "然而，他去年冬天在家吃了太多油炸食物，開始增加體重。"
+                },
+                {
+                    "en": "His doctor told him not to rely on sweet snacks while studying.",
+                    "zh": "他的醫生告訴他讀書時不要依賴甜食點心。"
+                },
+                {
+                    "en": "Now, Sam runs nearly three kilometers around the sports park every morning.",
+                    "zh": "現在，山姆每天早晨在運動公園周圍跑將近三公里。"
+                },
+                {
+                    "en": "He can focus on his lessons much better after exercising.",
+                    "zh": "運動之後，他能夠更專注於他的功課。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who wants to win a big scholarship for high school?",
+                    "options": [
+                        "Sam",
+                        "Sam's classmate",
+                        "Steve"
+                    ],
+                    "correct": "Sam"
+                },
+                {
+                    "qId": 2,
+                    "question": "What unhealthy habit caused Sam to gain weight?",
+                    "options": [
+                        "Eating too much fried food and sweet snacks",
+                        "Running too fast in the park",
+                        "Drinking cold water every day"
+                    ],
+                    "correct": "Eating too much fried food and sweet snacks"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Sam start to gain weight?",
+                    "options": [
+                        "Last winter",
+                        "Yesterday afternoon",
+                        "Two years ago"
+                    ],
+                    "correct": "Last winter"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where does Sam run nearly three kilometers every morning?",
+                    "options": [
+                        "Around the sports park",
+                        "In the school gym",
+                        "Inside his bedroom"
+                    ],
+                    "correct": "Around the sports park"
+                },
+                {
+                    "qId": 5,
+                    "question": "What does Sam hope to win for his future study?",
+                    "options": [
+                        "A big scholarship",
+                        "A new computer",
+                        "A gold medal"
+                    ],
+                    "correct": "A big scholarship"
+                },
+                {
+                    "qId": 6,
+                    "question": "How does morning exercise help Sam with his study?",
+                    "options": [
+                        "It helps him focus on his lessons much better",
+                        "It makes him feel very sleepy all day",
+                        "It helps him fold paper faster"
+                    ],
+                    "correct": "It helps him focus on his lessons much better"
+                }
+            ]
+        }
+    ],
+    "readingStage1Data": [
+        {
+            "sentence": "You must _______ your study if you want to get good grades.",
+            "correct": "focus on",
+            "distractors": [
+                "rely on",
+                "gain weight"
+            ],
+            "hint": "後面接受詞代名詞或名詞，表示「集中精神於……」",
+            "translation": "如果你想拿到好成績，就必須專注於學業。",
+            "id": 401
+        },
+        {
+            "sentence": "Little children usually _______ their parents for food and clothes.",
+            "correct": "rely on",
+            "distractors": [
+                "focus on",
+                "sign up"
+            ],
+            "hint": "表示依靠、信賴某人，介系詞搭配 on",
+            "translation": "小孩子通常依賴父母提供食物與衣服。",
+            "id": 402
+        },
+        {
+            "sentence": "If you eat too much _______ chicken, you will gain weight easily.",
+            "correct": "fried",
+            "distractors": [
+                "colorful",
+                "scholarship"
+            ],
+            "hint": "修飾名詞 chicken，表示「油炸的」形容詞",
+            "translation": "如果你吃太多炸雞，很容易就會增加體重。",
+            "id": 403
+        },
+        {
+            "sentence": "Be careful with that hot soup, or you might _______ it on the table.",
+            "correct": "spill",
+            "distractors": [
+                "fold",
+                "film"
+            ],
+            "hint": "助動詞 might 後面接原形動詞，表示液體「潑灑出」",
+            "translation": "小心那碗熱湯，否則你可能會把它灑在桌上。",
+            "id": 404
+        },
+        {
+            "sentence": "He was so tired that he could _______ keep his eyes open.",
+            "correct": "hardly",
+            "distractors": [
+                "nearly",
+                "colorful"
+            ],
+            "hint": "帶有否定意味的副詞，表示「幾乎不、簡直不能」",
+            "translation": "他太累了，簡直無法睜開眼睛。",
+            "id": 405
+        },
+        {
+            "sentence": "It took _______ two hours to clean the whole classroom.",
+            "correct": "nearly",
+            "distractors": [
+                "hardly",
+                "fried"
+            ],
+            "hint": "副詞修飾時間長度，表示「差不多、將近」",
+            "translation": "打掃整間教室幾乎花了兩個小時。",
+            "id": 406
+        },
+        {
+            "sentence": "The boss decided to _______ the worker who never came on time.",
+            "correct": "fire",
+            "distractors": [
+                "serve",
+                "retire"
+            ],
+            "hint": "不定詞 to 後面接原形動詞，在此表示「解僱、開除」",
+            "translation": "老闆決定開除那個從不準時上班的員工。",
+            "id": 407
+        },
+        {
+            "sentence": "Many students want to _______ for the summer camp.",
+            "correct": "sign up",
+            "distractors": [
+                "focus on",
+                "rely on"
+            ],
+            "hint": "動詞片語搭配介系詞 for，表示「報名、登記」",
+            "translation": "許多學生想要報名參加夏令營。",
+            "id": 408
+        },
+        {
+            "sentence": "The clever boy won a big _______ because of his excellent test scores.",
+            "correct": "scholarship",
+            "distractors": [
+                "fried",
+                "colorful"
+            ],
+            "hint": "名詞，表示學校或機構發放的「獎學金」",
+            "translation": "那位聰明的男孩因為優異的考試成績贏得了一大筆獎學金。",
+            "id": 409
+        },
+        {
+            "sentence": "After sixty-five, my grandfather plans to _______ from his busy job.",
+            "correct": "retire",
+            "distractors": [
+                "fire",
+                "fold"
+            ],
+            "hint": "表示到達一定年齡後「退休」，常搭配介系詞 from",
+            "translation": "六十五歲之後，我祖父打算從繁忙的工作中退休。",
+            "id": 410
+        }
+    ],
+    "readingStage2Data": [
+        {
+            "id": 506,
+            "title": "The Golden Feathers of Icarus (伊卡洛斯的金色羽毛)",
+            "article": "Long ago, the master inventor Daedalus and his son Icarus were trapped inside a tall stone tower. To escape across the sea, Daedalus began to gather many {{1}} bird feathers and wax. He warned his son that the hot sun could melt the wax and cause the wings to {{2}} under strong winds. During their flight, Icarus was so amazed that he could {{3}} hear his father's warning shout. Driven by excitement, the foolish boy flew too close to the blazing sun, and his wings melted away into the deep blue ocean.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "colorful",
+                    "distractors": [
+                        "fried",
+                        "scholarship"
+                    ],
+                    "hint": "形容詞修飾名詞 feathers，表示「多采多姿的、色彩繽紛的」",
+                    "translation": "為了渡海逃生，代達羅斯開始收集許多色彩斑斕的鳥類羽毛和蠟。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "fold",
+                    "distractors": [
+                        "spill",
+                        "film"
+                    ],
+                    "hint": "原形動詞，在此表示翅膀受力而「彎折、折疊損毀」",
+                    "translation": "他警告兒子，熾熱的太陽可能會融化蠟，並導致翅膀在強風下折合損毀。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "hardly",
+                    "distractors": [
+                        "nearly",
+                        "focus on"
+                    ],
+                    "hint": "具否定意味的副詞，修飾動詞 hear，表示「幾乎不、簡直不能」",
+                    "translation": "在飛行途中，伊卡洛斯驚嘆不已，幾乎聽不見父親警告的呼喊聲。"
+                }
+            ]
+        },
+        {
+            "id": 507,
+            "title": "Marie Curie's Dream of Discovery (瑪麗居禮的探索之夢)",
+            "article": "Young Marie grew up in Poland with a powerful desire to explore modern science. Her family was poor, so she worked long days to earn money and never dared to {{1}} on luck. She studied day and night until a special university offered her a precious {{2}} in Paris. In her freezing laboratory, Marie refused to stop her experiments, choosing to {{3}} entirely on chemical elements like radium. Her outstanding courage and lifetime dedication brought two Nobel Prizes and transformed the world of medicine forever.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "rely on",
+                    "distractors": [
+                        "focus on",
+                        "sign up"
+                    ],
+                    "hint": "動詞片語，表示「依賴、依靠」，後面接名詞受詞",
+                    "translation": "她的家庭很貧困，因此她日以繼夜地工作賺錢，從來不敢依賴外在的運氣。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "scholarship",
+                    "distractors": [
+                        "colorful",
+                        "fried"
+                    ],
+                    "hint": "名詞，指由學術機構所頒發資助優秀學生的「獎學金」",
+                    "translation": "她夜以繼日地學習，直到巴黎的一所特別大學為她提供了一筆珍貴的獎學金。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "focus on",
+                    "distractors": [
+                        "rely on",
+                        "gain weight"
+                    ],
+                    "hint": "動詞片語，表示「專注於、集中精力於」",
+                    "translation": "在寒冷的實驗室裡，瑪麗拒絕停止實驗，選擇全力專注於像鐳這樣的化學元素。"
+                }
+            ]
+        },
+        {
+            "id": 508,
+            "title": "[歷史探索] The Postal Riders of Ancient Rome (古羅馬的郵政騎士)",
+            "article": "Long ago, the Roman government built long stone roads across Europe to {{1}} its people and soldiers. Young messengers rode fast horses to deliver important letters and rarely had time to rest. Sometimes, heavy rain would {{2}} water over the muddy roads and make their journey very dangerous. Even when they were cold and tired, they kept riding day and night. When brave riders became old and chose to {{3}} after twenty years, the emperor gave them farmland and silver coins.",
+            "blanks": [
+                {
+                    "id": 5001,
+                    "marker": "{{1}}",
+                    "correct": "serve",
+                    "distractors": [
+                        "fire",
+                        "fold"
+                    ],
+                    "hint": "不定詞 to 後面接原形動詞，表示「服務」",
+                    "translation": "很久以前，羅馬政府在歐洲各地建造了長長的石子路，以服務人民和士兵。"
+                },
+                {
+                    "id": 5002,
+                    "marker": "{{2}}",
+                    "correct": "spill",
+                    "distractors": [
+                        "film",
+                        "fried"
+                    ],
+                    "hint": "助動詞 would 後面接原形動詞，表示雨水「潑灑、溢出」",
+                    "translation": "有時，大雨會把水潑灑在泥濘的道路上，使他們的旅途非常危險。"
+                },
+                {
+                    "id": 5003,
+                    "marker": "{{3}}",
+                    "correct": "retire",
+                    "distractors": [
+                        "sign up",
+                        "focus on"
+                    ],
+                    "hint": "原形動詞接在不定詞 to 後面，表示工作多年後「退休」",
+                    "translation": "當勇敢的騎士變老並在二十年後選擇退休時，皇帝會給予他們農地和銀幣。"
+                }
+            ]
+        }
+    ],
+    "readingStage3Data": [
+        {
+            "id": 606,
+            "title": "The Golden Feathers of Icarus (伊卡洛斯的金色羽毛)",
+            "articleContent": [
+                {
+                    "en": "Long ago, the master inventor Daedalus and his son Icarus were trapped inside a tall stone tower.",
+                    "zh": "很久以前，發明天才代達羅斯和他的兒子伊卡洛斯被困在一座高聳的石塔裡。"
+                },
+                {
+                    "en": "To escape across the sea, Daedalus began to gather many colorful bird feathers and wax.",
+                    "zh": "為了渡海逃生，代達羅斯開始收集許多色彩斑斕的鳥類羽毛和蠟。"
+                },
+                {
+                    "en": "He warned his son that the hot sun could melt the wax and cause the wings to fold under strong winds.",
+                    "zh": "他警告兒子，熾熱的太陽可能會融化蠟，並導致翅膀在強風下折合損毀。"
+                },
+                {
+                    "en": "During their flight, Icarus was so amazed that he could hardly hear his father's warning shout.",
+                    "zh": "在飛行途中，伊卡洛斯驚嘆不已，幾乎聽不見父親警告的呼喊聲。"
+                },
+                {
+                    "en": "Driven by excitement, the foolish boy flew too close to the blazing sun, and his wings melted away into the deep blue ocean.",
+                    "zh": "在興奮的驅使下，這個愚蠢的男孩飛得太靠近熾熱的太陽，他的翅膀在湛藍的汪洋中融化瓦解。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who built the special wings to escape from the tower?",
+                    "options": [
+                        "Daedalus",
+                        "The king",
+                        "The palace guards"
+                    ],
+                    "correct": "Daedalus"
+                },
+                {
+                    "qId": 2,
+                    "question": "What materials did Daedalus use to make the wings?",
+                    "options": [
+                        "Colorful bird feathers and wax",
+                        "Wood and metal chains",
+                        "Dried grass and mud"
+                    ],
+                    "correct": "Colorful bird feathers and wax"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where were Daedalus and Icarus trapped at first?",
+                    "options": [
+                        "Inside a tall stone tower",
+                        "On an empty sailing boat",
+                        "In a deep underground cave"
+                    ],
+                    "correct": "Inside a tall stone tower"
+                },
+                {
+                    "qId": 4,
+                    "question": "Why did Icarus ignore his father's advice?",
+                    "options": [
+                        "He was too excited and amazed by flying",
+                        "He wanted to catch fish from the sea",
+                        "He lost his way in the dark clouds"
+                    ],
+                    "correct": "He was too excited and amazed by flying"
+                },
+                {
+                    "qId": 5,
+                    "question": "What happened to the wax wings near the sun?",
+                    "options": [
+                        "The hot sun melted them away",
+                        "Heavy rain washed them into pieces",
+                        "Strong sea monsters tore them apart"
+                    ],
+                    "correct": "The hot sun melted them away"
+                },
+                {
+                    "qId": 6,
+                    "question": "How did Daedalus warn his son before they flew?",
+                    "options": [
+                        "He told him not to fly too close to the sun",
+                        "He told him to dive into the cold sea water",
+                        "He asked him to wait until midnight"
+                    ],
+                    "correct": "He told him not to fly too close to the sun"
+                }
+            ]
+        },
+        {
+            "id": 607,
+            "title": "Marie Curie's Dream of Discovery (瑪麗居禮的探索之夢)",
+            "articleContent": [
+                {
+                    "en": "Young Marie grew up in Poland with a powerful desire to explore modern science.",
+                    "zh": "年輕的瑪麗在波蘭長大，內心懷著探索現代科學的強烈渴望。"
+                },
+                {
+                    "en": "Her family was poor, so she worked long days to earn money and never dared to rely on luck.",
+                    "zh": "她的家庭很貧困，因此她日以繼夜地工作賺錢，從來不敢依賴運氣。"
+                },
+                {
+                    "en": "She studied day and night until a special university offered her a precious scholarship in Paris.",
+                    "zh": "她夜以繼日地學習，直到巴黎的一所特別大學為她提供了一筆珍貴的獎學金。"
+                },
+                {
+                    "en": "In her freezing laboratory, Marie refused to stop her experiments, choosing to focus on chemical elements like radium.",
+                    "zh": "在寒冷的實驗室裡，瑪麗拒絕停止實驗，選擇全力專注於像鐳這樣的化學元素。"
+                },
+                {
+                    "en": "Her outstanding courage and lifetime dedication brought two Nobel Prizes and transformed the world of medicine forever.",
+                    "zh": "她卓越的勇氣與一生的奉獻贏得了兩座諾貝爾獎，並永遠改變了醫學界。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who showed great passion for science despite poverty?",
+                    "options": [
+                        "Marie Curie",
+                        "Mark Couse",
+                        "Mary Chen"
+                    ],
+                    "correct": "Marie Curie"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did Marie win that allowed her to study in Paris?",
+                    "options": [
+                        "A precious university scholarship",
+                        "A gold cooking award",
+                        "A luxury ship ticket"
+                    ],
+                    "correct": "A precious university scholarship"
+                },
+                {
+                    "qId": 3,
+                    "question": "When did Marie study hard for her scientific dreams?",
+                    "options": [
+                        "Both day and night while working",
+                        "Only after she moved to London",
+                        "During her summer holidays"
+                    ],
+                    "correct": "Both day and night while working"
+                },
+                {
+                    "qId": 4,
+                    "question": "Where did Marie conduct her groundbreaking experiments?",
+                    "options": [
+                        "In her freezing laboratory",
+                        "In a modern hospital",
+                        "Inside a quiet church"
+                    ],
+                    "correct": "In her freezing laboratory"
+                },
+                {
+                    "qId": 5,
+                    "question": "What chemical element did Marie focus on in Paris?",
+                    "options": [
+                        "Radium and other radioactive elements",
+                        "Oil and natural gas",
+                        "Silver coins and iron tools"
+                    ],
+                    "correct": "Radium and other radioactive elements"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why is Marie Curie remembered by historians today?",
+                    "options": [
+                        "She won two Nobel Prizes and changed modern medicine",
+                        "She opened the largest bookstore in Poland",
+                        "She retired very early from the university"
+                    ],
+                    "correct": "She won two Nobel Prizes and changed modern medicine"
+                }
+            ]
+        },
+        {
+            "id": 608,
+            "title": "[歷史探索] The Postal Riders of Ancient Rome (古羅馬的郵政騎士)",
+            "articleContent": [
+                {
+                    "en": "Long ago, the Roman government built long stone roads across Europe to serve its people and soldiers.",
+                    "zh": "很久以前，羅馬政府在歐洲各地建造了長長的石子路，以服務人民和士兵。"
+                },
+                {
+                    "en": "Young messengers rode fast horses to deliver important letters and rarely had time to rest.",
+                    "zh": "年輕的信使騎著快馬傳送重要信件，幾乎沒有時間休息。"
+                },
+                {
+                    "en": "Sometimes, heavy rain would spill water over the muddy roads and make their journey very dangerous.",
+                    "zh": "有時，大雨會把水潑灑在泥濘的道路上，使他們的旅途非常危險。"
+                },
+                {
+                    "en": "Even when they were cold and tired, they kept riding day and night.",
+                    "zh": "即使他們又冷又累，他們依然日以繼夜地騎行。"
+                },
+                {
+                    "en": "When brave riders became old and chose to retire after twenty years, the emperor gave them farmland and silver coins.",
+                    "zh": "當勇敢的騎士變老並在二十年後選擇退休時，皇帝會給予他們農地和銀幣。"
+                }
+            ],
+            "questions": [
+                {
+                    "qId": 1,
+                    "question": "Who built the long stone roads across Europe?",
+                    "options": [
+                        "The Roman government",
+                        "The young school teachers",
+                        "A group of foreign traders"
+                    ],
+                    "correct": "The Roman government"
+                },
+                {
+                    "qId": 2,
+                    "question": "What did the young messengers ride to deliver letters?",
+                    "options": [
+                        "Fast horses",
+                        "Wooden ships",
+                        "Slow donkeys"
+                    ],
+                    "correct": "Fast horses"
+                },
+                {
+                    "qId": 3,
+                    "question": "Where did the messengers deliver letters long ago?",
+                    "options": [
+                        "Across Europe on stone roads",
+                        "Inside a small classroom",
+                        "Across the high mountains of Asia"
+                    ],
+                    "correct": "Across Europe on stone roads"
+                },
+                {
+                    "qId": 4,
+                    "question": "When did the brave riders usually choose to retire?",
+                    "options": [
+                        "After working for twenty years",
+                        "Before they were twenty years old",
+                        "After only two weeks of work"
+                    ],
+                    "correct": "After working for twenty years"
+                },
+                {
+                    "qId": 5,
+                    "question": "What made the stone roads dangerous during bad weather?",
+                    "options": [
+                        "Heavy rain that spilled water on the roads",
+                        "Wild tigers living in the forests",
+                        "Big rocks falling from the sky"
+                    ],
+                    "correct": "Heavy rain that spilled water on the roads"
+                },
+                {
+                    "qId": 6,
+                    "question": "Why did the emperor give farmland and silver to the old riders?",
+                    "options": [
+                        "To thank them for their long and loyal service",
+                        "Because they lost their horses",
+                        "Because they wanted to buy expensive clothes"
+                    ],
+                    "correct": "To thank them for their long and loyal service"
+                }
+            ]
+        }
+    ]
+}
